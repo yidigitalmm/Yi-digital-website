@@ -92,7 +92,7 @@ describe("Yi Digital", () => {
     expect(within(nav).getByRole("link", { name: /^services$/i })).toHaveAttribute("href", "/services");
     expect(within(nav).getByRole("link", { name: /^animation$/i })).toHaveAttribute("href", "/motion");
     expect(within(nav).getByRole("link", { name: /^journal$/i })).toHaveAttribute("href", "/journal");
-    expect(within(nav).getByRole("link", { name: /previous work/i })).toHaveAttribute("href", "/our-work");
+    expect(within(nav).getByRole("link", { name: /our work/i })).toHaveAttribute("href", "/our-work");
     expect(within(nav).getByRole("link", { name: /^contact$/i })).toHaveAttribute("href", "/contact");
   });
 

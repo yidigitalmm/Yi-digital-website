@@ -18,7 +18,7 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
+      - run: npm run content:build
       - run: npm test -- --run
       # Validate the committed content without CMS credentials or a live fetch.
       - run: npm run build:offline
-      - run: npm run cms:build

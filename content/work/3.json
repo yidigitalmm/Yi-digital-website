@@ -1,0 +1,40 @@
+{
+  "id": "3",
+  "order": 2,
+  "image": "/uploads/8bc220562e6087718c2c6f9911119c382c399c42-1159x583.jpg",
+  "scrollImage": "/uploads/816e1b44ffaa0e1521d2cff7767256c433422ef8-1440x7538.webp",
+  "websitePreview": true,
+  "url": "https://taunggyihotel-thepeak-website.yetunkhine.workers.dev/thepeak/",
+  "en": {
+    "title": "The Peak",
+    "type": "Restaurant",
+    "summary": "A clear, mobile-first experience from discovering the restaurant to viewing its menu, location, and contact details.",
+    "packageName": "Hybrid",
+    "outcome": "Essential dining information is easier to browse, update, and act on.",
+    "addons": [
+      "Website content planning",
+      "Additional website language"
+    ],
+    "delivered": [
+      "Menu-led website",
+      "CMS for regular updates",
+      "Maps and contact flow"
+    ]
+  },
+  "my": {
+    "title": "The Peak",
+    "type": "စားသောက်ဆိုင်",
+    "summary": "စားသောက်ဆိုင်ကို ရှာတွေ့ခြင်းမှ မီနူး၊ တည်နေရာနှင့် ဆက်သွယ်ရန်အချက်အလက်များ ကြည့်ရှုခြင်းအထိ မိုဘိုင်းဦးစားပေး အတွေ့အကြုံ။",
+    "packageName": "Hybrid",
+    "outcome": "အရေးကြီးသော စားသောက်ဆိုင်အချက်အလက်များကို ကြည့်ရှု၊ ပြင်ဆင်နှင့် လုပ်ဆောင်ရန် ပိုမိုလွယ်ကူသည်။",
+    "addons": [
+      "ဝဘ်ဆိုက်အကြောင်းအရာ စီစဉ်ခြင်း",
+      "ဝဘ်ဆိုက်ဘာသာစကား ထပ်ထည့်ခြင်း"
+    ],
+    "delivered": [
+      "မီနူးဦးစားပေး ဝဘ်ဆိုက်",
+      "ပုံမှန်ပြင်ဆင်ရန် CMS",
+      "မြေပုံနှင့် ဆက်သွယ်မှုလမ်းကြောင်း"
+    ]
+  }
+}

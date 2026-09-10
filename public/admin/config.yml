@@ -1,0 +1,1482 @@
+{
+  "backend": {
+    "name": "github",
+    "repo": "yidigitalmm/Yi-digital-website",
+    "branch": "main",
+    "base_url": "https://yidigitalmm.com",
+    "auth_endpoint": "api/cms/auth"
+  },
+  "publish_mode": "editorial_workflow",
+  "media_folder": "public/uploads",
+  "public_folder": "/uploads",
+  "site_url": "https://yidigitalmm.com",
+  "display_url": "https://yidigitalmm.com",
+  "logo_url": "/brand/yi-digital-horizontal-light.svg",
+  "local_backend": true,
+  "collections": [
+    {
+      "name": "journal",
+      "label": "Journal",
+      "folder": "content/journal",
+      "create": true,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "slug",
+      "slug": "{{slug}}",
+      "summary": "{{en.title}}",
+      "preview_path": "journal/{{slug}}",
+      "editor": {
+        "preview": false
+      },
+      "fields": [
+        {
+          "name": "slug",
+          "label": "Article address",
+          "widget": "string",
+          "pattern": [
+            "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "Use lowercase letters, numbers and hyphens."
+          ],
+          "hint": "Keep this unchanged after publishing to preserve links."
+        },
+        {
+          "name": "order",
+          "label": "Display order",
+          "widget": "number",
+          "value_type": "int",
+          "min": 0,
+          "default": 100,
+          "hint": "Lower numbers appear first."
+        },
+        {
+          "name": "image",
+          "label": "Cover image",
+          "widget": "image",
+          "required": true,
+          "allow_multiple": false
+        },
+        {
+          "name": "en",
+          "label": "English",
+          "widget": "object",
+          "collapsed": true,
+          "fields": [
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "category",
+              "label": "Category",
+              "widget": "string"
+            },
+            {
+              "name": "summary",
+              "label": "Summary",
+              "widget": "text"
+            },
+            {
+              "name": "imageAlt",
+              "label": "Image description",
+              "widget": "string"
+            },
+            {
+              "name": "readTime",
+              "label": "Reading time",
+              "widget": "string"
+            },
+            {
+              "name": "intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "sections",
+              "label": "Sections",
+              "widget": "list",
+              "min": 1,
+              "summary": "{{fields.heading}}",
+              "fields": [
+                {
+                  "name": "heading",
+                  "label": "Heading",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Text",
+                    "widget": "text"
+                  },
+                  "required": true,
+                  "min": 1
+                }
+              ]
+            },
+            {
+              "name": "checklist",
+              "label": "Checklist",
+              "widget": "list",
+              "field": {
+                "name": "item",
+                "label": "Text",
+                "widget": "text"
+              },
+              "required": false
+            },
+            {
+              "name": "closing",
+              "label": "Closing paragraph",
+              "widget": "text"
+            }
+          ]
+        },
+        {
+          "name": "my",
+          "label": "Myanmar",
+          "widget": "object",
+          "collapsed": true,
+          "fields": [
+            {
+              "name": "title",
+              "label": "Title",
+              "widget": "string"
+            },
+            {
+              "name": "category",
+              "label": "Category",
+              "widget": "string"
+            },
+            {
+              "name": "summary",
+              "label": "Summary",
+              "widget": "text"
+            },
+            {
+              "name": "imageAlt",
+              "label": "Image description",
+              "widget": "string"
+            },
+            {
+              "name": "readTime",
+              "label": "Reading time",
+              "widget": "string"
+            },
+            {
+              "name": "intro",
+              "label": "Introduction",
+              "widget": "text"
+            },
+            {
+              "name": "sections",
+              "label": "Sections",
+              "widget": "list",
+              "min": 1,
+              "summary": "{{fields.heading}}",
+              "fields": [
+                {
+                  "name": "heading",
+                  "label": "Heading",
+                  "widget": "string"
+                },
+                {
+                  "name": "paragraphs",
+                  "label": "Paragraphs",
+                  "widget": "list",
+                  "field": {
+                    "name": "item",
+                    "label": "Text",
+                    "widget": "text"
+                  },
+                  "required": true,
+                  "min": 1
+                }
+              ]
+            },
+            {
+              "name": "checklist",
+              "label": "Checklist",
+              "widget": "list",
+              "field": {
+                "name": "item",
+                "label": "Text",
+                "widget": "text"
+              },
+              "required": false
+            },
+            {
+              "name": "closing",
+              "label": "Closing paragraph",
+              "widget": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "work",
+      "label": "Our Work",
+      "folder": "content/work",
+      "create": true,
+      "format": "json",
+      "extension": "json",
+      "identifier_field": "id",
+      "slug": "{{fields.id}}",
+      "summary": "{{en.title}}",
+      "preview_path": "our-work",
+      "editor": {
+        "preview": false
+      },
+      "fields": [
+        {
+          "name": "id",
+          "label": "Project ID",
+          "widget": "string",
+          "pattern": [
+            "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+            "Use lowercase letters, numbers and hyphens."
+          ],
+          "hint": "Keep this unchanged after publishing to preserve links."
+        },
+        {
+          "name": "order",
+          "label": "Display order",
+          "widget": "number",
+          "value_type": "int",
+          "min": 0,
+          "default": 100,
+          "hint": "Lower numbers appear first."
+        },
+        {
+          "name": "image",
+          "label": "Cover image",
+          "widget": "image",
+          "required": true,
+          "allow_multiple": false
+        },
+        {
+          "name": "websitePreview",
+          "label": "Show scrollable website preview",
+          "widget": "boolean",
+          "default": false
+        },
+        {
+          "name": "scrollImage",
+          "label": "Full website screenshot",
+          "widget": "image",
+          "required": false,
+          "allow_multiple": false
+        },
+        {
+          "name": "url",
+          "label": "Website URL",
+          "widget": "string",
+          "required": false
+        },
+        {
+          "name": "en",
+          "label": "English",
+          "widget": "object",
+          "collapsed": true,
+          "fields": [
+            {
+              "name": "title",
+              "label": "Project name",
+              "widget": "string"
+            },
+            {
+              "name": "type",
+              "label": "Business type",
+              "widget": "string"
+            },
+            {
+              "name": "summary",
+              "label": "Summary",
+              "widget": "text"
+            },
+            {
+              "name": "packageName",
+              "label": "Package",
+              "widget": "string"
+            },
+            {
+              "name": "addons",
+              "label": "Add-ons",
+              "widget": "list",
+              "field": {
+                "name": "item",
+                "label": "Text",
+                "widget": "text"
+              },
+              "required": false
+            },
+            {
+              "name": "delivered",
+              "label": "Delivered",
+              "widget": "list",
+              "field": {
+                "name": "item",
+                "label": "Text",
+                "widget": "text"
+              },
+              "required": false
+            },
+            {
+              "name": "outcome",
+              "label": "Outcome",
+              "widget": "text"
+            }
+          ]
+        },
+        {
+          "name": "my",
+          "label": "Myanmar",
+          "widget": "object",
+          "collapsed": true,
+          "fields": [
+            {
+              "name": "title",
+              "label": "Project name",
+              "widget": "string"
+            },
+            {
+              "name": "type",
+              "label": "Business type",
+              "widget": "string"
+            },
+            {
+              "name": "summary",
+              "label": "Summary",
+              "widget": "text"
+            },
+            {
+              "name": "packageName",
+              "label": "Package",
+              "widget": "string"
+            },
+            {
+              "name": "addons",
+              "label": "Add-ons",
+              "widget": "list",
+              "field": {
+                "name": "item",
+                "label": "Text",
+                "widget": "text"
+              },
+              "required": false
+            },
+            {
+              "name": "delivered",
+              "label": "Delivered",
+              "widget": "list",
+              "field": {
+                "name": "item",
+                "label": "Text",
+                "widget": "text"
+              },
+              "required": false
+            },
+            {
+              "name": "outcome",
+              "label": "Outcome",
+              "widget": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pages",
+      "label": "Page text & pricing",
+      "editor": {
+        "preview": false
+      },
+      "files": [
+        {
+          "name": "site-animation",
+          "label": "Animation page",
+          "file": "content/pages/site-animation.json",
+          "fields": [
+            {
+              "name": "title",
+              "widget": "hidden"
+            },
+            {
+              "name": "strings",
+              "label": "Text",
+              "widget": "list",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "text",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "numbers",
+              "label": "Values",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "flags",
+              "label": "Options",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "boolean",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "boolean",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "site-contact",
+          "label": "Contact page & FAQs",
+          "file": "content/pages/site-contact.json",
+          "fields": [
+            {
+              "name": "title",
+              "widget": "hidden"
+            },
+            {
+              "name": "strings",
+              "label": "Text",
+              "widget": "list",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "text",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "numbers",
+              "label": "Values",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "flags",
+              "label": "Options",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "boolean",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "boolean",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "site-global",
+          "label": "Navigation & footer",
+          "file": "content/pages/site-global.json",
+          "fields": [
+            {
+              "name": "title",
+              "widget": "hidden"
+            },
+            {
+              "name": "strings",
+              "label": "Text",
+              "widget": "list",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "text",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "numbers",
+              "label": "Values",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "flags",
+              "label": "Options",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "boolean",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "boolean",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "site-home",
+          "label": "Home page",
+          "file": "content/pages/site-home.json",
+          "fields": [
+            {
+              "name": "title",
+              "widget": "hidden"
+            },
+            {
+              "name": "strings",
+              "label": "Text",
+              "widget": "list",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "text",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "numbers",
+              "label": "Values",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "flags",
+              "label": "Options",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "boolean",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "boolean",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "site-journal",
+          "label": "Journal page text",
+          "file": "content/pages/site-journal.json",
+          "fields": [
+            {
+              "name": "title",
+              "widget": "hidden"
+            },
+            {
+              "name": "strings",
+              "label": "Text",
+              "widget": "list",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "text",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "numbers",
+              "label": "Values",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "flags",
+              "label": "Options",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "boolean",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "boolean",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "site-packages",
+          "label": "Packages & pricing",
+          "file": "content/pages/site-packages.json",
+          "fields": [
+            {
+              "name": "title",
+              "widget": "hidden"
+            },
+            {
+              "name": "strings",
+              "label": "Text",
+              "widget": "list",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "text",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "numbers",
+              "label": "Values",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "flags",
+              "label": "Options",
+              "widget": "list",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "boolean",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "boolean",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "site-seo",
+          "label": "Search & sharing descriptions",
+          "file": "content/pages/site-seo.json",
+          "fields": [
+            {
+              "name": "title",
+              "widget": "hidden"
+            },
+            {
+              "name": "strings",
+              "label": "Text",
+              "widget": "list",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "text",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "numbers",
+              "label": "Values",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "flags",
+              "label": "Options",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "boolean",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "boolean",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "site-services",
+          "label": "Services & FAQs",
+          "file": "content/pages/site-services.json",
+          "fields": [
+            {
+              "name": "title",
+              "widget": "hidden"
+            },
+            {
+              "name": "strings",
+              "label": "Text",
+              "widget": "list",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "text",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "numbers",
+              "label": "Values",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "flags",
+              "label": "Options",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "boolean",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "boolean",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "site-work",
+          "label": "Previous Work page text",
+          "file": "content/pages/site-work.json",
+          "fields": [
+            {
+              "name": "title",
+              "widget": "hidden"
+            },
+            {
+              "name": "strings",
+              "label": "Text",
+              "widget": "list",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "text",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "numbers",
+              "label": "Values",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "number",
+                  "value_type": "float",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "flags",
+              "label": "Options",
+              "widget": "hidden",
+              "default": [],
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "en",
+                  "label": "English",
+                  "widget": "boolean",
+                  "required": true
+                },
+                {
+                  "name": "my",
+                  "label": "Myanmar",
+                  "widget": "boolean",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "settings",
+      "label": "Business & images",
+      "editor": {
+        "preview": false
+      },
+      "files": [
+        {
+          "name": "business",
+          "label": "Contact & social links",
+          "file": "content/settings/business.json",
+          "fields": [
+            {
+              "name": "brandName",
+              "label": "Brand Name",
+              "widget": "string"
+            },
+            {
+              "name": "phone",
+              "label": "Phone",
+              "widget": "string"
+            },
+            {
+              "name": "phoneNumber",
+              "label": "Phone Number",
+              "widget": "string"
+            },
+            {
+              "name": "email",
+              "label": "Email",
+              "widget": "string"
+            },
+            {
+              "name": "viberNumber",
+              "label": "Viber Number",
+              "widget": "string"
+            },
+            {
+              "name": "address",
+              "label": "Address",
+              "widget": "string"
+            },
+            {
+              "name": "facebook",
+              "label": "Facebook",
+              "widget": "string"
+            },
+            {
+              "name": "instagram",
+              "label": "Instagram",
+              "widget": "string"
+            },
+            {
+              "name": "tiktok",
+              "label": "Tiktok",
+              "widget": "string"
+            },
+            {
+              "name": "linkedin",
+              "label": "Linkedin",
+              "widget": "string"
+            }
+          ]
+        },
+        {
+          "name": "media",
+          "label": "Website images",
+          "file": "content/settings/media.json",
+          "fields": [
+            {
+              "name": "items",
+              "label": "Images",
+              "widget": "list",
+              "allow_add": false,
+              "allow_delete": false,
+              "collapsed": true,
+              "summary": "{{fields.label}}",
+              "fields": [
+                {
+                  "name": "key",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "label",
+                  "widget": "hidden"
+                },
+                {
+                  "name": "url",
+                  "label": "Image",
+                  "widget": "image",
+                  "required": true,
+                  "allow_multiple": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

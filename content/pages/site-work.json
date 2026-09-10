@@ -1,0 +1,373 @@
+{
+  "title": "Previous Work page text",
+  "strings": [
+    {
+      "key": "[\"text\",\"Previous work\"]",
+      "label": "Previous work",
+      "en": "Previous work",
+      "my": "လုပ်ငန်းနမူနာများ"
+    },
+    {
+      "key": "[\"text\",\"Proof will stay honest.\"]",
+      "label": "Proof will stay honest.",
+      "en": "Proof will stay honest.",
+      "my": "သက်သေများကို အမှန်အတိုင်းသာ ဖော်ပြပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"This space is prepared for real case studies. Until then, these project frames show the local-business outcomes Yi Digital is designed to support.\"]",
+      "label": "This space is prepared for real case studies. Until then, these project frames show the local-business outcomes Yi Digital is designed to support.",
+      "en": "This space is prepared for real case studies. Until then, these project frames show the local-business outcomes Yi Digital is designed to support.",
+      "my": "ဤနေရာကို အမှန်တကယ်လုပ်ငန်းမှတ်တမ်းများအတွက် ပြင်ဆင်ထားပါသည်။ လက်ရှိတွင် Yi Digital က ပံ့ပိုးရန် ရည်ရွယ်ထားသော ဒေသတွင်းလုပ်ငန်းရလဒ်များကို နမူနာပုံစံဖြင့် ပြသထားပါသည်။"
+    },
+    {
+      "key": "[\"text\",\"No invented clients. No borrowed praise. No imaginary metrics.\"]",
+      "label": "No invented clients. No borrowed praise. No imaginary metrics.",
+      "en": "No invented clients. No borrowed praise. No imaginary metrics.",
+      "my": "ဖန်တီးထားသော ဖောက်သည်မရှိပါ။ ငှားယူထားသော ချီးကျူးချက်မရှိပါ။ စိတ်ကူးယဉ်ကိန်းဂဏန်းမရှိပါ။"
+    },
+    {
+      "key": "[\"text\",\"Case studies published when ready\"]",
+      "label": "Case studies published when ready",
+      "en": "Case studies published when ready",
+      "my": "အသင့်ဖြစ်သည့်အခါ လုပ်ငန်းမှတ်တမ်းများ ထုတ်ပြန်မည်"
+    },
+    {
+      "key": "[\"text\",\"Future case study 01 · Clinic\"]",
+      "label": "Future case study 01 · Clinic",
+      "en": "Future case study 01 · Clinic",
+      "my": "အနာဂတ်လုပ်ငန်းမှတ်တမ်း ၀၁ · ဆေးခန်း"
+    },
+    {
+      "key": "[\"text\",\"Local visibility foundation.\"]",
+      "label": "Local visibility foundation.",
+      "en": "Local visibility foundation.",
+      "my": "ဒေသတွင်း ရှာတွေ့နိုင်မှု အခြေခံစနစ်။"
+    },
+    {
+      "key": "[\"text\",\"A prepared case-study format focused on making it easier for patients to find, understand, and contact a clinic.\"]",
+      "label": "A prepared case-study format focused on making it easier for patients to find, understand, and contact a clinic.",
+      "en": "A prepared case-study format focused on making it easier for patients to find, understand, and contact a clinic.",
+      "my": "လူနာများ ဆေးခန်းကို ရှာတွေ့ရန်၊ နားလည်ရန်နှင့် ဆက်သွယ်ရန် ပိုမိုလွယ်ကူစေမည့် လုပ်ငန်းမှတ်တမ်းပုံစံ ဖြစ်ပါသည်။"
+    },
+    {
+      "key": "[\"text\",\"This study has not been published yet.\"]",
+      "label": "This study has not been published yet.",
+      "en": "This study has not been published yet.",
+      "my": "ဤလုပ်ငန်းမှတ်တမ်းကို မထုတ်ပြန်ရသေးပါ။"
+    },
+    {
+      "key": "[\"text\",\"Clinic reception placeholder\"]",
+      "label": "Clinic reception placeholder",
+      "en": "Clinic reception placeholder",
+      "my": "ဆေးခန်းဧည့်ကြိုနေရာ နမူနာပုံ"
+    },
+    {
+      "key": "[\"text\",\"Challenge\"]",
+      "label": "Challenge",
+      "en": "Challenge",
+      "my": "စိန်ခေါ်မှု"
+    },
+    {
+      "key": "[\"text\",\"To be documented\"]",
+      "label": "To be documented",
+      "en": "To be documented",
+      "my": "မှတ်တမ်းတင်ရန်"
+    },
+    {
+      "key": "[\"text\",\"Foundation\"]",
+      "label": "Foundation",
+      "en": "Foundation",
+      "my": "အခြေခံစနစ်"
+    },
+    {
+      "key": "[\"text\",\"Website, Google profile, contact flow\"]",
+      "label": "Website, Google profile, contact flow",
+      "en": "Website, Google profile, contact flow",
+      "my": "ဝဘ်ဆိုက်၊ Google ပရိုဖိုင်နှင့် ဆက်သွယ်မှုလမ်းကြောင်း"
+    },
+    {
+      "key": "[\"text\",\"Outcome\"]",
+      "label": "Outcome",
+      "en": "Outcome",
+      "my": "ရလဒ်"
+    },
+    {
+      "key": "[\"text\",\"To be measured after launch\"]",
+      "label": "To be measured after launch",
+      "en": "To be measured after launch",
+      "my": "စတင်ပြီးနောက် တိုင်းတာရန်"
+    },
+    {
+      "key": "[\"text\",\"Case study coming soon\"]",
+      "label": "Case study coming soon",
+      "en": "Case study coming soon",
+      "my": "လုပ်ငန်းမှတ်တမ်း မကြာမီလာမည်"
+    },
+    {
+      "key": "[\"text\",\"The work this space is built to hold.\"]",
+      "label": "The work this space is built to hold.",
+      "en": "The work this space is built to hold.",
+      "my": "ဤနေရာတွင် ဖော်ပြမည့် လုပ်ငန်းများ။"
+    },
+    {
+      "key": "[\"text\",\"Project slot\"]",
+      "label": "Project slot",
+      "en": "Project slot",
+      "my": "ပရောဂျက်နေရာ"
+    },
+    {
+      "key": "[\"text\",\"Restaurant\"]",
+      "label": "Restaurant",
+      "en": "Restaurant",
+      "my": "စားသောက်ဆိုင်"
+    },
+    {
+      "key": "[\"text\",\"Menu and contact presence\"]",
+      "label": "Menu and contact presence",
+      "en": "Menu and contact presence",
+      "my": "မီနူးနှင့် ဆက်သွယ်မှု အွန်လိုင်းပုံရိပ်"
+    },
+    {
+      "key": "[\"text\",\"Retail\"]",
+      "label": "Retail",
+      "en": "Retail",
+      "my": "လက်လီဆိုင်"
+    },
+    {
+      "key": "[\"text\",\"Shop discovery setup\"]",
+      "label": "Shop discovery setup",
+      "en": "Shop discovery setup",
+      "my": "ဆိုင်ကို ရှာတွေ့လွယ်စေရန် ပြင်ဆင်မှု"
+    },
+    {
+      "key": "[\"text\",\"Professional Service\"]",
+      "label": "Professional Service",
+      "en": "Professional Service",
+      "my": "ကျွမ်းကျင်ဝန်ဆောင်မှု"
+    },
+    {
+      "key": "[\"text\",\"Trust-first professional profile\"]",
+      "label": "Trust-first professional profile",
+      "en": "Trust-first professional profile",
+      "my": "ယုံကြည်မှုဦးစားပေး လုပ်ငန်းပရိုဖိုင်"
+    },
+    {
+      "key": "[\"text\",\"Scope and outcome to be documented after the work is complete.\"]",
+      "label": "Scope and outcome to be documented after the work is complete.",
+      "en": "Scope and outcome to be documented after the work is complete.",
+      "my": "လုပ်ငန်းပြီးစီးသည့်အခါ နယ်ပယ်နှင့် ရလဒ်ကို မှတ်တမ်းတင်ပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"Every published story will show the whole picture.\"]",
+      "label": "Every published story will show the whole picture.",
+      "en": "Every published story will show the whole picture.",
+      "my": "ထုတ်ပြန်သည့် မှတ်တမ်းတိုင်းတွင် အခြေအနေအပြည့်အစုံကို ဖော်ပြပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"Starting Point\"]",
+      "label": "Starting Point",
+      "en": "Starting Point",
+      "my": "အစအခြေအနေ"
+    },
+    {
+      "key": "[\"text\",\"Work Delivered\"]",
+      "label": "Work Delivered",
+      "en": "Work Delivered",
+      "my": "ဆောင်ရွက်ပေးခဲ့သည့်အရာ"
+    },
+    {
+      "key": "[\"text\",\"Launch Decisions\"]",
+      "label": "Launch Decisions",
+      "en": "Launch Decisions",
+      "my": "စတင်မိတ်ဆက် ဆုံးဖြတ်ချက်များ"
+    },
+    {
+      "key": "[\"text\",\"Measured Outcome\"]",
+      "label": "Measured Outcome",
+      "en": "Measured Outcome",
+      "my": "တိုင်းတာထားသော ရလဒ်"
+    },
+    {
+      "key": "[\"text\",\"Clear context, thoughtful decisions, and evidence presented without invention.\"]",
+      "label": "Clear context, thoughtful decisions, and evidence presented without invention.",
+      "en": "Clear context, thoughtful decisions, and evidence presented without invention.",
+      "my": "ရှင်းလင်းသောနောက်ခံ၊ စဉ်းစားထားသည့်ဆုံးဖြတ်ချက်နှင့် အမှန်တကယ်သက်သေများကိုသာ ဖော်ပြပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"What success will mean.\"]",
+      "label": "What success will mean.",
+      "en": "What success will mean.",
+      "my": "အောင်မြင်မှု၏ အဓိပ္ပာယ်။"
+    },
+    {
+      "key": "[\"text\",\"Easier to find\"]",
+      "label": "Easier to find",
+      "en": "Easier to find",
+      "my": "ရှာတွေ့ရန် ပိုလွယ်"
+    },
+    {
+      "key": "[\"text\",\"Easier to trust\"]",
+      "label": "Easier to trust",
+      "en": "Easier to trust",
+      "my": "ယုံကြည်ရန် ပိုလွယ်"
+    },
+    {
+      "key": "[\"text\",\"Easier to contact\"]",
+      "label": "Easier to contact",
+      "en": "Easier to contact",
+      "my": "ဆက်သွယ်ရန် ပိုလွယ်"
+    },
+    {
+      "key": "[\"text\",\"Simple, practical improvements customers can feel.\"]",
+      "label": "Simple, practical improvements customers can feel.",
+      "en": "Simple, practical improvements customers can feel.",
+      "my": "ဖောက်သည်များ ခံစားနိုင်သော ရိုးရှင်းပြီး လက်တွေ့ကျသည့် တိုးတက်မှုများ။"
+    },
+    {
+      "key": "[\"text\",\"From first conversation to documented result.\"]",
+      "label": "From first conversation to documented result.",
+      "en": "From first conversation to documented result.",
+      "my": "ပထမဆုံးဆွေးနွေးမှုမှ မှတ်တမ်းတင်ထားသော ရလဒ်အထိ။"
+    },
+    {
+      "key": "[\"text\",\"Planning notebook\"]",
+      "label": "Planning notebook",
+      "en": "Planning notebook",
+      "my": "အစီအစဉ်ရေးဆွဲသည့် မှတ်စုစာအုပ်"
+    },
+    {
+      "key": "[\"text\",\"Your business could become the first story here.\"]",
+      "label": "Your business could become the first story here.",
+      "en": "Your business could become the first story here.",
+      "my": "သင့်လုပ်ငန်းသည် ဤနေရာ၏ ပထမဆုံးမှတ်တမ်း ဖြစ်လာနိုင်ပါသည်။"
+    },
+    {
+      "key": "[\"text\",\"The first case study will be from a local business ready to lead with honesty and help others learn.\"]",
+      "label": "The first case study will be from a local business ready to lead with honesty and help others learn.",
+      "en": "The first case study will be from a local business ready to lead with honesty and help others learn.",
+      "my": "ပထမဆုံးလုပ်ငန်းမှတ်တမ်းသည် အမှန်တရားကို ဦးစားပေးပြီး အခြားသူများ လေ့လာနိုင်ရန် ကူညီလိုသော ဒေသတွင်းလုပ်ငန်းတစ်ခုမှ ဖြစ်ပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"Selected projects\"]",
+      "label": "Selected projects",
+      "en": "Selected projects",
+      "my": "ရွေးချယ်ထားသော ပရောဂျက်များ"
+    },
+    {
+      "key": "[\"text\",\"What each customer chose—and what it made possible.\"]",
+      "label": "What each customer chose—and what it made possible.",
+      "en": "What each customer chose—and what it made possible.",
+      "my": "ဖောက်သည်တစ်ဦးချင်း ရွေးချယ်ခဲ့သည့်အရာနှင့် ရရှိလာသော အကျိုးကျေးဇူး။"
+    },
+    {
+      "key": "[\"text\",\"Customer names and performance figures remain private. Current package and add-on entries are project-reference mappings until approved customer details are supplied.\"]",
+      "label": "Customer names and performance figures remain private. Current package and add-on entries are project-reference mappings until approved customer details are supplied.",
+      "en": "Customer names and performance figures remain private. Current package and add-on entries are project-reference mappings until approved customer details are supplied.",
+      "my": "ဖောက်သည်အမည်နှင့် စွမ်းဆောင်ရည်ကိန်းဂဏန်းများကို လျှို့ဝှက်ထားပါသည်။ လက်ရှိပက်ကေ့ချ်နှင့် ထပ်တိုးဝန်ဆောင်မှုများသည် အတည်ပြုထားသော ဖောက်သည်အချက်အလက်များ မရမချင်း ပရောဂျက်နမူနာအဖြစ်သာ ဖော်ပြထားပါသည်။"
+    },
+    {
+      "key": "[\"text\",\"scrolling website preview\"]",
+      "label": "Scrolling website preview",
+      "en": "scrolling website preview",
+      "my": "ဝဘ်ဆိုက်အပြည့် လှိမ့်ကြည့်နိုင်သော နမူနာ"
+    },
+    {
+      "key": "[\"text\",\"Scroll to explore website\"]",
+      "label": "Scroll to explore website",
+      "en": "Scroll to explore website",
+      "my": "ဝဘ်ဆိုက်ကို လှိမ့်ကြည့်ရန်"
+    },
+    {
+      "key": "[\"text\",\"View full website\"]",
+      "label": "View full website",
+      "en": "View full website",
+      "my": "ဝဘ်ဆိုက်အပြည့် ကြည့်ရန်"
+    },
+    {
+      "key": "[\"text\",\"Package selected\"]",
+      "label": "Package selected",
+      "en": "Package selected",
+      "my": "ရွေးချယ်ခဲ့သော ပက်ကေ့ချ်"
+    },
+    {
+      "key": "[\"text\",\"View package\"]",
+      "label": "View package",
+      "en": "View package",
+      "my": "ပက်ကေ့ချ် ကြည့်ရန်"
+    },
+    {
+      "key": "[\"text\",\"Add-ons & extras\"]",
+      "label": "Add-ons & extras",
+      "en": "Add-ons & extras",
+      "my": "ထပ်တိုးနှင့် အပိုဝန်ဆောင်မှုများ"
+    },
+    {
+      "key": "[\"text\",\"What we delivered\"]",
+      "label": "What we delivered",
+      "en": "What we delivered",
+      "my": "ဆောင်ရွက်ပေးခဲ့သည့်အရာများ"
+    },
+    {
+      "key": "[\"text\",\"Project outcome\"]",
+      "label": "Project outcome",
+      "en": "Project outcome",
+      "my": "ပရောဂျက်ရလဒ်"
+    },
+    {
+      "key": "[\"text\",\"Visit live website\"]",
+      "label": "Visit live website",
+      "en": "Visit live website",
+      "my": "လက်ရှိဝဘ်ဆိုက်ကို ကြည့်ရန်"
+    },
+    {
+      "key": "[\"text\",\"The right scope, visibly explained\"]",
+      "label": "The right scope, visibly explained",
+      "en": "The right scope, visibly explained",
+      "my": "သင့်တော်သောနယ်ပယ်ကို ရှင်းလင်းစွာ ဖော်ပြခြင်း"
+    },
+    {
+      "key": "[\"text\",\"Every project starts with a package. Add-ons make it fit.\"]",
+      "label": "Every project starts with a package. Add-ons make it fit.",
+      "en": "Every project starts with a package. Add-ons make it fit.",
+      "my": "ပရောဂျက်တိုင်းသည် ပက်ကေ့ချ်တစ်ခုဖြင့် စတင်ပြီး ထပ်တိုးဝန်ဆောင်မှုများဖြင့် လိုအပ်ချက်နှင့် ကိုက်ညီစေသည်။"
+    },
+    {
+      "key": "[\"text\",\"The package sets the website’s core structure, support, and capability. Add-ons cover the extra content, languages, connected presence, or custom touches the customer needs.\"]",
+      "label": "The package sets the website’s core structure, support, and capability. Add-ons cover the extra content, languages, connected presence, or custom touches the customer needs.",
+      "en": "The package sets the website’s core structure, support, and capability. Add-ons cover the extra content, languages, connected presence, or custom touches the customer needs.",
+      "my": "ပက်ကေ့ချ်သည် ဝဘ်ဆိုက်၏ အဓိကဖွဲ့စည်းပုံ၊ ပံ့ပိုးမှုနှင့် စွမ်းဆောင်ရည်ကို သတ်မှတ်ပေးသည်။ ထပ်တိုးဝန်ဆောင်မှုများက ဖောက်သည်လိုအပ်သည့် အကြောင်းအရာ၊ ဘာသာစကား၊ ချိတ်ဆက်ထားသောပုံရိပ်နှင့် စိတ်ကြိုက်အချက်များကို ဖြည့်ဆည်းပေးသည်။"
+    },
+    {
+      "key": "[\"text\",\"Compare packages and add-ons\"]",
+      "label": "Compare packages and add-ons",
+      "en": "Compare packages and add-ons",
+      "my": "ပက်ကေ့ချ်နှင့် ထပ်တိုးဝန်ဆောင်မှုများ နှိုင်းယှဉ်ရန်"
+    },
+    {
+      "key": "[\"text\",\"Planning a new online project\"]",
+      "label": "Planning a new online project",
+      "en": "Planning a new online project",
+      "my": "အွန်လိုင်းပရောဂျက်အသစ် စီစဉ်ခြင်း"
+    },
+    {
+      "key": "[\"text\",\"Your project\"]",
+      "label": "Your project",
+      "en": "Your project",
+      "my": "သင့်ပရောဂျက်"
+    },
+    {
+      "key": "[\"text\",\"Let’s build the next one together.\"]",
+      "label": "Let’s build the next one together.",
+      "en": "Let’s build the next one together.",
+      "my": "နောက်ပရောဂျက်ကို အတူတကွ တည်ဆောက်ကြပါစို့။"
+    },
+    {
+      "key": "[\"text\",\"Tell us what your business needs. We’ll recommend a focused foundation and a clear path from idea to launch.\"]",
+      "label": "Tell us what your business needs. We’ll recommend a focused foundation and a clear path from idea to launch.",
+      "en": "Tell us what your business needs. We’ll recommend a focused foundation and a clear path from idea to launch.",
+      "my": "သင့်လုပ်ငန်းလိုအပ်ချက်ကို ပြောပြပါ။ စိတ်ကူးမှ စတင်မိတ်ဆက်ခြင်းအထိ အာရုံစိုက်ထားသောအခြေခံစနစ်နှင့် ရှင်းလင်းသောလမ်းကြောင်းကို အကြံပြုပါမည်။"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

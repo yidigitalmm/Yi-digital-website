@@ -7,7 +7,7 @@ export const copy = {
         "Home",
         "Services",
         "Animation",
-        "Previous Work",
+        "Our Work",
         "Journal",
         "Contact"
       ],

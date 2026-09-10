@@ -1,0 +1,361 @@
+{
+  "title": "Animation page",
+  "strings": [
+    {
+      "key": "[\"motion\",\"eyebrow\"]",
+      "label": "Motion · Eyebrow",
+      "en": "Website motion",
+      "my": "Website လှုပ်ရှားမှု"
+    },
+    {
+      "key": "[\"motion\",\"title\"]",
+      "label": "Motion · Title",
+      "en": "Motion Animation",
+      "my": "Motion Animation"
+    },
+    {
+      "key": "[\"motion\",\"intro\"]",
+      "label": "Motion · Intro",
+      "en": "Flexible, purposeful animation that can be adapted to your message, product or website.",
+      "my": "သင့်မက်ဆေ့ချ်၊ ထုတ်ကုန် သို့မဟုတ် website နှင့် လိုက်ဖက်အောင် ပြင်ဆင်နိုင်သော ရည်ရွယ်ချက်ရှိသည့် animation များ။"
+    },
+    {
+      "key": "[\"motion\",\"replay\"]",
+      "label": "Motion · Replay",
+      "en": "Replay animation",
+      "my": "Animation ပြန်ဖွင့်ရန်"
+    },
+    {
+      "key": "[\"motion\",\"uses\"]",
+      "label": "Motion · Uses",
+      "en": "Use it on a website for",
+      "my": "Website တွင် အသုံးပြုနိုင်သောနေရာများ"
+    },
+    {
+      "key": "[\"motion\",\"choose\"]",
+      "label": "Motion · Choose",
+      "en": "Choose an animation",
+      "my": "Animation ရွေးချယ်ပါ"
+    },
+    {
+      "key": "[\"motion\",\"items\",0,\"label\"]",
+      "label": "Motion · Items · Item 1 · Label",
+      "en": "Layered build",
+      "my": "အလွှာလိုက် ဖွဲ့စည်းမှု"
+    },
+    {
+      "key": "[\"motion\",\"items\",0,\"type\"]",
+      "label": "Motion · Items · Item 1 · Type",
+      "en": "Layer-by-layer reveal",
+      "my": "အလွှာလိုက် ဖော်ပြမှု"
+    },
+    {
+      "key": "[\"motion\",\"items\",0,\"title\"]",
+      "label": "Motion · Items · Item 1 · Title",
+      "en": "Show how it all comes together.",
+      "my": "အရာအားလုံး ဖွဲ့စည်းလာပုံကို ပြပါ။"
+    },
+    {
+      "key": "[\"motion\",\"items\",0,\"body\"]",
+      "label": "Motion · Items · Item 1 · Body",
+      "en": "Build any product, idea or process one layer at a time so every detail is easy to follow.",
+      "my": "ထုတ်ကုန်၊ အကြံဉာဏ် သို့မဟုတ် လုပ်ငန်းစဉ်တစ်ခုကို အလွှာလိုက် တည်ဆောက်ပြသပြီး အသေးစိတ်တိုင်းကို နားလည်လွယ်စေပါသည်။"
+    },
+    {
+      "key": "[\"motion\",\"items\",0,\"tags\",0]",
+      "label": "Motion · Items · Item 1 · Tags · Item 1",
+      "en": "Product stories",
+      "my": "ထုတ်ကုန်ဇာတ်လမ်း"
+    },
+    {
+      "key": "[\"motion\",\"items\",0,\"tags\",1]",
+      "label": "Motion · Items · Item 1 · Tags · Item 2",
+      "en": "Process explainers",
+      "my": "လုပ်ငန်းစဉ်ရှင်းလင်းမှု"
+    },
+    {
+      "key": "[\"motion\",\"items\",0,\"cta\"]",
+      "label": "Motion · Items · Item 1 · Cta",
+      "en": "Build your story",
+      "my": "သင့်ဇာတ်လမ်းကို တည်ဆောက်ရန်"
+    },
+    {
+      "key": "[\"motion\",\"items\",1,\"label\"]",
+      "label": "Motion · Items · Item 2 · Label",
+      "en": "Surprise reveal",
+      "my": "အံ့အားသင့် ဖော်ပြမှု"
+    },
+    {
+      "key": "[\"motion\",\"items\",1,\"type\"]",
+      "label": "Motion · Items · Item 2 · Type",
+      "en": "Anticipation and reveal",
+      "my": "မျှော်လင့်စိတ်နှင့် ဖော်ပြမှု"
+    },
+    {
+      "key": "[\"motion\",\"items\",1,\"title\"]",
+      "label": "Motion · Items · Item 2 · Title",
+      "en": "Turn curiosity into a reveal.",
+      "my": "သိချင်စိတ်ကို ထူးခြားသော ဖော်ပြမှုအဖြစ် ပြောင်းလဲပါ။"
+    },
+    {
+      "key": "[\"motion\",\"items\",1,\"body\"]",
+      "label": "Motion · Items · Item 2 · Body",
+      "en": "Create anticipation before introducing a product, announcement, feature or hidden detail.",
+      "my": "ထုတ်ကုန်၊ ကြေညာချက်၊ feature သို့မဟုတ် ဖုံးကွယ်ထားသော အချက်အလက်ကို မိတ်ဆက်မီ စိတ်ဝင်စားမှုကို တိုးစေပါသည်။"
+    },
+    {
+      "key": "[\"motion\",\"items\",1,\"tags\",0]",
+      "label": "Motion · Items · Item 2 · Tags · Item 1",
+      "en": "Launch moments",
+      "my": "Launch moment"
+    },
+    {
+      "key": "[\"motion\",\"items\",1,\"tags\",1]",
+      "label": "Motion · Items · Item 2 · Tags · Item 2",
+      "en": "Key announcements",
+      "my": "အဓိက ကြေညာချက်"
+    },
+    {
+      "key": "[\"motion\",\"items\",1,\"cta\"]",
+      "label": "Motion · Items · Item 2 · Cta",
+      "en": "Reveal the idea",
+      "my": "အကြံဉာဏ်ကို ဖော်ပြရန်"
+    },
+    {
+      "key": "[\"motion\",\"items\",2,\"label\"]",
+      "label": "Motion · Items · Item 3 · Label",
+      "en": "Transformation",
+      "my": "ပြောင်းလဲမှု"
+    },
+    {
+      "key": "[\"motion\",\"items\",2,\"type\"]",
+      "label": "Motion · Items · Item 3 · Type",
+      "en": "Before-and-after story",
+      "my": "Before-and-after ဇာတ်လမ်း"
+    },
+    {
+      "key": "[\"motion\",\"items\",2,\"title\"]",
+      "label": "Motion · Items · Item 3 · Title",
+      "en": "Make the change easy to see.",
+      "my": "ပြောင်းလဲမှုကို ရှင်းလင်းစွာ ပြပါ။"
+    },
+    {
+      "key": "[\"motion\",\"items\",2,\"body\"]",
+      "label": "Motion · Items · Item 3 · Body",
+      "en": "Show progress from one state to another so your process, improvement or result feels clear and memorable.",
+      "my": "အဆင့်တစ်ခုမှ တစ်ခုသို့ တိုးတက်ပြောင်းလဲပုံကို ပြသပြီး လုပ်ငန်းစဉ်၊ တိုးတက်မှုနှင့် ရလဒ်ကို နားလည်လွယ်စေပါသည်။"
+    },
+    {
+      "key": "[\"motion\",\"items\",2,\"tags\",0]",
+      "label": "Motion · Items · Item 3 · Tags · Item 1",
+      "en": "Before & after",
+      "my": "Before & after"
+    },
+    {
+      "key": "[\"motion\",\"items\",2,\"tags\",1]",
+      "label": "Motion · Items · Item 3 · Tags · Item 2",
+      "en": "Case studies",
+      "my": "Case study"
+    },
+    {
+      "key": "[\"motion\",\"items\",2,\"cta\"]",
+      "label": "Motion · Items · Item 3 · Cta",
+      "en": "Show the change",
+      "my": "ပြောင်းလဲမှုကို ပြရန်"
+    },
+    {
+      "key": "[\"reveal\",\"interaction\"]",
+      "label": "Reveal · Interaction",
+      "en": "Try it",
+      "my": "စမ်းကြည့်ပါ"
+    },
+    {
+      "key": "[\"reveal\",\"touchInteraction\"]",
+      "label": "Reveal · Touch Interaction",
+      "en": "Touch and drag across the armor to reveal",
+      "my": "ဖော်ထုတ်ရန် armor ပေါ် လက်ဖြင့်ထိ၍ ဆွဲပါ"
+    },
+    {
+      "key": "[\"reveal\",\"uses\"]",
+      "label": "Reveal · Uses",
+      "en": "Works well for",
+      "my": "သင့်တော်သောနေရာများ"
+    },
+    {
+      "key": "[\"reveal\",\"sections\",0,\"number\"]",
+      "label": "Reveal · Sections · Item 1 · Number",
+      "en": "01",
+      "my": "၀၁"
+    },
+    {
+      "key": "[\"reveal\",\"sections\",0,\"type\"]",
+      "label": "Reveal · Sections · Item 1 · Type",
+      "en": "Interactive reveal",
+      "my": "အပြန်အလှန် ဖော်ပြမှု"
+    },
+    {
+      "key": "[\"reveal\",\"sections\",0,\"title\"]",
+      "label": "Reveal · Sections · Item 1 · Title",
+      "en": "Reveal the human behind the machine.",
+      "my": "စက်ရုပ်နောက်ကွယ်ရှိ လူသားကို ဖော်ထုတ်ပါ။"
+    },
+    {
+      "key": "[\"reveal\",\"sections\",0,\"body\"]",
+      "label": "Reveal · Sections · Item 1 · Body",
+      "en": "Move across the armor to uncover the person beneath. A responsive nanotech trail breaks the surface into illuminated cells, holds the reveal for a moment, then rebuilds the suit behind you.",
+      "my": "Armor ပေါ် pointer ရွှေ့သည့်လမ်းတလျှောက် nanotech အလွှာများ အလင်းရောင်ဖြင့် ကွာကျပြီး အောက်ရှိ လူသားကို ခဏဖော်ပြကာ နောက်တစ်ဖန် အလိုအလျောက် ပြန်လည်ဖုံးအုပ်သွားပါသည်။"
+    },
+    {
+      "key": "[\"reveal\",\"sections\",0,\"cue\"]",
+      "label": "Reveal · Sections · Item 1 · Cue",
+      "en": "Move across the armor to reveal the nanotech layer beneath your pointer",
+      "my": "Pointer အောက်ရှိ nanotech layer ကို ဖော်ထုတ်ရန် armor ပေါ် ရွှေ့ပါ"
+    },
+    {
+      "key": "[\"reveal\",\"sections\",0,\"tags\",0]",
+      "label": "Reveal · Sections · Item 1 · Tags · Item 1",
+      "en": "Campaign storytelling",
+      "my": "Campaign ဇာတ်လမ်း"
+    },
+    {
+      "key": "[\"reveal\",\"sections\",0,\"tags\",1]",
+      "label": "Reveal · Sections · Item 1 · Tags · Item 2",
+      "en": "Product reveals",
+      "my": "ထုတ်ကုန်ဖော်ပြမှု"
+    },
+    {
+      "key": "[\"reveal\",\"sections\",0,\"tags\",2]",
+      "label": "Reveal · Sections · Item 1 · Tags · Item 3",
+      "en": "Before & after",
+      "my": "Before & after"
+    },
+    {
+      "key": "[\"camera\",\"label\"]",
+      "label": "Camera · Label",
+      "en": "Interactive 3D",
+      "my": "အပြန်အလှန် 3D"
+    },
+    {
+      "key": "[\"camera\",\"explore\"]",
+      "label": "Camera · Explore",
+      "en": "Explore parts",
+      "my": "အစိတ်အပိုင်းများ ကြည့်ရန်"
+    },
+    {
+      "key": "[\"camera\",\"assemble\"]",
+      "label": "Camera · Assemble",
+      "en": "Put it together",
+      "my": "ပြန်လည်ပေါင်းစည်းရန်"
+    },
+    {
+      "key": "[\"camera\",\"signature\"]",
+      "label": "Camera · Signature",
+      "en": "Yi Digital · Made to be remembered",
+      "my": "Yi Digital · အမှတ်တရအဖြစ်"
+    },
+    {
+      "key": "[\"camera\",\"title\"]",
+      "label": "Camera · Title",
+      "en": "Make a moment.\nKeep a little magic.",
+      "my": "အခိုက်အတန့်ကို ဖန်တီးပါ။\nအမှတ်တရအဖြစ် သိမ်းဆည်းပါ။"
+    },
+    {
+      "key": "[\"camera\",\"body\"]",
+      "label": "Camera · Body",
+      "en": "A little nostalgia, brought to life. Turn the camera, press the shutter, and watch your photograph appear.",
+      "my": "အမှတ်တရဟောင်းတွေကို ပြန်လည်အသက်သွင်းပါ။ ကင်မရာကို လှည့်ကြည့်၊ ခလုတ်နှိပ်ပြီး ဓာတ်ပုံလေး တဖြည်းဖြည်း ပေါ်လာပုံကို ကြည့်ပါ။"
+    },
+    {
+      "key": "[\"camera\",\"shoot\"]",
+      "label": "Camera · Shoot",
+      "en": "Take a photo",
+      "my": "ဓာတ်ပုံရိုက်ရန်"
+    },
+    {
+      "key": "[\"camera\",\"again\"]",
+      "label": "Camera · Again",
+      "en": "Take another",
+      "my": "နောက်တစ်ပုံ ရိုက်ရန်"
+    },
+    {
+      "key": "[\"camera\",\"developing\"]",
+      "label": "Camera · Developing",
+      "en": "Developing your moment…",
+      "my": "ဓာတ်ပုံ ဖော်နေပါသည်…"
+    },
+    {
+      "key": "[\"camera\",\"ready\"]",
+      "label": "Camera · Ready",
+      "en": "Your moment is ready. Tap the photo to take a closer look.",
+      "my": "ဓာတ်ပုံ အဆင်သင့်ဖြစ်ပါပြီ။ အနီးကပ်ကြည့်ရန် ပုံကို နှိပ်ပါ။"
+    },
+    {
+      "key": "[\"camera\",\"drag\"]",
+      "label": "Camera · Drag",
+      "en": "Drag to explore · Arrow keys to rotate",
+      "my": "လှည့်ကြည့်ရန် ဆွဲပါ · မြားခလုတ်များဖြင့်လည်း လှည့်နိုင်ပါသည်"
+    },
+    {
+      "key": "[\"camera\",\"reset\"]",
+      "label": "Camera · Reset",
+      "en": "Reset camera",
+      "my": "မူလအနေအထား"
+    },
+    {
+      "key": "[\"camera\",\"loading\"]",
+      "label": "Camera · Loading",
+      "en": "Getting the camera ready…",
+      "my": "ကင်မရာကို ပြင်ဆင်နေပါသည်…"
+    },
+    {
+      "key": "[\"camera\",\"fallback\"]",
+      "label": "Camera · Fallback",
+      "en": "The 3D camera couldn’t load on this device.",
+      "my": "ဤစက်တွင် 3D ကင်မရာကို ဖွင့်၍ မရပါ။"
+    },
+    {
+      "key": "[\"camera\",\"photo\"]",
+      "label": "Camera · Photo",
+      "en": "Open your instant photo",
+      "my": "ဓာတ်ပုံကို ဖွင့်ရန်"
+    },
+    {
+      "key": "[\"camera\",\"close\"]",
+      "label": "Camera · Close",
+      "en": "Close photo",
+      "my": "ဓာတ်ပုံ ပိတ်ရန်"
+    },
+    {
+      "key": "[\"camera\",\"caption\"]",
+      "label": "Camera · Caption",
+      "en": "Good things take a moment.",
+      "my": "အမှတ်တရကောင်းတစ်ခုအတွက် ခဏစောင့်ပါ။"
+    },
+    {
+      "key": "[\"camera\",\"uses\"]",
+      "label": "Camera · Uses",
+      "en": "Works well for",
+      "my": "သင့်တော်သောနေရာများ"
+    },
+    {
+      "key": "[\"camera\",\"tags\",0]",
+      "label": "Camera · Tags · Item 1",
+      "en": "Product experiences",
+      "my": "ထုတ်ကုန် အတွေ့အကြုံ"
+    },
+    {
+      "key": "[\"camera\",\"tags\",1]",
+      "label": "Camera · Tags · Item 2",
+      "en": "Brand storytelling",
+      "my": "အမှတ်တံဆိပ် ဇာတ်လမ်း"
+    },
+    {
+      "key": "[\"camera\",\"tags\",2]",
+      "label": "Camera · Tags · Item 3",
+      "en": "Interactive campaigns",
+      "my": "အပြန်အလှန် ကမ်ပိန်းများ"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

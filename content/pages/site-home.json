@@ -1,0 +1,469 @@
+{
+  "title": "Home page",
+  "strings": [
+    {
+      "key": "[\"heroEyebrow\"]",
+      "label": "Hero Eyebrow",
+      "en": "Digital presence, commissioned with care",
+      "my": "ဂရုတစိုက် တည်ဆောက်ပေးသော ဒစ်ဂျစ်တယ်လုပ်ငန်းပုံရိပ်"
+    },
+    {
+      "key": "[\"exploreServices\"]",
+      "label": "Explore Services",
+      "en": "Explore services",
+      "my": "ဝန်ဆောင်မှုများ ကြည့်ရှုရန်"
+    },
+    {
+      "key": "[\"searchQuery\"]",
+      "label": "Search Query",
+      "en": "Businesses Near Me",
+      "my": "အနီးအနားရှိ လုပ်ငန်းများ"
+    },
+    {
+      "key": "[\"searching\"]",
+      "label": "Searching",
+      "en": "Searching nearby businesses…",
+      "my": "အနီးအနားရှိ လုပ်ငန်းများကို ရှာဖွေနေသည်…"
+    },
+    {
+      "key": "[\"heroVisualLabel\"]",
+      "label": "Hero Visual Label",
+      "en": "Business search results stack up, then move aside to reveal an incomplete Your Business listing",
+      "my": "လုပ်ငန်းရှာဖွေမှုရလဒ်များ ပေါ်လာပြီးနောက် မပြည့်စုံသေးသော သင့်လုပ်ငန်းစာရင်းကို ပြသထားသည်"
+    },
+    {
+      "key": "[\"capabilities\",0,0]",
+      "label": "Capabilities · Item 1 · Item 1",
+      "en": "Website",
+      "my": "ဝဘ်ဆိုက်"
+    },
+    {
+      "key": "[\"capabilities\",0,1]",
+      "label": "Capabilities · Item 1 · Item 2",
+      "en": "Professional & Fast",
+      "my": "ကျွမ်းကျင်မှုရှိပြီး မြန်ဆန်မှုကောင်း"
+    },
+    {
+      "key": "[\"capabilities\",1,0]",
+      "label": "Capabilities · Item 2 · Item 1",
+      "en": "Google",
+      "my": "Google"
+    },
+    {
+      "key": "[\"capabilities\",1,1]",
+      "label": "Capabilities · Item 2 · Item 2",
+      "en": "Be Found & Trusted",
+      "my": "ရှာတွေ့လွယ်ပြီး ယုံကြည်စိတ်ချရ"
+    },
+    {
+      "key": "[\"capabilities\",2,0]",
+      "label": "Capabilities · Item 3 · Item 1",
+      "en": "Social",
+      "my": "လူမှုကွန်ရက်"
+    },
+    {
+      "key": "[\"capabilities\",2,1]",
+      "label": "Capabilities · Item 3 · Item 2",
+      "en": "Engage & Grow",
+      "my": "ချိတ်ဆက်ပြီး တိုးတက်စေ"
+    },
+    {
+      "key": "[\"capabilities\",3,0]",
+      "label": "Capabilities · Item 4 · Item 1",
+      "en": "Email",
+      "my": "အီးမေးလ်"
+    },
+    {
+      "key": "[\"capabilities\",3,1]",
+      "label": "Capabilities · Item 4 · Item 2",
+      "en": "Branded & Reliable",
+      "my": "လုပ်ငန်းအမှတ်တံဆိပ်နှင့် ယုံကြည်ရမှု"
+    },
+    {
+      "key": "[\"capabilities\",4,0]",
+      "label": "Capabilities · Item 5 · Item 1",
+      "en": "Analytics",
+      "my": "အချက်အလက်ဆန်းစစ်မှု"
+    },
+    {
+      "key": "[\"capabilities\",4,1]",
+      "label": "Capabilities · Item 5 · Item 2",
+      "en": "Measure & Improve",
+      "my": "တိုင်းတာပြီး ပိုမိုကောင်းမွန်စေ"
+    },
+    {
+      "key": "[\"outcomeEyebrow\"]",
+      "label": "Outcome Eyebrow",
+      "en": "From invisible to",
+      "my": "မမြင်ရသည့်အခြေအနေမှ"
+    },
+    {
+      "key": "[\"outcomeTitle\"]",
+      "label": "Outcome Title",
+      "en": "From invisible to unmistakable.",
+      "my": "မမြင်ရသည့် လုပ်ငန်းမှ ထင်ရှားသည့် လုပ်ငန်းအဖြစ်။"
+    },
+    {
+      "key": "[\"outcomes\",0,0]",
+      "label": "Outcomes · Item 1 · Item 1",
+      "en": "Be Discovered",
+      "my": "ရှာတွေ့နိုင်စေခြင်း"
+    },
+    {
+      "key": "[\"outcomes\",0,1]",
+      "label": "Outcomes · Item 1 · Item 2",
+      "en": "Show up when local customers search, map, and explore.",
+      "my": "ဒေသတွင်းဖောက်သည်များ ရှာဖွေခြင်း၊ မြေပုံကြည့်ခြင်းနှင့် စူးစမ်းခြင်းတို့ ပြုလုပ်ချိန်တွင် သင့်လုပ်ငန်းကို တွေ့မြင်နိုင်ပါစေ။"
+    },
+    {
+      "key": "[\"outcomes\",1,0]",
+      "label": "Outcomes · Item 2 · Item 1",
+      "en": "Build Trust",
+      "my": "ယုံကြည်မှု တည်ဆောက်ခြင်း"
+    },
+    {
+      "key": "[\"outcomes\",1,1]",
+      "label": "Outcomes · Item 2 · Item 2",
+      "en": "A complete, consistent presence that builds confidence.",
+      "my": "ပြည့်စုံပြီး တစ်သမတ်တည်းဖြစ်သော အွန်လိုင်းပုံရိပ်ဖြင့် ဖောက်သည်ယုံကြည်မှုကို တည်ဆောက်ပါ။"
+    },
+    {
+      "key": "[\"outcomes\",2,0]",
+      "label": "Outcomes · Item 3 · Item 1",
+      "en": "Drive Growth",
+      "my": "လုပ်ငန်း တိုးတက်စေခြင်း"
+    },
+    {
+      "key": "[\"outcomes\",2,1]",
+      "label": "Outcomes · Item 3 · Item 2",
+      "en": "Turn visibility into enquiries, visits, and loyal customers.",
+      "my": "အွန်လိုင်းပေါ်တွင် မြင်တွေ့ရမှုကို စုံစမ်းမေးမြန်းမှုများ၊ လာရောက်မှုများနှင့် သစ္စာရှိဖောက်သည်များအဖြစ် ပြောင်းလဲပါ။"
+    },
+    {
+      "key": "[\"before\",0]",
+      "label": "Before · Item 1",
+      "en": "Before",
+      "my": "မတိုင်မီ"
+    },
+    {
+      "key": "[\"before\",1]",
+      "label": "Before · Item 2",
+      "en": "Hard to find.",
+      "my": "ရှာတွေ့ရန် ခက်ခဲသည်။"
+    },
+    {
+      "key": "[\"before\",2]",
+      "label": "Before · Item 3",
+      "en": "No clear online presence means missed searches, fewer enquiries, and slow growth.",
+      "my": "ရှင်းလင်းသော အွန်လိုင်းပုံရိပ်မရှိပါက ရှာဖွေမှုများနှင့် စုံစမ်းမေးမြန်းမှုများ လွတ်သွားပြီး လုပ်ငန်းတိုးတက်မှု နှေးကွေးနိုင်သည်။"
+    },
+    {
+      "key": "[\"after\",0]",
+      "label": "After · Item 1",
+      "en": "After",
+      "my": "ပြင်ဆင်ပြီးနောက်"
+    },
+    {
+      "key": "[\"after\",1]",
+      "label": "After · Item 2",
+      "en": "Ready to be chosen.",
+      "my": "ရွေးချယ်ခံရရန် အသင့်ဖြစ်သည်။"
+    },
+    {
+      "key": "[\"after\",2]",
+      "label": "After · Item 3",
+      "en": "A complete presence helps customers find you, trust you, and reach out.",
+      "my": "ပြည့်စုံသော အွန်လိုင်းပုံရိပ်က ဖောက်သည်များ သင့်ကိုရှာတွေ့ရန်၊ ယုံကြည်ရန်နှင့် လွယ်ကူစွာ ဆက်သွယ်ရန် ကူညီပေးသည်။"
+    },
+    {
+      "key": "[\"coffeeSearch\"]",
+      "label": "Coffee Search",
+      "en": "Coffee shop near me",
+      "my": "အနီးအနားရှိ ကော်ဖီဆိုင်"
+    },
+    {
+      "key": "[\"openStatus\"]",
+      "label": "Open Status",
+      "en": "4.9 · Open · 0.3 mi",
+      "my": "၄.၉ · ဖွင့်ထားသည် · ၀.၃ မိုင်"
+    },
+    {
+      "key": "[\"servicesEyebrow\"]",
+      "label": "Services Eyebrow",
+      "en": "Services",
+      "my": "ဝန်ဆောင်မှုများ"
+    },
+    {
+      "key": "[\"servicesTitle\"]",
+      "label": "Services Title",
+      "en": "Everything your business needs to show up well.",
+      "my": "သင့်လုပ်ငန်းကို အွန်လိုင်းပေါ်တွင် ကောင်းမွန်စွာ ဖော်ပြရန် လိုအပ်သမျှ။"
+    },
+    {
+      "key": "[\"services\",0,0]",
+      "label": "Services · Item 1 · Item 1",
+      "en": "Website & Domain",
+      "my": "ဝဘ်ဆိုက်နှင့် ဒိုမိန်း"
+    },
+    {
+      "key": "[\"services\",0,1]",
+      "label": "Services · Item 1 · Item 2",
+      "en": "Responsive website packages for up to 7–40 pages or sections, with first-year domain, SSL and launch.",
+      "my": "စာမျက်နှာ သို့မဟုတ် အပိုင်း ၇ ခုမှ ၄၀ အထိ ပါဝင်သော မိုဘိုင်းဖုန်းနှင့် ကိုက်ညီသည့် ဝဘ်ဆိုက်၊ ပထမနှစ်ဒိုမိန်း၊ SSL နှင့် စတင်မိတ်ဆက်ခြင်း။"
+    },
+    {
+      "key": "[\"services\",1,0]",
+      "label": "Services · Item 2 · Item 1",
+      "en": "Google Business Profile",
+      "my": "Google လုပ်ငန်းပရိုဖိုင်"
+    },
+    {
+      "key": "[\"services\",1,1]",
+      "label": "Services · Item 2 · Item 2",
+      "en": "Profile setup or health check, Maps location, complete business details and a review link.",
+      "my": "ပရိုဖိုင်အသစ် ပြင်ဆင်ခြင်း သို့မဟုတ် လက်ရှိအခြေအနေ စစ်ဆေးခြင်း၊ Maps တည်နေရာ၊ လုပ်ငန်းအချက်အလက်အပြည့်အစုံနှင့် သုံးသပ်ချက်ပေးရန် လင့်ခ်။"
+    },
+    {
+      "key": "[\"services\",2,0]",
+      "label": "Services · Item 3 · Item 1",
+      "en": "Social Presence",
+      "my": "လူမှုကွန်ရက်ပုံရိပ်"
+    },
+    {
+      "key": "[\"services\",2,1]",
+      "label": "Services · Item 3 · Item 2",
+      "en": "Facebook, Instagram and TikTok business-profile setup or cleanup with connected contact options.",
+      "my": "Facebook၊ Instagram နှင့် TikTok လုပ်ငန်းပရိုဖိုင်များ ပြင်ဆင်ခြင်း သို့မဟုတ် ရှင်းလင်းမွမ်းမံခြင်းနှင့် ဆက်သွယ်ရန်နည်းလမ်းများ ချိတ်ဆက်ခြင်း။"
+    },
+    {
+      "key": "[\"services\",3,0]",
+      "label": "Services · Item 4 · Item 1",
+      "en": "Brand Continuity",
+      "my": "လုပ်ငန်းပုံရိပ် တစ်သမတ်တည်းဖြစ်မှု"
+    },
+    {
+      "key": "[\"services\",3,1]",
+      "label": "Services · Item 4 · Item 2",
+      "en": "Business names, descriptions, hours, contact details and links kept consistent across profiles.",
+      "my": "ပလက်ဖောင်းအားလုံးတွင် လုပ်ငန်းအမည်၊ ဖော်ပြချက်၊ ဖွင့်ချိန်၊ ဆက်သွယ်ရန်အချက်အလက်နှင့် လင့်ခ်များကို တစ်သမတ်တည်း ထားရှိခြင်း။"
+    },
+    {
+      "key": "[\"services\",4,0]",
+      "label": "Services · Item 5 · Item 1",
+      "en": "Launch Support",
+      "my": "စတင်မိတ်ဆက်ပြီးနောက် ပံ့ပိုးမှု"
+    },
+    {
+      "key": "[\"services\",4,1]",
+      "label": "Services · Item 5 · Item 2",
+      "en": "Testing, backups, handover and package-based support from standard handover through 60 days.",
+      "my": "စမ်းသပ်ခြင်း၊ အရန်သိမ်းခြင်း၊ လွှဲပြောင်းပေးခြင်းနှင့် ရွေးချယ်ထားသော ပက်ကေ့ချ်အလိုက် ရက် ၆၀ အထိ ပံ့ပိုးမှု။"
+    },
+    {
+      "key": "[\"workEyebrow\"]",
+      "label": "Work Eyebrow",
+      "en": "Selected work",
+      "my": "ရွေးချယ်ထားသော လုပ်ငန်းနမူနာများ"
+    },
+    {
+      "key": "[\"workTitle\"]",
+      "label": "Work Title",
+      "en": "A look at the foundations we’ve built.",
+      "my": "အမှန်တကယ် ပြီးစီးသောလုပ်ငန်းများကိုသာ မှတ်တမ်းတင် ဖော်ပြပါမည်။"
+    },
+    {
+      "key": "[\"projects\",0,0]",
+      "label": "Projects · Item 1 · Item 1",
+      "en": "Customizable",
+      "my": "Customizable"
+    },
+    {
+      "key": "[\"projects\",0,1]",
+      "label": "Projects · Item 1 · Item 2",
+      "en": "Procurement service presence",
+      "my": "ဝယ်ယူဖြည့်ဆည်းရေး ဝန်ဆောင်မှုပုံရိပ်"
+    },
+    {
+      "key": "[\"projects\",1,0]",
+      "label": "Projects · Item 2 · Item 1",
+      "en": "Sein Htan Pin",
+      "my": "Sein Htan Pin"
+    },
+    {
+      "key": "[\"projects\",1,1]",
+      "label": "Projects · Item 2 · Item 2",
+      "en": "Exporter company profile",
+      "my": "ပို့ကုန်လုပ်ငန်း ကုမ္ပဏီပရိုဖိုင်"
+    },
+    {
+      "key": "[\"projects\",2,0]",
+      "label": "Projects · Item 3 · Item 1",
+      "en": "The Peak",
+      "my": "The Peak"
+    },
+    {
+      "key": "[\"projects\",2,1]",
+      "label": "Projects · Item 3 · Item 2",
+      "en": "Menu and contact presence",
+      "my": "မီနူးနှင့် ဆက်သွယ်မှု အွန်လိုင်းပုံရိပ်"
+    },
+    {
+      "key": "[\"projects\",3,0]",
+      "label": "Projects · Item 4 · Item 1",
+      "en": "Taunggyi Hotel",
+      "my": "Taunggyi Hotel"
+    },
+    {
+      "key": "[\"projects\",3,1]",
+      "label": "Projects · Item 4 · Item 2",
+      "en": "Hotel presence and guest enquiries",
+      "my": "ဟိုတယ်အွန်လိုင်းပုံရိပ်နှင့် ဧည့်သည်စုံစမ်းမှု"
+    },
+    {
+      "key": "[\"projects\",4,0]",
+      "label": "Projects · Item 5 · Item 1",
+      "en": "In progress",
+      "my": "လုပ်ဆောင်နေဆဲ"
+    },
+    {
+      "key": "[\"projects\",4,1]",
+      "label": "Projects · Item 5 · Item 2",
+      "en": "The next project is taking shape",
+      "my": "နောက်ထပ်ပရောဂျက်ကို ဖန်တီးနေပါသည်"
+    },
+    {
+      "key": "[\"projects\",5,0]",
+      "label": "Projects · Item 6 · Item 1",
+      "en": "More coming soon",
+      "my": "မကြာမီ ထပ်မံလာမည်"
+    },
+    {
+      "key": "[\"projects\",5,1]",
+      "label": "Projects · Item 6 · Item 2",
+      "en": "New work will appear here",
+      "my": "လုပ်ငန်းအသစ်များကို ဤနေရာတွင် ဖော်ပြပါမည်"
+    },
+    {
+      "key": "[\"projectStackLabel\"]",
+      "label": "Project Stack Label",
+      "en": "Selected work in a perspective card stack",
+      "my": "ရွေးချယ်ထားသော လုပ်ငန်းနမူနာကတ်များ"
+    },
+    {
+      "key": "[\"viewProject\"]",
+      "label": "View Project",
+      "en": "View",
+      "my": "ကြည့်ရှုရန်"
+    },
+    {
+      "key": "[\"hoverHint\"]",
+      "label": "Hover Hint",
+      "en": "Hover a card to lift it from the stack",
+      "my": "ကတ်ကို မြှင့်ကြည့်ရန် မောက်စ်ညွှန်တံ တင်ပါ"
+    },
+    {
+      "key": "[\"tapHint\"]",
+      "label": "Tap Hint",
+      "en": "Tap once to lift · tap again to view",
+      "my": "တစ်ချက်နှိပ်၍ မြှင့်ပါ · ထပ်နှိပ်၍ ကြည့်ရှုပါ"
+    },
+    {
+      "key": "[\"journalEyebrow\"]",
+      "label": "Journal Eyebrow",
+      "en": "Journal",
+      "my": "ဗဟုသုတဆောင်းပါးများ"
+    },
+    {
+      "key": "[\"journalTitle\"]",
+      "label": "Journal Title",
+      "en": "Practical thinking for business owners.",
+      "my": "လုပ်ငန်းရှင်များအတွက် လက်တွေ့အသုံးဝင်သော အကြံပြုချက်များ။"
+    },
+    {
+      "key": "[\"learnMore\"]",
+      "label": "Learn More",
+      "en": "Learn more",
+      "my": "ပိုမိုလေ့လာရန်"
+    },
+    {
+      "key": "[\"readArticle\"]",
+      "label": "Read Article",
+      "en": "Read article",
+      "my": "ဆောင်းပါး ဖတ်ရန်"
+    },
+    {
+      "key": "[\"articles\",\"complete-google-business-profile\",0]",
+      "label": "Articles · Complete-google-business-profile · Item 1",
+      "en": "How to complete your Google Business Profile",
+      "my": "Google လုပ်ငန်းပရိုဖိုင်ကို ပြည့်စုံအောင် ပြင်ဆင်နည်း"
+    },
+    {
+      "key": "[\"articles\",\"complete-google-business-profile\",1]",
+      "label": "Articles · Complete-google-business-profile · Item 2",
+      "en": "A complete profile helps customers understand your business, trust the details, and contact you easily.",
+      "my": "ပြည့်စုံသော ပရိုဖိုင်သည် ဖောက်သည်များ သင့်လုပ်ငန်းကို နားလည်ရန်၊ အချက်အလက်များကို ယုံကြည်ရန်နှင့် လွယ်ကူစွာ ဆက်သွယ်ရန် ကူညီပေးသည်။"
+    },
+    {
+      "key": "[\"articles\",\"what-to-prepare-before-going-online\",0]",
+      "label": "Articles · What-to-prepare-before-going-online · Item 1",
+      "en": "What to prepare before taking your business online",
+      "my": "လုပ်ငန်းကို အွန်လိုင်းပေါ် မတင်မီ ပြင်ဆင်ထားသင့်သည့်အရာများ"
+    },
+    {
+      "key": "[\"articles\",\"what-to-prepare-before-going-online\",1]",
+      "label": "Articles · What-to-prepare-before-going-online · Item 2",
+      "en": "Gathering the right information early makes your website and online profiles clearer, faster, and easier to launch.",
+      "my": "လိုအပ်သော အချက်အလက်များကို ကြိုတင်စုစည်းထားခြင်းဖြင့် ဝဘ်ဆိုက်နှင့် အွန်လိုင်းပရိုဖိုင်များကို ပိုမိုရှင်းလင်းမြန်ဆန်စွာ စတင်နိုင်သည်။"
+    },
+    {
+      "key": "[\"articles\",\"consistency-builds-trust\",0]",
+      "label": "Articles · Consistency-builds-trust · Item 1",
+      "en": "Why consistency builds trust online",
+      "my": "အွန်လိုင်းပေါ်တွင် တစ်သမတ်တည်းဖြစ်မှုက ယုံကြည်မှု တည်ဆောက်ပေးပုံ"
+    },
+    {
+      "key": "[\"articles\",\"consistency-builds-trust\",1]",
+      "label": "Articles · Consistency-builds-trust · Item 2",
+      "en": "Matching names, hours, contact details, and messages help customers feel confident they have found the right business.",
+      "my": "လုပ်ငန်းအမည်၊ ဖွင့်ချိန်၊ ဆက်သွယ်ရန်အချက်အလက်နှင့် စာသားများ ကိုက်ညီနေခြင်းက ဖောက်သည်များအား မှန်ကန်သောလုပ်ငန်းကို တွေ့ရှိထားကြောင်း ယုံကြည်စေသည်။"
+    },
+    {
+      "key": "[\"consultationEyebrow\"]",
+      "label": "Consultation Eyebrow",
+      "en": "Let us make your business visible",
+      "my": "သင့်လုပ်ငန်းကို အလွယ်တကူ ရှာတွေ့နိုင်အောင် အတူတကွ ပြင်ဆင်ကြပါစို့"
+    },
+    {
+      "key": "[\"consultationTitle\"]",
+      "label": "Consultation Title",
+      "en": "Ready to become visible?",
+      "my": "အွန်လိုင်းပေါ်တွင် ထင်ရှားလာရန် အသင့်ဖြစ်ပြီလား?"
+    },
+    {
+      "key": "[\"consultationBody\"]",
+      "label": "Consultation Body",
+      "en": "We will handle the details so you can focus on what you do best.",
+      "my": "သင်အကောင်းဆုံး လုပ်ဆောင်နိုင်သည့် လုပ်ငန်းပိုင်းကို အာရုံစိုက်နိုင်ရန် ကျန်အသေးစိတ်အချက်များကို ကျွန်ုပ်တို့ တာဝန်ယူပါမည်။"
+    },
+    {
+      "key": "[\"hero\"]",
+      "label": "Hero",
+      "en": "Can customers find you?",
+      "my": "သင့်လုပ်ငန်းကို ရှာတွေ့နိုင်ပါသလား?"
+    },
+    {
+      "key": "[\"heroAccent\"]",
+      "label": "Hero Accent",
+      "en": "Show up where they’re looking.",
+      "my": "ဖောက်သည်များ ရှာဖွေနေသည့် နေရာတွင် သင့်လုပ်ငန်းကို တွေ့မြင်နိုင်ပါစေ။"
+    },
+    {
+      "key": "[\"heroBody\"]",
+      "label": "Hero Body",
+      "en": "A refined online setup service for businesses that want their website, domain, email, Google presence, analytics, and launch foundation handled with care.",
+      "my": "ဝဘ်ဆိုက်၊ ဒိုမိန်း၊ အီးမေးလ်၊ Google လုပ်ငန်းပရိုဖိုင်၊ အချက်အလက်ဆန်းစစ်မှုနှင့် စတင်မိတ်ဆက်ခြင်းအတွက် လိုအပ်သမျှကို စနစ်တကျ ဂရုတစိုက် တည်ဆောက်ပေးသည့် ဝန်ဆောင်မှုဖြစ်ပါသည်။"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

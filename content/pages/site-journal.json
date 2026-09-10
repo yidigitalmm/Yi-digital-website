@@ -1,0 +1,229 @@
+{
+  "title": "Journal page text",
+  "strings": [
+    {
+      "key": "[\"text\",\"Journal\"]",
+      "label": "Journal",
+      "en": "Journal",
+      "my": "ဗဟုသုတဆောင်းပါးများ"
+    },
+    {
+      "key": "[\"text\",\"Online presence is business infrastructure.\"]",
+      "label": "Online presence is business infrastructure.",
+      "en": "Online presence is business infrastructure.",
+      "my": "အွန်လိုင်းပုံရိပ်သည် လုပ်ငန်း၏ အခြေခံအဆောက်အအုံဖြစ်သည်။"
+    },
+    {
+      "key": "[\"text\",\"Read article\"]",
+      "label": "Read article",
+      "en": "Read article",
+      "my": "ဆောင်းပါး ဖတ်ရန်"
+    },
+    {
+      "key": "[\"text\",\"Visibility before contact\"]",
+      "label": "Visibility before contact",
+      "en": "Visibility before contact",
+      "my": "မဆက်သွယ်မီ မြင်တွေ့နိုင်မှု"
+    },
+    {
+      "key": "[\"text\",\"Google profile trust\"]",
+      "label": "Google profile trust",
+      "en": "Google profile trust",
+      "my": "Google ပရိုဖိုင်အပေါ် ယုံကြည်မှု"
+    },
+    {
+      "key": "[\"text\",\"Business email credibility\"]",
+      "label": "Business email credibility",
+      "en": "Business email credibility",
+      "my": "လုပ်ငန်းအီးမေးလ်၏ ယုံကြည်ရမှု"
+    },
+    {
+      "key": "[\"text\",\"Latest notes\"]",
+      "label": "Latest notes",
+      "en": "Latest notes",
+      "my": "နောက်ဆုံးဆောင်းပါးများ"
+    },
+    {
+      "key": "[\"text\",\"Practical guidance, without the jargon.\"]",
+      "label": "Practical guidance, without the jargon.",
+      "en": "Practical guidance, without the jargon.",
+      "my": "နည်းပညာစကားလုံး မရှုပ်ထွေးဘဲ လက်တွေ့အသုံးဝင်သော လမ်းညွှန်ချက်များ။"
+    },
+    {
+      "key": "[\"text\",\"“Being visible is not about being everywhere. It is about being clear where customers already look.”\"]",
+      "label": "“Being visible is not about being everywhere. It is about being clear where customers already look.”",
+      "en": "“Being visible is not about being everywhere. It is about being clear where customers already look.”",
+      "my": "“မြင်တွေ့နိုင်မှုဆိုသည်မှာ နေရာတိုင်းတွင် ရှိနေရန်မဟုတ်ဘဲ ဖောက်သည်များ ရှာဖွေနေသည့်နေရာတွင် ရှင်းလင်းစွာ ရှိနေရန်ဖြစ်သည်။”"
+    },
+    {
+      "key": "[\"text\",\"Yi Digital note 01\"]",
+      "label": "Yi Digital note 01",
+      "en": "Yi Digital note 01",
+      "my": "Yi Digital မှတ်စု ၀၁"
+    },
+    {
+      "key": "[\"text\",\"Explore by business need.\"]",
+      "label": "Explore by business need.",
+      "en": "Explore by business need.",
+      "my": "လုပ်ငန်းလိုအပ်ချက်အလိုက် လေ့လာပါ။"
+    },
+    {
+      "key": "[\"text\",\"Visibility\"]",
+      "label": "Visibility",
+      "en": "Visibility",
+      "my": "မြင်တွေ့နိုင်မှု"
+    },
+    {
+      "key": "[\"text\",\"Show up where customers search\"]",
+      "label": "Show up where customers search",
+      "en": "Show up where customers search",
+      "my": "ဖောက်သည်များ ရှာဖွေရာတွင် ပေါ်လာပါ"
+    },
+    {
+      "key": "[\"text\",\"Your Google profile checklist\"]",
+      "label": "Your Google profile checklist",
+      "en": "Your Google profile checklist",
+      "my": "Google ပရိုဖိုင် စစ်ဆေးစာရင်း"
+    },
+    {
+      "key": "[\"text\",\"Make it easy to contact you\"]",
+      "label": "Make it easy to contact you",
+      "en": "Make it easy to contact you",
+      "my": "ဆက်သွယ်ရ လွယ်ကူစေပါ"
+    },
+    {
+      "key": "[\"text\",\"Trust\"]",
+      "label": "Trust",
+      "en": "Trust",
+      "my": "ယုံကြည်မှု"
+    },
+    {
+      "key": "[\"text\",\"Build credibility online\"]",
+      "label": "Build credibility online",
+      "en": "Build credibility online",
+      "my": "အွန်လိုင်းယုံကြည်ရမှု တည်ဆောက်ပါ"
+    },
+    {
+      "key": "[\"text\",\"Professional email matters\"]",
+      "label": "Professional email matters",
+      "en": "Professional email matters",
+      "my": "လုပ်ငန်းသုံးအီးမေးလ်၏ အရေးပါမှု"
+    },
+    {
+      "key": "[\"text\",\"Reviews and reputation\"]",
+      "label": "Reviews and reputation",
+      "en": "Reviews and reputation",
+      "my": "သုံးသပ်ချက်နှင့် ဂုဏ်သတင်း"
+    },
+    {
+      "key": "[\"text\",\"Local Search\"]",
+      "label": "Local Search",
+      "en": "Local Search",
+      "my": "ဒေသတွင်းရှာဖွေမှု"
+    },
+    {
+      "key": "[\"text\",\"Be found in your area\"]",
+      "label": "Be found in your area",
+      "en": "Be found in your area",
+      "my": "သင့်ဒေသတွင် ရှာတွေ့နိုင်ပါစေ"
+    },
+    {
+      "key": "[\"text\",\"Maps, directions and hours\"]",
+      "label": "Maps, directions and hours",
+      "en": "Maps, directions and hours",
+      "my": "မြေပုံ၊ လမ်းညွှန်နှင့် ဖွင့်ချိန်"
+    },
+    {
+      "key": "[\"text\",\"Local SEO essentials\"]",
+      "label": "Local SEO essentials",
+      "en": "Local SEO essentials",
+      "my": "ဒေသတွင်း SEO အခြေခံများ"
+    },
+    {
+      "key": "[\"text\",\"Foundations\"]",
+      "label": "Foundations",
+      "en": "Foundations",
+      "my": "အခြေခံစနစ်များ"
+    },
+    {
+      "key": "[\"text\",\"Website must-haves\"]",
+      "label": "Website must-haves",
+      "en": "Website must-haves",
+      "my": "ဝဘ်ဆိုက်တွင် မဖြစ်မနေ ပါသင့်သည်များ"
+    },
+    {
+      "key": "[\"text\",\"Domain, email and basics\"]",
+      "label": "Domain, email and basics",
+      "en": "Domain, email and basics",
+      "my": "ဒိုမိန်း၊ အီးမေးလ်နှင့် အခြေခံများ"
+    },
+    {
+      "key": "[\"text\",\"Plan your online presence\"]",
+      "label": "Plan your online presence",
+      "en": "Plan your online presence",
+      "my": "အွန်လိုင်းပုံရိပ်ကို စီစဉ်ပါ"
+    },
+    {
+      "key": "[\"text\",\"Consultation for an online business launch\"]",
+      "label": "Consultation for an online business launch",
+      "en": "Consultation for an online business launch",
+      "my": "အွန်လိုင်းလုပ်ငန်း စတင်ရန် ဆွေးနွေးခြင်း"
+    },
+    {
+      "key": "[\"text\",\"Need more than an article?\"]",
+      "label": "Need more than an article?",
+      "en": "Need more than an article?",
+      "my": "ဆောင်းပါးထက် ပိုမိုလိုအပ်ပါသလား?"
+    },
+    {
+      "key": "[\"text\",\"Every business is different. Let us talk about your goals and build a simple plan that makes sense for you.\"]",
+      "label": "Every business is different. Let us talk about your goals and build a simple plan that makes sense for you.",
+      "en": "Every business is different. Let us talk about your goals and build a simple plan that makes sense for you.",
+      "my": "လုပ်ငန်းတိုင်း မတူညီပါသည်။ သင့်ရည်မှန်းချက်များကို ဆွေးနွေးပြီး သင့်အတွက် အဓိပ္ပာယ်ရှိသော ရိုးရှင်းသည့်အစီအစဉ်ကို တည်ဆောက်ကြပါစို့။"
+    },
+    {
+      "key": "[\"text\",\"Practical guidance for local businesses\"]",
+      "label": "Practical guidance for local businesses",
+      "en": "Practical guidance for local businesses",
+      "my": "ဒေသတွင်းလုပ်ငန်းများအတွက် လက်တွေ့လမ်းညွှန်ချက်"
+    },
+    {
+      "key": "[\"text\",\"A useful place to start\"]",
+      "label": "A useful place to start",
+      "en": "A useful place to start",
+      "my": "စတင်ရန် အသုံးဝင်သောနေရာ"
+    },
+    {
+      "key": "[\"text\",\"Your practical checklist.\"]",
+      "label": "Your practical checklist.",
+      "en": "Your practical checklist.",
+      "my": "လက်တွေ့ စစ်ဆေးစာရင်း။"
+    },
+    {
+      "key": "[\"text\",\"Need a clear plan?\"]",
+      "label": "Need a clear plan?",
+      "en": "Need a clear plan?",
+      "my": "ရှင်းလင်းသော အစီအစဉ် လိုအပ်ပါသလား?"
+    },
+    {
+      "key": "[\"text\",\"Turn the ideas into a practical next step.\"]",
+      "label": "Turn the ideas into a practical next step.",
+      "en": "Turn the ideas into a practical next step.",
+      "my": "အကြံဉာဏ်များကို လက်တွေ့နောက်တစ်ဆင့်အဖြစ် ပြောင်းလဲပါ။"
+    },
+    {
+      "key": "[\"text\",\"We can review what your business already has, identify what matters most, and build a focused online foundation.\"]",
+      "label": "We can review what your business already has, identify what matters most, and build a focused online foundation.",
+      "en": "We can review what your business already has, identify what matters most, and build a focused online foundation.",
+      "my": "သင့်လုပ်ငန်းတွင် ရှိပြီးသားအရာများကို စစ်ဆေး၍ အရေးကြီးဆုံးအချက်များ သတ်မှတ်ကာ ဦးတည်ချက်ရှိသော အွန်လိုင်းအခြေခံစနစ်ကို တည်ဆောက်နိုင်ပါသည်။"
+    },
+    {
+      "key": "[\"text\",\"Back to all journal articles\"]",
+      "label": "Back to all journal articles",
+      "en": "Back to all journal articles",
+      "my": "ဆောင်းပါးအားလုံးသို့ ပြန်သွားရန်"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

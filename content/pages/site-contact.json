@@ -1,0 +1,403 @@
+{
+  "title": "Contact page & FAQs",
+  "strings": [
+    {
+      "key": "[\"text\",\"Consultation\"]",
+      "label": "Consultation",
+      "en": "Consultation",
+      "my": "ဆွေးနွေးတိုင်ပင်ခြင်း"
+    },
+    {
+      "key": "[\"text\",\"Tell us about your business.\"]",
+      "label": "Tell us about your business.",
+      "en": "Tell us about your business.",
+      "my": "သင့်လုပ်ငန်းအကြောင်း ပြောပြပါ။"
+    },
+    {
+      "key": "[\"text\",\"Share a few essentials and we’ll recommend a practical next step. You do not need to choose a package before getting in touch.\"]",
+      "label": "Share a few essentials and we’ll recommend a practical next step. You do not need to choose a package before getting in touch.",
+      "en": "Share a few essentials and we’ll recommend a practical next step. You do not need to choose a package before getting in touch.",
+      "my": "အခြေခံအချက်အနည်းငယ် မျှဝေပေးပါ။ လက်တွေ့ကျသော နောက်တစ်ဆင့်ကို အကြံပြုပါမည်။ မဆက်သွယ်မီ ပက်ကေ့ချ်ရွေးထားရန် မလိုအပ်ပါ။"
+    },
+    {
+      "key": "[\"text\",\"Name\"]",
+      "label": "Name",
+      "en": "Name",
+      "my": "အမည်"
+    },
+    {
+      "key": "[\"text\",\"Business name\"]",
+      "label": "Business name",
+      "en": "Business name",
+      "my": "လုပ်ငန်းအမည်"
+    },
+    {
+      "key": "[\"text\",\"Email\"]",
+      "label": "Email",
+      "en": "Email",
+      "my": "အီးမေးလ်"
+    },
+    {
+      "key": "[\"text\",\"Phone number\"]",
+      "label": "Phone number",
+      "en": "Phone number",
+      "my": "ဖုန်းနံပါတ်"
+    },
+    {
+      "key": "[\"text\",\"Select one\"]",
+      "label": "Select one",
+      "en": "Select one",
+      "my": "တစ်ခု ရွေးချယ်ပါ"
+    },
+    {
+      "key": "[\"text\",\"Phone\"]",
+      "label": "Phone",
+      "en": "Phone",
+      "my": "ဖုန်း"
+    },
+    {
+      "key": "[\"text\",\"Package interest\"]",
+      "label": "Package interest",
+      "en": "Package interest",
+      "my": "စိတ်ဝင်စားသော ပက်ကေ့ချ်"
+    },
+    {
+      "key": "[\"text\",\"Not sure yet\"]",
+      "label": "Not sure yet",
+      "en": "Not sure yet",
+      "my": "မသေချာသေးပါ"
+    },
+    {
+      "key": "[\"text\",\"Ideal launch timing\"]",
+      "label": "Ideal launch timing",
+      "en": "Ideal launch timing",
+      "my": "စတင်လိုသည့်အချိန်"
+    },
+    {
+      "key": "[\"text\",\"As soon as possible\"]",
+      "label": "As soon as possible",
+      "en": "As soon as possible",
+      "my": "အမြန်ဆုံး"
+    },
+    {
+      "key": "[\"text\",\"Within 1 month\"]",
+      "label": "Within 1 month",
+      "en": "Within 1 month",
+      "my": "၁ လအတွင်း"
+    },
+    {
+      "key": "[\"text\",\"Within 1–3 months\"]",
+      "label": "Within 1–3 months",
+      "en": "Within 1–3 months",
+      "my": "၁ လမှ ၃ လအတွင်း"
+    },
+    {
+      "key": "[\"text\",\"Just exploring\"]",
+      "label": "Just exploring",
+      "en": "Just exploring",
+      "my": "လေ့လာနေဆဲ"
+    },
+    {
+      "key": "[\"text\",\"Short message\"]",
+      "label": "Short message",
+      "en": "Short message",
+      "my": "အကြောင်းအရာအကျဉ်း"
+    },
+    {
+      "key": "[\"text\",\"Fields marked * are required.\"]",
+      "label": "Fields marked * are required.",
+      "en": "Fields marked * are required.",
+      "my": "* ပါသော အကွက်များကို မဖြစ်မနေ ဖြည့်ပါ။"
+    },
+    {
+      "key": "[\"text\",\"Quick contact\"]",
+      "label": "Quick contact",
+      "en": "Quick contact",
+      "my": "အမြန်ဆက်သွယ်ရန်"
+    },
+    {
+      "key": "[\"text\",\"Prefer to talk directly?\"]",
+      "label": "Prefer to talk directly?",
+      "en": "Prefer to talk directly?",
+      "my": "တိုက်ရိုက် ပြောဆိုလိုပါသလား။"
+    },
+    {
+      "key": "[\"text\",\"optional\"]",
+      "label": "Optional",
+      "en": "optional",
+      "my": "မဖြည့်လည်းရ"
+    },
+    {
+      "key": "[\"text\",\"Tell us about your business and what you hope to achieve.\"]",
+      "label": "Tell us about your business and what you hope to achieve.",
+      "en": "Tell us about your business and what you hope to achieve.",
+      "my": "သင့်လုပ်ငန်းနှင့် ရရှိလိုသည့် ရလဒ်ကို ပြောပြပါ။"
+    },
+    {
+      "key": "[\"text\",\"Your details are used only to respond to your enquiry.\"]",
+      "label": "Your details are used only to respond to your enquiry.",
+      "en": "Your details are used only to respond to your enquiry.",
+      "my": "သင့်အချက်အလက်များကို မေးမြန်းမှုအား ပြန်လည်ဖြေကြားရန်အတွက်သာ အသုံးပြုပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"Request a consultation\"]",
+      "label": "Request a consultation",
+      "en": "Request a consultation",
+      "my": "ဆွေးနွေးရန် တောင်းဆိုပါ"
+    },
+    {
+      "key": "[\"text\",\"How we can connect.\"]",
+      "label": "How we can connect.",
+      "en": "How we can connect.",
+      "my": "ဆက်သွယ်နိုင်သည့် နည်းလမ်းများ။"
+    },
+    {
+      "key": "[\"text\",\"Choose the route that feels easiest. We’ll confirm the details before the conversation.\"]",
+      "label": "Choose the route that feels easiest. We’ll confirm the details before the conversation.",
+      "en": "Choose the route that feels easiest. We’ll confirm the details before the conversation.",
+      "my": "သင့်အတွက် အလွယ်ဆုံးနည်းလမ်းကို ရွေးချယ်ပါ။ မဆွေးနွေးမီ အသေးစိတ်အချက်များကို အတည်ပြုပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"Arrange a call\"]",
+      "label": "Arrange a call",
+      "en": "Arrange a call",
+      "my": "ဖုန်းခေါ်ဆိုရန် စီစဉ်ပါ"
+    },
+    {
+      "key": "[\"text\",\"Receive a written reply\"]",
+      "label": "Receive a written reply",
+      "en": "Receive a written reply",
+      "my": "စာဖြင့် အကြောင်းပြန်ချက် ရယူပါ"
+    },
+    {
+      "key": "[\"text\",\"Continue by message\"]",
+      "label": "Continue by message",
+      "en": "Continue by message",
+      "my": "စာတိုဖြင့် ဆက်လက်ဆွေးနွေးပါ"
+    },
+    {
+      "key": "[\"text\",\"Confirm the business location\"]",
+      "label": "Confirm the business location",
+      "en": "Confirm the business location",
+      "my": "လုပ်ငန်းတည်နေရာ အတည်ပြုပါ"
+    },
+    {
+      "key": "[\"text\",\"Contact details confirmed before launch\"]",
+      "label": "Contact details confirmed before launch",
+      "en": "Contact details confirmed before launch",
+      "my": "မစတင်မီ ဆက်သွယ်ရန်အချက်အလက် အတည်ပြုမည်"
+    },
+    {
+      "key": "[\"text\",\"What happens next.\"]",
+      "label": "What happens next.",
+      "en": "What happens next.",
+      "my": "နောက်တစ်ဆင့်တွင် ဖြစ်လာမည့်အရာ။"
+    },
+    {
+      "key": "[\"text\",\"We review your needs\"]",
+      "label": "We review your needs",
+      "en": "We review your needs",
+      "my": "သင့်လိုအပ်ချက်များကို စစ်ဆေးပါမည်"
+    },
+    {
+      "key": "[\"text\",\"We look at your goals, timing, and current online setup.\"]",
+      "label": "We look at your goals, timing, and current online setup.",
+      "en": "We look at your goals, timing, and current online setup.",
+      "my": "ရည်မှန်းချက်၊ အချိန်နှင့် လက်ရှိအွန်လိုင်းစနစ်ကို လေ့လာပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"We recommend a foundation\"]",
+      "label": "We recommend a foundation",
+      "en": "We recommend a foundation",
+      "my": "သင့်တော်သော အခြေခံစနစ်ကို အကြံပြုပါမည်"
+    },
+    {
+      "key": "[\"text\",\"We suggest the package that best fits your priorities and budget.\"]",
+      "label": "We suggest the package that best fits your priorities and budget.",
+      "en": "We suggest the package that best fits your priorities and budget.",
+      "my": "ဦးစားပေးချက်နှင့် ဘတ်ဂျက်နှင့် အကိုက်ညီဆုံး ပက်ကေ့ချ်ကို အကြံပြုပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"We arrange the consultation\"]",
+      "label": "We arrange the consultation",
+      "en": "We arrange the consultation",
+      "my": "ဆွေးနွေးမှုကို စီစဉ်ပါမည်"
+    },
+    {
+      "key": "[\"text\",\"We confirm the channel, time, and checklist for the conversation.\"]",
+      "label": "We confirm the channel, time, and checklist for the conversation.",
+      "en": "We confirm the channel, time, and checklist for the conversation.",
+      "my": "ဆက်သွယ်နည်း၊ အချိန်နှင့် ဆွေးနွေးရန်စာရင်းကို အတည်ပြုပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"A useful first conversation, not a sales performance.\"]",
+      "label": "A useful first conversation, not a sales performance.",
+      "en": "A useful first conversation, not a sales performance.",
+      "my": "အရောင်းအတင်းမဟုတ်ဘဲ အသုံးဝင်သော ပထမဆုံးဆွေးနွေးမှု။"
+    },
+    {
+      "key": "[\"text\",\"Clear questions\"]",
+      "label": "Clear questions",
+      "en": "Clear questions",
+      "my": "ရှင်းလင်းသော မေးခွန်းများ"
+    },
+    {
+      "key": "[\"text\",\"We focus on your goals, customers, and current gaps.\"]",
+      "label": "We focus on your goals, customers, and current gaps.",
+      "en": "We focus on your goals, customers, and current gaps.",
+      "my": "သင့်ရည်မှန်းချက်၊ ဖောက်သည်နှင့် လက်ရှိလိုအပ်ချက်များကို အာရုံစိုက်ပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"Honest recommendation\"]",
+      "label": "Honest recommendation",
+      "en": "Honest recommendation",
+      "my": "ရိုးသားသော အကြံပြုချက်"
+    },
+    {
+      "key": "[\"text\",\"We suggest only what is useful for your business right now.\"]",
+      "label": "We suggest only what is useful for your business right now.",
+      "en": "We suggest only what is useful for your business right now.",
+      "my": "ယခုအချိန်တွင် သင့်လုပ်ငန်းအတွက် အသုံးဝင်သည်ကိုသာ အကြံပြုပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"No technical pressure\"]",
+      "label": "No technical pressure",
+      "en": "No technical pressure",
+      "my": "နည်းပညာပိုင်း ဖိအားမရှိပါ"
+    },
+    {
+      "key": "[\"text\",\"Every option is explained clearly and in plain language.\"]",
+      "label": "Every option is explained clearly and in plain language.",
+      "en": "Every option is explained clearly and in plain language.",
+      "my": "ရွေးချယ်စရာတိုင်းကို ရိုးရှင်းရှင်းလင်းလင်း ရှင်းပြပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"A few things worth bringing.\"]",
+      "label": "A few things worth bringing.",
+      "en": "A few things worth bringing.",
+      "my": "ယူဆောင်လာသင့်သည့် အချက်အလက်အနည်းငယ်။"
+    },
+    {
+      "key": "[\"text\",\"Having these ready helps us make the most of our time together.\"]",
+      "label": "Having these ready helps us make the most of our time together.",
+      "en": "Having these ready helps us make the most of our time together.",
+      "my": "ဤအရာများ အသင့်ရှိပါက ဆွေးနွေးချိန်ကို အကျိုးရှိစွာ အသုံးချနိုင်ပါသည်။"
+    },
+    {
+      "key": "[\"text\",\"Current website or pages\"]",
+      "label": "Current website or pages",
+      "en": "Current website or pages",
+      "my": "လက်ရှိဝဘ်ဆိုက် သို့မဟုတ် စာမျက်နှာများ"
+    },
+    {
+      "key": "[\"text\",\"Existing domain & email\"]",
+      "label": "Existing domain & email",
+      "en": "Existing domain & email",
+      "my": "လက်ရှိဒိုမိန်းနှင့် အီးမေးလ်"
+    },
+    {
+      "key": "[\"text\",\"Company profile\"]",
+      "label": "Company profile",
+      "en": "Company profile",
+      "my": "ကုမ္ပဏီအကြောင်းအရာ"
+    },
+    {
+      "key": "[\"text\",\"Contact details\"]",
+      "label": "Contact details",
+      "en": "Contact details",
+      "my": "ဆက်သွယ်ရန်အချက်အလက်"
+    },
+    {
+      "key": "[\"text\",\"Business name and location\"]",
+      "label": "Business name and location",
+      "en": "Business name and location",
+      "my": "လုပ်ငန်းအမည်နှင့် တည်နေရာ"
+    },
+    {
+      "key": "[\"text\",\"Planning materials for a consultation\"]",
+      "label": "Planning materials for a consultation",
+      "en": "Planning materials for a consultation",
+      "my": "ဆွေးနွေးမှုအတွက် ပြင်ဆင်ထားသော အချက်အလက်များ"
+    },
+    {
+      "key": "[\"text\",\"Before you send.\"]",
+      "label": "Before you send.",
+      "en": "Before you send.",
+      "my": "မပေးပို့မီ သိထားသင့်သည်များ။"
+    },
+    {
+      "key": "[\"text\",\"Do I need to choose a package first?\"]",
+      "label": "Do I need to choose a package first?",
+      "en": "Do I need to choose a package first?",
+      "my": "ပက်ကေ့ချ်ကို အရင်ရွေးရန် လိုအပ်ပါသလား?"
+    },
+    {
+      "key": "[\"text\",\"What happens after I submit the form?\"]",
+      "label": "What happens after I submit the form?",
+      "en": "What happens after I submit the form?",
+      "my": "ဖောင်ပေးပို့ပြီးနောက် ဘာဖြစ်မလဲ?"
+    },
+    {
+      "key": "[\"text\",\"How soon can a project begin?\"]",
+      "label": "How soon can a project begin?",
+      "en": "How soon can a project begin?",
+      "my": "ပရောဂျက်ကို မည်မျှမြန်မြန် စတင်နိုင်ပါသလဲ?"
+    },
+    {
+      "key": "[\"text\",\"No. We’ll guide you towards the package that best fits your current needs, priorities, and budget.\"]",
+      "label": "No. We’ll guide you towards the package that best fits your current needs, priorities, and budget.",
+      "en": "No. We’ll guide you towards the package that best fits your current needs, priorities, and budget.",
+      "my": "မလိုအပ်ပါ။ လက်ရှိလိုအပ်ချက်၊ ဦးစားပေးချက်နှင့် ဘတ်ဂျက်နှင့် အကိုက်ညီဆုံး ပက်ကေ့ချ်ကို လမ်းညွှန်ပေးပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"We’ll review the details you share and contact you through your preferred channel to arrange the next conversation.\"]",
+      "label": "We’ll review the details you share and contact you through your preferred channel to arrange the next conversation.",
+      "en": "We’ll review the details you share and contact you through your preferred channel to arrange the next conversation.",
+      "my": "မျှဝေထားသော အချက်အလက်များကို စစ်ဆေးပြီး သင်နှစ်သက်သော နည်းလမ်းမှတစ်ဆင့် ဆက်သွယ်ပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"Bring the details for your existing website, domain, and hosting. We’ll review the current setup and recommend how to update or improve its hosting structure.\"]",
+      "label": "Bring the details for your existing website, domain, and hosting. We’ll review the current setup and recommend how to update or improve its hosting structure.",
+      "en": "Bring the details for your existing website, domain, and hosting. We’ll review the current setup and recommend how to update or improve its hosting structure.",
+      "my": "လက်ရှိဝဘ်ဆိုက်၊ ဒိုမိန်းနှင့် hosting အချက်အလက်များ ယူလာပါ။ လက်ရှိစနစ်ကို စစ်ဆေးပြီး မွမ်းမံသင့်ပုံကို အကြံပြုပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"We’ll provide a project checklist first. Once everything on it is ready, we’ll meet to confirm the plan and begin the design work.\"]",
+      "label": "We’ll provide a project checklist first. Once everything on it is ready, we’ll meet to confirm the plan and begin the design work.",
+      "en": "We’ll provide a project checklist first. Once everything on it is ready, we’ll meet to confirm the plan and begin the design work.",
+      "my": "ပရောဂျက်စစ်ဆေးစာရင်းကို ဦးစွာပေးပါမည်။ အားလုံးအသင့်ဖြစ်လျှင် အစီအစဉ်အတည်ပြုပြီး ဒီဇိုင်းလုပ်ငန်း စတင်ပါမည်။"
+    },
+    {
+      "key": "[\"text\",\"Not ready to enquire yet?\"]",
+      "label": "Not ready to enquire yet?",
+      "en": "Not ready to enquire yet?",
+      "my": "မေးမြန်းရန် အသင့်မဖြစ်သေးပါသလား?"
+    },
+    {
+      "key": "[\"text\",\"Explore ideas and practical guidance that may help shape your plan.\"]",
+      "label": "Explore ideas and practical guidance that may help shape your plan.",
+      "en": "Explore ideas and practical guidance that may help shape your plan.",
+      "my": "သင့်အစီအစဉ်ကို ပုံဖော်ပေးနိုင်သည့် အကြံဉာဏ်နှင့် လက်တွေ့လမ်းညွှန်ချက်များကို လေ့လာပါ။"
+    },
+    {
+      "key": "[\"text\",\"Explore services\"]",
+      "label": "Explore services",
+      "en": "Explore services",
+      "my": "ဝန်ဆောင်မှုများ ကြည့်ရှုရန်"
+    },
+    {
+      "key": "[\"text\",\"Read the journal\"]",
+      "label": "Read the journal",
+      "en": "Read the journal",
+      "my": "ဆောင်းပါးများ ဖတ်ရန်"
+    },
+    {
+      "key": "[\"text\",\"What if I already have a website or domain?\"]",
+      "label": "What if I already have a website or domain?",
+      "en": "What if I already have a website or domain?",
+      "my": "What if I already have a website or domain?"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

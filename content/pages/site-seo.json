@@ -1,0 +1,79 @@
+{
+  "title": "Search & sharing descriptions",
+  "strings": [
+    {
+      "key": "[\"/\",0]",
+      "label": "/ · Item 1",
+      "en": "Websites & Online Presence",
+      "my": "ဝဘ်ဆိုက်နှင့် အွန်လိုင်းလုပ်ငန်းပုံရိပ်"
+    },
+    {
+      "key": "[\"/\",1]",
+      "label": "/ · Item 2",
+      "en": "Yi Digital builds websites and online presence for businesses in Yangon, Myanmar. Help customers find you, trust you, and get in touch.",
+      "my": "Yi Digital သည် လုပ်ငန်းများအတွက် ဝဘ်ဆိုက်နှင့် အွန်လိုင်းလုပ်ငန်းပုံရိပ်ကို ဖန်တီးပေးပါသည်။ ဖောက်သည်များ သင့်လုပ်ငန်းကို ရှာတွေ့ပြီး ယုံကြည်စွာ ဆက်သွယ်နိုင်ရန် ကူညီပေးပါသည်။"
+    },
+    {
+      "key": "[\"/services\",0]",
+      "label": "/services · Item 1",
+      "en": "Website Services & Packages",
+      "my": "ဝဘ်ဆိုက်ဝန်ဆောင်မှုများနှင့် ပက်ကေ့ချ်များ"
+    },
+    {
+      "key": "[\"/services\",1]",
+      "label": "/services · Item 2",
+      "en": "Explore Yi Digital website packages, online presence services, and add-ons to find the right scope for your business.",
+      "my": "သင့်လုပ်ငန်းနှင့် ကိုက်ညီမည့် Yi Digital ဝဘ်ဆိုက်ပက်ကေ့ချ်များ၊ အွန်လိုင်းဝန်ဆောင်မှုများနှင့် ထပ်တိုးဝန်ဆောင်မှုများကို လေ့လာပါ။"
+    },
+    {
+      "key": "[\"/our-work\",0]",
+      "label": "/our-work · Item 1",
+      "en": "Previous Work",
+      "my": "ယခင်လုပ်ဆောင်ခဲ့သော ပရောဂျက်များ"
+    },
+    {
+      "key": "[\"/our-work\",1]",
+      "label": "/our-work · Item 2",
+      "en": "Explore Yi Digital website projects, from exporter company profiles to restaurant and hotel websites.",
+      "my": "ကုန်ပစ္စည်းတင်ပို့ရေးကုမ္ပဏီ၊ စားသောက်ဆိုင်နှင့် ဟိုတယ်များအတွက် Yi Digital ဖန်တီးထားသော ဝဘ်ဆိုက်ပရောဂျက်များကို လေ့လာပါ။"
+    },
+    {
+      "key": "[\"/journal\",0]",
+      "label": "/journal · Item 1",
+      "en": "Journal",
+      "my": "ဆောင်းပါးများ"
+    },
+    {
+      "key": "[\"/journal\",1]",
+      "label": "/journal · Item 2",
+      "en": "Practical guidance from Yi Digital on websites, online visibility, and building customer trust for your business.",
+      "my": "ဝဘ်ဆိုက်များ၊ အွန်လိုင်းတွင် ရှာတွေ့နိုင်မှုနှင့် ဖောက်သည်ယုံကြည်မှု တည်ဆောက်ခြင်းအကြောင်း Yi Digital ၏ လက်တွေ့အသုံးဝင်သော အကြံပြုချက်များကို ဖတ်ရှုပါ။"
+    },
+    {
+      "key": "[\"/contact\",0]",
+      "label": "/contact · Item 1",
+      "en": "Contact & Consultation",
+      "my": "ဆက်သွယ်ရန်နှင့် ဆွေးနွေးတိုင်ပင်ရန်"
+    },
+    {
+      "key": "[\"/contact\",1]",
+      "label": "/contact · Item 2",
+      "en": "Tell Yi Digital about your business and request a consultation. Contact our Yangon team by phone, email, or Viber.",
+      "my": "သင့်လုပ်ငန်းအကြောင်း Yi Digital ကို ပြောပြပြီး ဆွေးနွေးတိုင်ပင်မှု တောင်းဆိုပါ။ ရန်ကုန်ရှိ ကျွန်ုပ်တို့အဖွဲ့ကို ဖုန်း၊ အီးမေးလ် သို့မဟုတ် Viber ဖြင့် ဆက်သွယ်နိုင်ပါသည်။"
+    },
+    {
+      "key": "[\"/motion\",0]",
+      "label": "/motion · Item 1",
+      "en": "Animation & Interactive Experiences",
+      "my": "အန်နီမေးရှင်းနှင့် အပြန်အလှန်တုံ့ပြန်မှု"
+    },
+    {
+      "key": "[\"/motion\",1]",
+      "label": "/motion · Item 2",
+      "en": "Explore Yi Digital motion examples, interactive reveals, and animation ideas for your website or product story.",
+      "my": "သင့်ဝဘ်ဆိုက်နှင့် ကုန်ပစ္စည်းအတွက် Yi Digital ၏ အန်နီမေးရှင်းနမူနာများနှင့် အပြန်အလှန်တုံ့ပြန်နိုင်သော ဖန်တီးမှုများကို လေ့လာပါ။"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

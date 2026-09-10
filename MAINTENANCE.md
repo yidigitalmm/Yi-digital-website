@@ -1,54 +1,28 @@
 # Dependency maintenance
 
-Use Node 24 for local builds and Cloudflare Pages. `.node-version` selects that
-major version; `package.json` also records the supported Node ranges. Run installs
-from the repository root so the root lockfile and dependency overrides apply to
-both the website and Sanity Studio.
+Use Node 24 and install from the repository root with `npm ci`. Sanity and its transitive dependencies have been removed.
 
-## Security fixes applied on 2026-09-10
+## Decap editor
 
-- Vitest 4.1.11 fixes the mock-server file-read advisory.
-- Targeted overrides select `js-yaml` 3.15.2 and `smol-toml` 1.8.0 under
-  `@vercel/frameworks`, which still pins vulnerable versions.
-- `typeid-js` 1.2.0 uses UUID 11.1.1 via an override. This preserves CommonJS
-  support while fixing the UUID buffer-bounds advisory.
-- React and React DOM are aligned at 19.2.8 in the website and Studio to satisfy
-  the Sanity editor's peer requirement.
+The browser editor is pinned to Decap CMS 3.16.2 and served locally from `public/admin/vendor/decap-3.16.2/`. It was obtained from the official npm package and checked against its registry SHA-512 integrity value. Keep the license notices. Vendoring avoids a third-party CDN dependency at sign-in.
 
-Remove the overrides when the parent packages adopt patched versions themselves.
-Verify the website tests, CMS sync, Studio build, and TypeID UUID round-trip when
-changing them.
+When upgrading, download the official `decap-cms` package, verify its registry integrity, and replace the main `decap-cms.js`, `*.decap-cms.js` lazy chunks, CSS, WASM and license notice in a new version directory. Update `public/admin/index.html`. The duplicate `*.cms.js` variant and source maps are unnecessary. Verify editor loading, image selection, saving existing and new entries, and production OAuth before release. npm audit does not scan this vendored browser bundle.
 
-## Remaining upstream advisory
+The local editing server is `decap-server` 3.11.2. It binds only to `127.0.0.1`; never expose it publicly because it writes working files without production authentication.
 
-`adm-zip` 0.6.0 has no published patched release as of this review:
-https://github.com/advisories/GHSA-vwc7-r8mq-g2x9
+## Dependency audit on 2026-09-10
 
-The audit counts this issue in eight packages through Sanity CLI and module
-federation dependencies. The vulnerability requires an attacker-controlled
-symbolic link in an archive extraction destination and extraction with overwrite
-enabled. Use clean, private build workspaces; do not run these CLI extraction
-operations in directories writable by untrusted users. These packages are not
-used by the public contact endpoint. Do not use `npm audit fix --force` to resolve
-this report: its current proposal downgrades Sanity across a major version.
+A `qs` override selects 6.16.0 because Express currently constrains an older minor release with known advisories. Remove the override when its parent packages adopt a patched version.
 
-## Build maintenance
-
-The Vite configuration's local import graph uses explicit TypeScript extensions
-and JSON import attributes for native loading. Router code is emitted as a
-separate shared bundle to keep the application bundle below the default warning
-threshold, without raising or suppressing that threshold.
+Two low-severity audit entries remain from the same upstream `@hapi/joi` custom-message prototype-pollution advisory and its dependent `decap-server`. npm reports no available fix. This dependency belongs to the local development editor server, not the deployed Worker. Track [the advisory](https://github.com/advisories/GHSA-6w3j-5fw6-r9vr) and upstream Decap releases. Avoid forced major-version changes solely to suppress audit output.
 
 Routine checks:
 
 ```sh
 npm ci
 npm run build
-npm test -- --run
-npm run cms:build
 npm audit
 npm audit --omit=dev
 ```
 
-The full audit remains nonzero until the upstream archive issue is fixed; the
-production-only audit should remain clean.
+The production-dependency audit should remain clean. Keep credentials outside the repository and preserve the contact service's runtime secrets during CMS maintenance.
