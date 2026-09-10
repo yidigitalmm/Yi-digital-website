@@ -3,11 +3,16 @@
   "order": 6,
   "image": "/uploads/1a1624153d92776f3bd7701c6a6159723da42a68-1536x1024.webp",
   "en": {
-    "title": "The quiet power of a complete Google profile",
-    "category": "Local search",
-    "summary": "A complete Google Business Profile helps nearby customers understand, trust, and reach your business at the moment they are searching.",
-    "imageAlt": "Complete local business profile with photos, reviews, hours, directions, phone, and website shown outside the matching cafe",
     "readTime": "6 min read",
+    "checklist": [
+      "The correct primary category and complete service information",
+      "Accurate regular and special opening hours",
+      "A matching website, phone number, address, or service area",
+      "Recent, authentic photographs of the business",
+      "A consistent process for requesting and responding to reviews",
+      "Testing Decap CMS"
+    ],
+    "summary": "A complete Google Business Profile helps nearby customers understand, trust, and reach your business at the moment they are searching.",
     "intro": "For many local businesses, the Google Business Profile is more visible than the website. It appears when customers search by name, compare nearby options, request directions, check hours, or decide whether to call.",
     "sections": [
       {
@@ -39,21 +44,21 @@
         ]
       }
     ],
-    "checklist": [
-      "The correct primary category and complete service information",
-      "Accurate regular and special opening hours",
-      "A matching website, phone number, address, or service area",
-      "Recent, authentic photographs of the business",
-      "A consistent process for requesting and responding to reviews"
-    ],
-    "closing": "A complete profile does not shout. It quietly answers the right questions at the exact moment a nearby customer is ready to choose."
+    "imageAlt": "Complete local business profile with photos, reviews, hours, directions, phone, and website shown outside the matching cafe",
+    "closing": "A complete profile does not shout. It quietly answers the right questions at the exact moment a nearby customer is ready to choose.",
+    "title": "The quiet power of a complete Google profile",
+    "category": "Local search"
   },
   "my": {
-    "title": "ပြည့်စုံသော Google လုပ်ငန်းပရိုဖိုင်၏ တိတ်ဆိတ်သောစွမ်းအား",
-    "category": "ဒေသတွင်းရှာဖွေမှု",
-    "summary": "ပြည့်စုံသော Google Business Profile က အနီးအနားရှိ ဖောက်သည်များ ရှာဖွေနေချိန်တွင် သင့်လုပ်ငန်းကို နားလည်၊ ယုံကြည်ပြီး ဆက်သွယ်ရန် ကူညီပေးသည်။",
-    "imageAlt": "ဆိုင်ရှေ့တွင် ဓာတ်ပုံ၊ သုံးသပ်ချက်၊ ဖွင့်ချိန်၊ လမ်းညွှန်၊ ဖုန်းနှင့် ဝဘ်ဆိုက်ပါသော ပြည့်စုံသည့် ဒေသတွင်းလုပ်ငန်းပရိုဖိုင်",
     "readTime": "ဖတ်ချိန် ၆ မိနစ်",
+    "checklist": [
+      "မှန်ကန်သော အဓိကအမျိုးအစားနှင့် ပြည့်စုံသောဝန်ဆောင်မှုအချက်အလက်",
+      "မှန်ကန်သော ပုံမှန်နှင့် အထူးဖွင့်ချိန်",
+      "ကိုက်ညီသော ဝဘ်ဆိုက်၊ ဖုန်း၊ လိပ်စာ သို့မဟုတ် ဝန်ဆောင်မှုဧရိယာ",
+      "လတ်တလော အစစ်အမှန်လုပ်ငန်းဓာတ်ပုံ",
+      "သုံးသပ်ချက်တောင်းခြင်းနှင့် တုံ့ပြန်ခြင်းအတွက် တစ်သမတ်တည်းလုပ်ငန်းစဉ်"
+    ],
+    "summary": "ပြည့်စုံသော Google Business Profile က အနီးအနားရှိ ဖောက်သည်များ ရှာဖွေနေချိန်တွင် သင့်လုပ်ငန်းကို နားလည်၊ ယုံကြည်ပြီး ဆက်သွယ်ရန် ကူညီပေးသည်။",
     "intro": "ဒေသတွင်းလုပ်ငန်းများစွာအတွက် Google Business Profile သည် ဝဘ်ဆိုက်ထက် ပိုမြင်သာသည်။ ဖောက်သည်များ အမည်ဖြင့်ရှာခြင်း၊ အနီးအနားရွေးချယ်စရာ နှိုင်းယှဉ်ခြင်း၊ လမ်းညွှန်တောင်းခြင်း၊ ဖွင့်ချိန်ကြည့်ခြင်းနှင့် ဖုန်းခေါ်ရန် ဆုံးဖြတ်ချိန်တွင် ပေါ်လာသည်။",
     "sections": [
       {
@@ -85,13 +90,9 @@
         ]
       }
     ],
-    "checklist": [
-      "မှန်ကန်သော အဓိကအမျိုးအစားနှင့် ပြည့်စုံသောဝန်ဆောင်မှုအချက်အလက်",
-      "မှန်ကန်သော ပုံမှန်နှင့် အထူးဖွင့်ချိန်",
-      "ကိုက်ညီသော ဝဘ်ဆိုက်၊ ဖုန်း၊ လိပ်စာ သို့မဟုတ် ဝန်ဆောင်မှုဧရိယာ",
-      "လတ်တလော အစစ်အမှန်လုပ်ငန်းဓာတ်ပုံ",
-      "သုံးသပ်ချက်တောင်းခြင်းနှင့် တုံ့ပြန်ခြင်းအတွက် တစ်သမတ်တည်းလုပ်ငန်းစဉ်"
-    ],
-    "closing": "ပြည့်စုံသောပရိုဖိုင်သည် အော်ဟစ်မနေပါ။ အနီးအနားရှိ ဖောက်သည်ရွေးချယ်ရန် အသင့်ဖြစ်သည့်အချိန်တွင် မှန်ကန်သောမေးခွန်းများကို တိတ်ဆိတ်စွာ ဖြေပေးသည်။"
+    "imageAlt": "ဆိုင်ရှေ့တွင် ဓာတ်ပုံ၊ သုံးသပ်ချက်၊ ဖွင့်ချိန်၊ လမ်းညွှန်၊ ဖုန်းနှင့် ဝဘ်ဆိုက်ပါသော ပြည့်စုံသည့် ဒေသတွင်းလုပ်ငန်းပရိုဖိုင်",
+    "closing": "ပြည့်စုံသောပရိုဖိုင်သည် အော်ဟစ်မနေပါ။ အနီးအနားရှိ ဖောက်သည်ရွေးချယ်ရန် အသင့်ဖြစ်သည့်အချိန်တွင် မှန်ကန်သောမေးခွန်းများကို တိတ်ဆိတ်စွာ ဖြေပေးသည်။",
+    "title": "ပြည့်စုံသော Google လုပ်ငန်းပရိုဖိုင်၏ တိတ်ဆိတ်သောစွမ်းအား",
+    "category": "ဒေသတွင်းရှာဖွေမှု"
   }
 }
