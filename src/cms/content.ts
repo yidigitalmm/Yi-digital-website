@@ -1,9 +1,9 @@
-import snapshot from "./snapshot.json";
-import { journalArticles, type JournalArticle } from "../journalContent";
-import { journalArticlesMy } from "../journalContent.my";
-import { workItems } from "../workContent";
-import { localize } from "../i18n";
-import type { Locale } from "../content";
+import snapshot from "./snapshot.json" with { type: "json" };
+import { journalArticles, type JournalArticle } from "../journalContent.ts";
+import { journalArticlesMy } from "../journalContent.my.ts";
+import { workItems } from "../workContent.ts";
+import { localize } from "../i18n.ts";
+import type { Locale } from "../content.ts";
 
 export type WorkItem = {
   type: string; title: string; summary: string; image: string;

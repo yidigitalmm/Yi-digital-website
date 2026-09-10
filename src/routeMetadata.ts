@@ -1,9 +1,9 @@
-import { business, getMedia } from "./cms/siteContent";
-import { type Locale } from "./content";
-import { getArticles } from "./cms/content";
+import { business, getMedia } from "./cms/siteContent.ts";
+import { type Locale } from "./content.ts";
+import { getArticles } from "./cms/content.ts";
 
-export { seoCopy as pages } from "./cms/siteContent";
-import { seoCopy as pages } from "./cms/siteContent";
+export { seoCopy as pages } from "./cms/siteContent.ts";
+import { seoCopy as pages } from "./cms/siteContent.ts";
 
 export const publicRoutes = [...Object.keys(pages.en), ...getArticles("en").map(article => `/journal/${article.slug}`)];
 

@@ -1,6 +1,6 @@
 import { defineConfig } from "vitest/config";
 import react from "@vitejs/plugin-react";
-import { staticRouteHtml } from "./scripts/static-route-html";
+import { staticRouteHtml } from "./scripts/static-route-html.ts";
 
 export default defineConfig({
   plugins: [react(), staticRouteHtml()],
@@ -9,6 +9,7 @@ export default defineConfig({
       output: {
         codeSplitting: {
           groups: [
+            { name: "router-vendor", test: /node_modules\/(react-router|react-router-dom)\// },
             { name: "react-vendor", test: /node_modules\/(react|react-dom|scheduler)\// },
             { name: "animation-vendor", test: /node_modules\/(gsap|@gsap|motion|motion-dom|motion-utils|framer-motion)\// },
             { name: "three-core", test: /node_modules\/three\/build\/three.core/ },

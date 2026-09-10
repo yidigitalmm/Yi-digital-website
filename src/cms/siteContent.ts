@@ -1,8 +1,8 @@
-import snapshot from "./snapshot.json";
-import { applyEntries, type SitePage, type MediaItem } from "./siteModel";
-import { animationDefaults, businessDefaults } from "./siteDefaults";
-import { pages } from "../seoDefaults";
-import { interfaceDefaults } from "../interfaceCopyDefaults";
+import snapshot from "./snapshot.json" with { type: "json" };
+import { applyEntries, type SitePage, type MediaItem } from "./siteModel.ts";
+import { animationDefaults, businessDefaults } from "./siteDefaults.ts";
+import { pages } from "../seoDefaults.ts";
+import { interfaceDefaults } from "../interfaceCopyDefaults.ts";
 const site = snapshot as unknown as { pages?: SitePage[]; media?: MediaItem[]; business?: typeof businessDefaults };
 export function pageContent<T>(id: string, locale: "en" | "my", fallback: T): T {
   return applyEntries(fallback, site.pages?.find(page => page.id === id)?.entries ?? [], locale);

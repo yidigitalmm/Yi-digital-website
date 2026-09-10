@@ -1,4 +1,4 @@
-import { copy, type Locale } from "./content";
+import { copy, type Locale } from "./content.ts";
 
 export type CopySection = "global" | "services" | "previousWork" | "journal" | "contact";
 

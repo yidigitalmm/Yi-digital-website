@@ -1,4 +1,4 @@
-import type { JournalArticle } from "./journalContent";
+import type { JournalArticle } from "./journalContent.ts";
 
 export const journalArticlesMy: JournalArticle[] = [
   {

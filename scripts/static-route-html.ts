@@ -1,9 +1,9 @@
-import { business } from "../src/cms/siteContent";
-import { absoluteImageUrl } from "../src/cms/content";
+import { business } from "../src/cms/siteContent.ts";
+import { absoluteImageUrl } from "../src/cms/content.ts";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve, dirname } from "node:path";
 import type { Plugin } from "vite";
-import { getRouteMetadata, publicRoutes } from "../src/routeMetadata";
+import { getRouteMetadata, publicRoutes } from "../src/routeMetadata.ts";
 
 const escape = (value: string) => value.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 

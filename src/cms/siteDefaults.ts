@@ -1,7 +1,7 @@
-import { copy, images } from "../contentDefaults";
-import { showcaseCopy, startEndCopy, cameraCopy } from "../animationCopyDefaults";
-import { pages } from "../seoDefaults";
-import { interfaceDefaults } from "../interfaceCopyDefaults";
+import { copy, images } from "../contentDefaults.ts";
+import { showcaseCopy, startEndCopy, cameraCopy } from "../animationCopyDefaults.ts";
+import { pages } from "../seoDefaults.ts";
+import { interfaceDefaults } from "../interfaceCopyDefaults.ts";
 export const businessDefaults = {
   brandName: "Yi Digital", phone: "+95 9251183379", phoneNumber: "+959251183379", email: "yidigitalmm@gmail.com", viberNumber: "+959251183379",
   address: "132 Bogalayzay Street, Botahtaung Township, Yangon, 11161",

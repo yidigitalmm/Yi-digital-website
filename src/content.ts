@@ -1,6 +1,6 @@
-import { copy as defaults, images as defaultImages } from "./contentDefaults";
-import { pageContent, getMedia } from "./cms/siteContent";
-export type { Locale } from "./contentDefaults";
+import { copy as defaults, images as defaultImages } from "./contentDefaults.ts";
+import { pageContent, getMedia } from "./cms/siteContent.ts";
+export type { Locale } from "./contentDefaults.ts";
 function localized(locale: "en" | "my") {
   const original = defaults[locale];
   const prices = pageContent("site-packages", locale, {

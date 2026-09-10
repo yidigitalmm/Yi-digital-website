@@ -1,4 +1,4 @@
-import type { Locale } from "./contentDefaults";
+import type { Locale } from "./contentDefaults.ts";
 export const pages = {
   en: {
     "/": ["Websites & Online Presence", "Yi Digital builds websites and online presence for businesses in Yangon, Myanmar. Help customers find you, trust you, and get in touch."],

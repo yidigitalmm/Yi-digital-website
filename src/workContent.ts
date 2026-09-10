@@ -1,4 +1,4 @@
-import { images } from "./content";
+import { images } from "./content.ts";
 
 export const workItems = [
   {
