@@ -3,6 +3,12 @@ name: CMS preview link
 on:
   check_run:
     types: [completed]
+  workflow_dispatch:
+    inputs:
+      check_run_id:
+        description: Cloudflare check ID to replay for an existing preview
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -11,7 +17,10 @@ permissions:
 
 jobs:
   preview-link:
-    if: github.event.check_run.app.id == 85455 && github.event.check_run.name == 'Workers Builds: yi-digital-website'
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.check_run.app.id == 85455 &&
+       github.event.check_run.name == 'Workers Builds: yi-digital-website')
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -26,7 +35,7 @@ jobs:
             const { previewStatus } = require('./scripts/github/preview-status.cjs');
             const { data: check } = await github.rest.checks.get({
               ...context.repo,
-              check_run_id: context.payload.check_run.id,
+              check_run_id: context.payload.check_run?.id ?? Number(context.payload.inputs.check_run_id),
             });
             const status = previewStatus(check);
             if (status) await github.rest.repos.createCommitStatus({ ...context.repo, ...status });
