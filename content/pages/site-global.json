@@ -1,0 +1,85 @@
+{
+  "title": "Navigation & footer",
+  "strings": [
+    {
+      "key": "[\"copyright\"]",
+      "label": "Copyright",
+      "en": "© 2026 Yi Digital. All rights reserved.",
+      "my": "© ၂၀၂၆ Yi Digital။ မူပိုင်ခွင့်အားလုံး ရယူထားသည်။"
+    },
+    {
+      "key": "[\"text\",\"Switch to dark mode\"]",
+      "label": "Switch to dark mode",
+      "en": "Switch to dark mode",
+      "my": "အမှောင်ပုံစံသို့ ပြောင်းရန်"
+    },
+    {
+      "key": "[\"text\",\"Switch to light mode\"]",
+      "label": "Switch to light mode",
+      "en": "Switch to light mode",
+      "my": "အလင်းပုံစံသို့ ပြောင်းရန်"
+    },
+    {
+      "key": "[\"text\",\"Book a consultation\"]",
+      "label": "Book a consultation",
+      "en": "Book a consultation",
+      "my": "ဆွေးနွေးရန် ဆက်သွယ်ပါ"
+    },
+    {
+      "key": "[\"text\",\"Our process\"]",
+      "label": "Our process",
+      "en": "Our process",
+      "my": "ကျွန်ုပ်တို့၏ လုပ်ငန်းစဉ်"
+    },
+    {
+      "key": "[\"text\",\"Discover\"]",
+      "label": "Discover",
+      "en": "Discover",
+      "my": "လေ့လာခြင်း"
+    },
+    {
+      "key": "[\"text\",\"We learn about your business, goals, and your customers.\"]",
+      "label": "We learn about your business, goals, and your customers.",
+      "en": "We learn about your business, goals, and your customers.",
+      "my": "သင့်လုပ်ငန်း၊ ရည်မှန်းချက်များနှင့် ဖောက်သည်များကို လေ့လာပါသည်။"
+    },
+    {
+      "key": "[\"text\",\"Define\"]",
+      "label": "Define",
+      "en": "Define",
+      "my": "သတ်မှတ်ခြင်း"
+    },
+    {
+      "key": "[\"text\",\"We plan your presence and align the essentials for success.\"]",
+      "label": "We plan your presence and align the essentials for success.",
+      "en": "We plan your presence and align the essentials for success.",
+      "my": "အောင်မြင်ရန်လိုအပ်သော အွန်လိုင်းပုံရိပ်နှင့် အခြေခံအချက်များကို စီစဉ်ပါသည်။"
+    },
+    {
+      "key": "[\"text\",\"Build\"]",
+      "label": "Build",
+      "en": "Build",
+      "my": "တည်ဆောက်ခြင်း"
+    },
+    {
+      "key": "[\"text\",\"We create, configure, and customize your online foundation.\"]",
+      "label": "We create, configure, and customize your online foundation.",
+      "en": "We create, configure, and customize your online foundation.",
+      "my": "သင့်အွန်လိုင်းအခြေခံစနစ်ကို ဖန်တီး၊ ပြင်ဆင်ပြီး လိုအပ်သလို တည်ဆောက်ပါသည်။"
+    },
+    {
+      "key": "[\"text\",\"Launch\"]",
+      "label": "Launch",
+      "en": "Launch",
+      "my": "စတင်မိတ်ဆက်ခြင်း"
+    },
+    {
+      "key": "[\"text\",\"We test, launch, and ensure everything is working perfectly.\"]",
+      "label": "We test, launch, and ensure everything is working perfectly.",
+      "en": "We test, launch, and ensure everything is working perfectly.",
+      "my": "စမ်းသပ်ပြီး စတင်မိတ်ဆက်ကာ အရာအားလုံး မှန်ကန်စွာ အလုပ်လုပ်ကြောင်း စစ်ဆေးပါသည်။"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

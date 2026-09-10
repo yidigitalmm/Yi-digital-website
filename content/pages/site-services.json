@@ -1,0 +1,397 @@
+{
+  "title": "Services & FAQs",
+  "strings": [
+    {
+      "key": "[\"Services\"]",
+      "label": "Services",
+      "en": "Services",
+      "my": "ဝန်ဆောင်မှုများ"
+    },
+    {
+      "key": "[\"What’s behind a successful business?\"]",
+      "label": "What’s behind a successful business?",
+      "en": "What’s behind a successful business?",
+      "my": "အောင်မြင်သောလုပ်ငန်းတစ်ခု၏နောက် ကွယ်တွင်ဘာတွေရှိသလဲ?"
+    },
+    {
+      "key": "[\"Customers see a thriving business. Behind it is a connected online presence built to help them find, trust, and choose it.\"]",
+      "label": "Customers see a thriving business. Behind it is a connected online presence built to help them find, trust, and choose it.",
+      "en": "Customers see a thriving business. Behind it is a connected online presence built to help them find, trust, and choose it.",
+      "my": "ဖောက်သည်များ မြင်ရသည်မှာ တိုးတက်နေသော လုပ်ငန်းတစ်ခုဖြစ်ပြီး နောက်ကွယ်တွင် ရှာတွေ့ရန်၊ ယုံကြည်ရန်နှင့် ရွေးချယ်ရန် ကူညီပေးသော ချိတ်ဆက်ထားသည့် အွန်လိုင်းစနစ်ရှိပါသည်။"
+    },
+    {
+      "key": "[\"Part of the LILY & CO. flower shop remains visible as the connected online presence is revealed beside it\"]",
+      "label": "Part of the LILY & CO. flower shop remains visible as the connected online presence is revealed beside it",
+      "en": "Part of the LILY & CO. flower shop remains visible as the connected online presence is revealed beside it",
+      "my": "LILY & CO. ပန်းဆိုင်နှင့်အတူ ၎င်း၏ ချိတ်ဆက်ထားသော အွန်လိုင်းပုံရိပ်ကို ပြသထားသည်"
+    },
+    {
+      "key": "[\"What customers see\"]",
+      "label": "What customers see",
+      "en": "What customers see",
+      "my": "ဖောက်သည်များ မြင်ရသည့်အရာ"
+    },
+    {
+      "key": "[\"What makes it work\"]",
+      "label": "What makes it work",
+      "en": "What makes it work",
+      "my": "အလုပ်ဖြစ်စေသည့် နောက်ကွယ်စနစ်"
+    },
+    {
+      "key": "[\"Visible\"]",
+      "label": "Visible",
+      "en": "Visible",
+      "my": "မြင်တွေ့နိုင်"
+    },
+    {
+      "key": "[\"Trusted\"]",
+      "label": "Trusted",
+      "en": "Trusted",
+      "my": "ယုံကြည်ရ"
+    },
+    {
+      "key": "[\"Ready\"]",
+      "label": "Ready",
+      "en": "Ready",
+      "my": "အသင့်ဖြစ်"
+    },
+    {
+      "key": "[\"Packages\"]",
+      "label": "Packages",
+      "en": "Packages",
+      "my": "ပက်ကေ့ချ်များ"
+    },
+    {
+      "key": "[\"View packages\"]",
+      "label": "View packages",
+      "en": "View packages",
+      "my": "ပက်ကေ့ချ်များ ကြည့်ရန်"
+    },
+    {
+      "key": "[\"Choose a package to see what is included.\"]",
+      "label": "Choose a package to see what is included.",
+      "en": "Choose a package to see what is included.",
+      "my": "ပါဝင်သည့်အရာများကို ကြည့်ရန် ပက်ကေ့ချ်တစ်ခုကို နှိပ်ပါ။"
+    },
+    {
+      "key": "[\"A clear path from presence to growth.\"]",
+      "label": "A clear path from presence to growth.",
+      "en": "A clear path from presence to growth.",
+      "my": "အွန်လိုင်းပုံရိပ်မှ လုပ်ငန်းတိုးတက်မှုအထိ ရှင်းလင်းသော လမ်းကြောင်း။"
+    },
+    {
+      "key": "[\"Package options\"]",
+      "label": "Package options",
+      "en": "Package options",
+      "my": "ပက်ကေ့ချ် ရွေးချယ်စရာများ"
+    },
+    {
+      "key": "[\"Recommended\"]",
+      "label": "Recommended",
+      "en": "Recommended",
+      "my": "အကြံပြုထားသည်"
+    },
+    {
+      "key": "[\"Select this package\"]",
+      "label": "Select this package",
+      "en": "Select this package",
+      "my": "ဤပက်ကေ့ချ်ကို ရွေးချယ်ရန်"
+    },
+    {
+      "key": "[\"Compare the foundations.\"]",
+      "label": "Compare the foundations.",
+      "en": "Compare the foundations.",
+      "my": "အခြေခံပါဝင်မှုများကို နှိုင်းယှဉ်ပါ။"
+    },
+    {
+      "key": "[\"Package comparison\"]",
+      "label": "Package comparison",
+      "en": "Package comparison",
+      "my": "ပက်ကေ့ချ် နှိုင်းယှဉ်ချက်"
+    },
+    {
+      "key": "[\"Includes\"]",
+      "label": "Includes",
+      "en": "Includes",
+      "my": "ပါဝင်မှု"
+    },
+    {
+      "key": "[\"Notes\"]",
+      "label": "Notes",
+      "en": "Notes",
+      "my": "မှတ်ချက်များ"
+    },
+    {
+      "key": "[\"Connected Presence\"]",
+      "label": "Connected Presence",
+      "en": "Connected Presence",
+      "my": "ချိတ်ဆက်ထားသော အွန်လိုင်းပုံရိပ်"
+    },
+    {
+      "key": "[\"Google and social profiles, connected.\"]",
+      "label": "Google and social profiles, connected.",
+      "en": "Google and social profiles, connected.",
+      "my": "Google နှင့် လူမှုကွန်ရက်ပရိုဖိုင်များကို ချိတ်ဆက်ထားခြင်း။"
+    },
+    {
+      "key": "[\"Google controls Business Profile approval and verification. Monthly posting, photography, video production and advertising are not included.\"]",
+      "label": "Google controls Business Profile approval and verification. Monthly posting, photography, video production and advertising are not included.",
+      "en": "Google controls Business Profile approval and verification. Monthly posting, photography, video production and advertising are not included.",
+      "my": "Google Business Profile အတည်ပြုခြင်းကို Google က ဆုံးဖြတ်ပါသည်။ လစဉ်ပို့စ်တင်ခြင်း၊ ဓာတ်ပုံ၊ ဗီဒီယိုနှင့် ကြော်ငြာဝန်ဆောင်မှုများ မပါဝင်ပါ။"
+    },
+    {
+      "key": "[\"Optional services\"]",
+      "label": "Optional services",
+      "en": "Optional services",
+      "my": "ရွေးချယ်နိုင်သော ဝန်ဆောင်မှုများ"
+    },
+    {
+      "key": "[\"Add only what your business needs.\"]",
+      "label": "Add only what your business needs.",
+      "en": "Add only what your business needs.",
+      "my": "သင့်လုပ်ငန်းအတွက် လိုအပ်သည်များကိုသာ ထည့်သွင်းပါ။"
+    },
+    {
+      "key": "[\"Add-ons are priced separately from the selected package and require approval before work begins.\"]",
+      "label": "Add-ons are priced separately from the selected package and require approval before work begins.",
+      "en": "Add-ons are priced separately from the selected package and require approval before work begins.",
+      "my": "အပိုဝန်ဆောင်မှုများကို ရွေးချယ်ထားသည့် ပက်ကေ့ချ်နှင့် သီးခြားတွက်ချက်ပြီး လုပ်ငန်းမစမီ အတည်ပြုရန် လိုအပ်ပါသည်။"
+    },
+    {
+      "key": "[\"Source-code transfer\"]",
+      "label": "Source-code transfer",
+      "en": "Source-code transfer",
+      "my": "Source code လွှဲပြောင်းခြင်း"
+    },
+    {
+      "key": "[\"How we work together.\"]",
+      "label": "How we work together.",
+      "en": "How we work together.",
+      "my": "အတူတကွ လုပ်ဆောင်ပုံ။"
+    },
+    {
+      "key": "[\"What every engagement includes\"]",
+      "label": "What every engagement includes",
+      "en": "What every engagement includes",
+      "my": "လုပ်ငန်းတိုင်းတွင် ပါဝင်သည့်အရာများ"
+    },
+    {
+      "key": "[\"Calm Consultation\"]",
+      "label": "Calm Consultation",
+      "en": "Calm Consultation",
+      "my": "အေးဆေးစွာ ဆွေးနွေးခြင်း"
+    },
+    {
+      "key": "[\"A relaxed conversation to understand your business, goals, and concerns.\"]",
+      "label": "A relaxed conversation to understand your business, goals, and concerns.",
+      "en": "A relaxed conversation to understand your business, goals, and concerns.",
+      "my": "သင့်လုပ်ငန်း၊ ရည်မှန်းချက်နှင့် စိုးရိမ်ချက်များကို နားလည်ရန် အေးဆေးစွာ ဆွေးနွေးပါသည်။"
+    },
+    {
+      "key": "[\"Clear Scope\"]",
+      "label": "Clear Scope",
+      "en": "Clear Scope",
+      "my": "ရှင်းလင်းသော လုပ်ငန်းနယ်ပယ်"
+    },
+    {
+      "key": "[\"We turn what we learn into clear priorities, deliverables, and boundaries.\"]",
+      "label": "We turn what we learn into clear priorities, deliverables, and boundaries.",
+      "en": "We turn what we learn into clear priorities, deliverables, and boundaries.",
+      "my": "သိရှိထားသမျှကို ဦးစားပေးချက်၊ လွှဲပြောင်းပေးမည့်အရာနှင့် နယ်ပယ်များအဖြစ် ရှင်းလင်းစွာ သတ်မှတ်ပါသည်။"
+    },
+    {
+      "key": "[\"Considered Recommendation\"]",
+      "label": "Considered Recommendation",
+      "en": "Considered Recommendation",
+      "my": "သေချာစဉ်းစားထားသော အကြံပြုချက်"
+    },
+    {
+      "key": "[\"We recommend the best-fit package, options, timing, and investment.\"]",
+      "label": "We recommend the best-fit package, options, timing, and investment.",
+      "en": "We recommend the best-fit package, options, timing, and investment.",
+      "my": "အသင့်တော်ဆုံး ပက်ကေ့ချ်၊ ရွေးချယ်စရာ၊ အချိန်နှင့် ကုန်ကျစရိတ်ကို အကြံပြုပါသည်။"
+    },
+    {
+      "key": "[\"Shared Agreement\"]",
+      "label": "Shared Agreement",
+      "en": "Shared Agreement",
+      "my": "နှစ်ဖက်သဘောတူညီချက်"
+    },
+    {
+      "key": "[\"You review and approve the full plan before any implementation work begins.\"]",
+      "label": "You review and approve the full plan before any implementation work begins.",
+      "en": "You review and approve the full plan before any implementation work begins.",
+      "my": "အကောင်အထည်ဖော်မှု မစမီ အစီအစဉ်အပြည့်အစုံကို သင်စစ်ဆေးအတည်ပြုပါသည်။"
+    },
+    {
+      "key": "[\"Before we begin.\"]",
+      "label": "Before we begin.",
+      "en": "Before we begin.",
+      "my": "မစတင်မီ သိထားသင့်သည်များ။"
+    },
+    {
+      "key": "[\"How long does a typical project take?\"]",
+      "label": "How long does a typical project take?",
+      "en": "How long does a typical project take?",
+      "my": "ပုံမှန်ပရောဂျက်တစ်ခု မည်မျှကြာပါသလဲ?"
+    },
+    {
+      "key": "[\"Do you provide content and photography?\"]",
+      "label": "Do you provide content and photography?",
+      "en": "Do you provide content and photography?",
+      "my": "စာသားအကြောင်းအရာနှင့် ဓာတ်ပုံဝန်ဆောင်မှု ပေးပါသလား?"
+    },
+    {
+      "key": "[\"Can I upgrade to a larger package later?\"]",
+      "label": "Can I upgrade to a larger package later?",
+      "en": "Can I upgrade to a larger package later?",
+      "my": "နောက်ပိုင်းတွင် ပိုကြီးသော ပက်ကေ့ချ်သို့ ပြောင်းနိုင်ပါသလား?"
+    },
+    {
+      "key": "[\"What if I already have a website or domain?\"]",
+      "label": "What if I already have a website or domain?",
+      "en": "What if I already have a website or domain?",
+      "my": "ဝဘ်ဆိုက် သို့မဟုတ် ဒိုမိန်းရှိပြီးသားဆိုလျှင် ဘာလုပ်ရမလဲ?"
+    },
+    {
+      "key": "[\"A typical project takes 14 days after the design is confirmed.\"]",
+      "label": "A typical project takes 14 days after the design is confirmed.",
+      "en": "A typical project takes 14 days after the design is confirmed.",
+      "my": "ဒီဇိုင်းအတည်ပြုပြီးနောက် ပုံမှန်ပရောဂျက်တစ်ခုသည် ၁၄ ရက်ခန့် ကြာပါသည်။"
+    },
+    {
+      "key": "[\"Yes. Content and photography support are available through the Content Planning add-on.\"]",
+      "label": "Yes. Content and photography support are available through the Content Planning add-on.",
+      "en": "Yes. Content and photography support are available through the Content Planning add-on.",
+      "my": "ပေးပါသည်။ Content Planning အပိုဝန်ဆောင်မှုမှ စာသားနှင့် ဓာတ်ပုံအကူအညီ ရယူနိုင်ပါသည်။"
+    },
+    {
+      "key": "[\"Yes. You can upgrade to a larger package later as your content, features, or support needs grow.\"]",
+      "label": "Yes. You can upgrade to a larger package later as your content, features, or support needs grow.",
+      "en": "Yes. You can upgrade to a larger package later as your content, features, or support needs grow.",
+      "my": "ရပါသည်။ အကြောင်းအရာ၊ လုပ်ဆောင်ချက် သို့မဟုတ် ပံ့ပိုးမှုလိုအပ်ချက် တိုးလာသည့်အခါ ပိုကြီးသော ပက်ကေ့ချ်သို့ ပြောင်းနိုင်ပါသည်။"
+    },
+    {
+      "key": "[\"We also provide website renovation services. We can assess your current website or domain and recommend what can be retained, improved, or rebuilt.\"]",
+      "label": "We also provide website renovation services. We can assess your current website or domain and recommend what can be retained, improved, or rebuilt.",
+      "en": "We also provide website renovation services. We can assess your current website or domain and recommend what can be retained, improved, or rebuilt.",
+      "my": "လက်ရှိဝဘ်ဆိုက်ကို မွမ်းမံသည့် ဝန်ဆောင်မှုလည်း ရှိပါသည်။ ထိန်းသိမ်းနိုင်သည့်အရာ၊ ပြင်ဆင်သင့်သည့်အရာနှင့် ပြန်လည်တည်ဆောက်သင့်သည့်အရာကို စစ်ဆေးအကြံပြုပါမည်။"
+    },
+    {
+      "key": "[\"Start with the right foundation.\"]",
+      "label": "Start with the right foundation.",
+      "en": "Start with the right foundation.",
+      "my": "မှန်ကန်သော အခြေခံစနစ်ဖြင့် စတင်ပါ။"
+    },
+    {
+      "key": "[\"For businesses that want accurate information and clear contact options across Google and their main social platforms.\"]",
+      "label": "For businesses that want accurate information and clear contact options across Google and their main social platforms.",
+      "en": "For businesses that want accurate information and clear contact options across Google and their main social platforms.",
+      "my": "Google နှင့် အဓိကလူမှုကွန်ရက်များတွင် မှန်ကန်သောအချက်အလက်နှင့် ရှင်းလင်းသောဆက်သွယ်နည်းများ လိုအပ်သည့်လုပ်ငန်းများအတွက်။"
+    },
+    {
+      "key": "[\"Google Business Profile setup or health check with Maps location\"]",
+      "label": "Google Business Profile setup or health check with Maps location",
+      "en": "Google Business Profile setup or health check with Maps location",
+      "my": "Maps တည်နေရာနှင့် Google Business Profile ပြင်ဆင်ခြင်း သို့မဟုတ် စစ်ဆေးခြင်း"
+    },
+    {
+      "key": "[\"Consistent business details across profiles\"]",
+      "label": "Consistent business details across profiles",
+      "en": "Consistent business details across profiles",
+      "my": "ပရိုဖိုင်အားလုံးတွင် တစ်သမတ်တည်းဖြစ်သော လုပ်ငန်းအချက်အလက်"
+    },
+    {
+      "key": "[\"Facebook, Instagram and TikTok setup or basic cleanup\"]",
+      "label": "Facebook, Instagram and Tik Tok setup or basic cleanup",
+      "en": "Facebook, Instagram and TikTok setup or basic cleanup",
+      "my": "Facebook၊ Instagram နှင့် TikTok ပြင်ဆင်ခြင်း သို့မဟုတ် အခြေခံရှင်းလင်းခြင်း"
+    },
+    {
+      "key": "[\"Call, message and direction links\"]",
+      "label": "Call, message and direction links",
+      "en": "Call, message and direction links",
+      "my": "ဖုန်း၊ စာတိုနှင့် လမ်းညွှန်လင့်ခ်များ"
+    },
+    {
+      "key": "[\"WhatsApp or Messenger FAQs and basic automatic replies\"]",
+      "label": "Whats App or Messenger FAQs and basic automatic replies",
+      "en": "WhatsApp or Messenger FAQs and basic automatic replies",
+      "my": "WhatsApp သို့မဟုတ် Messenger FAQ နှင့် အခြေခံအလိုအလျောက် အကြောင်းပြန်မှု"
+    },
+    {
+      "key": "[\"Review link, handover guide and 14 days of setup support\"]",
+      "label": "Review link, handover guide and 14 days of setup support",
+      "en": "Review link, handover guide and 14 days of setup support",
+      "my": "သုံးသပ်ချက်လင့်ခ်၊ လွှဲပြောင်းလမ်းညွှန်နှင့် ၁၄ ရက် ပံ့ပိုးမှု"
+    },
+    {
+      "key": "[\"Website content planning\"]",
+      "label": "Website content planning",
+      "en": "Website content planning",
+      "my": "ဝဘ်ဆိုက်အကြောင်းအရာ စီစဉ်ခြင်း"
+    },
+    {
+      "key": "[\"Additional website language\"]",
+      "label": "Additional website language",
+      "en": "Additional website language",
+      "my": "ဝဘ်ဆိုက်ဘာသာစကား ထပ်ထည့်ခြင်း"
+    },
+    {
+      "key": "[\"30% of website package price\"]",
+      "label": "30% of website package price",
+      "en": "30% of website package price",
+      "my": "ဝဘ်ဆိုက်ပက်ကေ့ချ်တန်ဖိုး၏ ၃၀%"
+    },
+    {
+      "key": "[\"Custom animation\"]",
+      "label": "Custom animation",
+      "en": "Custom animation",
+      "my": "စိတ်ကြိုက် animation"
+    },
+    {
+      "key": "[\"From 300,000 MMK each\"]",
+      "label": "From 300,000 MMK each",
+      "en": "From 300,000 MMK each",
+      "my": "တစ်ခုလျှင် 300,000 MMK မှစ၍"
+    },
+    {
+      "key": "[\"Additional standard page / section\"]",
+      "label": "Additional standard page / section",
+      "en": "Additional standard page / section",
+      "my": "ပုံမှန်စာမျက်နှာ / အပိုင်း ထပ်ထည့်ခြင်း"
+    },
+    {
+      "key": "[\"Minor content update\"]",
+      "label": "Minor content update",
+      "en": "Minor content update",
+      "my": "အကြောင်းအရာအသေးစား ပြင်ဆင်ခြင်း"
+    },
+    {
+      "key": "[\"Additional design-revision round\"]",
+      "label": "Additional design-revision round",
+      "en": "Additional design-revision round",
+      "my": "ဒီဇိုင်းပြင်ဆင်မှု ထပ်တိုးခြင်း"
+    },
+    {
+      "key": "[\"50% of the final project price for Basic Online, Hybrid and Advanced. Premium is included or confirmed in the approved proposal.\"]",
+      "label": "50% of the final project price for Basic Online, Hybrid and Advanced. Premium is included or confirmed in the approved proposal.",
+      "en": "50% of the final project price for Basic Online, Hybrid and Advanced. Premium is included or confirmed in the approved proposal.",
+      "my": "Basic Online၊ Hybrid နှင့် Advanced အတွက် နောက်ဆုံးပရောဂျက်တန်ဖိုး၏ ၅၀% ဖြစ်သည်။ Premium တွင် ပါဝင်ပြီး သို့မဟုတ် အတည်ပြုအဆိုပြုချက်တွင် သတ်မှတ်ပါသည်။"
+    },
+    {
+      "key": "[\"After transfer, the customer is responsible for hosting, maintenance, security, backups, updates and third-party services unless a new support agreement is purchased.\"]",
+      "label": "After transfer, the customer is responsible for hosting, maintenance, security, backups, updates and third-party services unless a new support agreement is purchased.",
+      "en": "After transfer, the customer is responsible for hosting, maintenance, security, backups, updates and third-party services unless a new support agreement is purchased.",
+      "my": "လွှဲပြောင်းပြီးနောက် ပံ့ပိုးမှုစာချုပ်အသစ် မဝယ်ယူပါက hosting၊ ထိန်းသိမ်းမှု၊ လုံခြုံရေး၊ အရန်သိမ်းမှု၊ update နှင့် ပြင်ပဝန်ဆောင်မှုများကို ဖောက်သည်က တာဝန်ယူရပါမည်။"
+    },
+    {
+      "key": "[\"Local visibility foundation\"]",
+      "label": "Local visibility foundation",
+      "en": "Local visibility foundation",
+      "my": "ဒေသတွင်း ရှာတွေ့နိုင်မှု အခြေခံစနစ်"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

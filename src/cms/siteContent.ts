@@ -1,11 +1,12 @@
 import snapshot from "./snapshot.json" with { type: "json" };
-import { applyEntries, type SitePage, type MediaItem } from "./siteModel.ts";
+import { type SitePage, type MediaItem } from "./siteModel.ts";
+import { applyEditorialEntries } from "./contentOwnership.ts";
 import { animationDefaults, businessDefaults } from "./siteDefaults.ts";
 import { pages } from "../seoDefaults.ts";
 import { interfaceDefaults } from "../interfaceCopyDefaults.ts";
 const site = snapshot as unknown as { pages?: SitePage[]; media?: MediaItem[]; business?: typeof businessDefaults };
 export function pageContent<T>(id: string, locale: "en" | "my", fallback: T): T {
-  return applyEntries(fallback, site.pages?.find(page => page.id === id)?.entries ?? [], locale);
+  return applyEditorialEntries(id, fallback, site.pages?.find(page => page.id === id)?.entries ?? [], locale);
 }
 export function getMedia(key: string, fallback: string): string { return site.media?.find(item => item.key === key)?.url ?? fallback; }
 export const business = { ...businessDefaults, ...site.business };

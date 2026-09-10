@@ -11,7 +11,6 @@ vite.config.js
 .dev.vars
 .dev.vars.*
 .wrangler/
-studio/.sanity/
 src/cms/snapshot.json.tmp
 
 # Share templates, never local credentials.

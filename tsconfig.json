@@ -26,6 +26,7 @@
   },
   "include": [
     "src",
-    "functions"
+    "functions",
+    "worker.ts"
   ]
 }

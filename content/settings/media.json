@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "key": "homeStorefront",
+      "url": "/uploads/0d0358498158fffa96211acdb3f456f614098a42-1536x1024.webp",
+      "label": "home Storefront"
+    },
+    {
+      "key": "heroBrowser",
+      "url": "/uploads/41de76b5264aabd5d03589483519129e0da5ad67-1200x782.webp",
+      "label": "hero Browser"
+    },
+    {
+      "key": "cardNorthCo",
+      "url": "/uploads/dbe4749e8e9e0ef3ef2c125e977c9a671ed7568c-960x720.webp",
+      "label": "card North Co"
+    },
+    {
+      "key": "cardMorningBrew",
+      "url": "/uploads/fd60ec23d6a09ceed52f48d3bd4effda819e357e-960x720.webp",
+      "label": "card Morning Brew"
+    },
+    {
+      "key": "cardGreenHouse",
+      "url": "/uploads/32cd8c809c336135ab13e9d5733d47680a740bc2-960x720.webp",
+      "label": "card Green House"
+    },
+    {
+      "key": "cardUrbanStudio",
+      "url": "/uploads/595c60866347a3579c67ea2e2ab5ff9aed429d25-960x720.webp",
+      "label": "card Urban Studio"
+    },
+    {
+      "key": "cardYourBusiness",
+      "url": "/uploads/0eefff27f4c86f48fc1ff546354533052daa384a-960x720.webp",
+      "label": "card Your Business"
+    },
+    {
+      "key": "servicesStorefrontDiscovery",
+      "url": "/uploads/768354f8b11027ec2c30117e768dd204be7c5db4-1403x1024.webp",
+      "label": "services Storefront Discovery"
+    },
+    {
+      "key": "ecosystemSearch",
+      "url": "/uploads/c9e104b27c7301dfd977b39cf8dbf35e33aa24cc-1256x184.webp",
+      "label": "ecosystem Search"
+    },
+    {
+      "key": "ecosystemBusiness",
+      "url": "/uploads/79e2baaee6c40efe453c1b27cfe51f2306f7224c-929x526.webp",
+      "label": "ecosystem Business"
+    },
+    {
+      "key": "ecosystemMap",
+      "url": "/uploads/7db381183467808726cfb3348d4bd0166e052f08-560x469.webp",
+      "label": "ecosystem Map"
+    },
+    {
+      "key": "ecosystemGoogle",
+      "url": "/uploads/003e5708e124730ec8aee841b83b64bb5762ad99-817x301.webp",
+      "label": "ecosystem Google"
+    },
+    {
+      "key": "ecosystemSocial",
+      "url": "/uploads/be89d8f7219f43410a065f6330170770e27727d7-579x330.webp",
+      "label": "ecosystem Social"
+    },
+    {
+      "key": "servicesConsultation",
+      "url": "/uploads/b1dc4e7f7ae3d5096c1c62de6c599c264bb49a6d-1536x1024.webp",
+      "label": "services Consultation"
+    },
+    {
+      "key": "journalOwner",
+      "url": "/uploads/a17efba953348a7ca50d2356d72531aec31ecac8-1536x1024.webp",
+      "label": "journal Owner"
+    },
+    {
+      "key": "clinicReception",
+      "url": "/uploads/e6bf4ae62f6fe893f025bf385f106b84e01007ea-1536x1024.webp",
+      "label": "clinic Reception"
+    },
+    {
+      "key": "contactPlanning",
+      "url": "/uploads/5a4ff2eee426d464de95b4d1db597ad8d9bc5748-1536x1024.webp",
+      "label": "contact Planning"
+    },
+    {
+      "key": "cafeCounter",
+      "url": "/uploads/ae0c71044edc2187ba7a8f5d54478073afba23fc-1536x1024.webp",
+      "label": "cafe Counter"
+    },
+    {
+      "key": "restaurantDish",
+      "url": "/uploads/91c8a139b8c4fc62346083edc09e201483faf913-1536x1024.webp",
+      "label": "restaurant Dish"
+    },
+    {
+      "key": "logoLight",
+      "url": "/uploads/4702bd93e72c168d3222a14fee486c13f1877cba-375x152.svg",
+      "label": "logo Light"
+    },
+    {
+      "key": "logoDark",
+      "url": "/uploads/7c1cd1d61c5fdf0dfd1afbc9492731177a827607-375x152.svg",
+      "label": "logo Dark"
+    },
+    {
+      "key": "socialShare",
+      "url": "/uploads/f7c550f16df03a7ab1c56b88fe262fabc6997d27-1200x630.png",
+      "label": "social Share"
+    },
+    {
+      "key": "projectExporter",
+      "url": "/uploads/27248f48390fdbbb53e306e7d52f0fbc10ef6cab-1440x8956.webp",
+      "label": "project Exporter"
+    },
+    {
+      "key": "projectRestaurant",
+      "url": "/uploads/816e1b44ffaa0e1521d2cff7767256c433422ef8-1440x7538.webp",
+      "label": "project Restaurant"
+    },
+    {
+      "key": "projectHotel",
+      "url": "/uploads/66a2cfe369e97488d04ac80b40b49bcd4f5dc014-1440x4580.webp",
+      "label": "project Hotel"
+    },
+    {
+      "key": "projectInProgress",
+      "url": "/uploads/44ee0821ede3b564d1d06c7d28225feb6632b190-1586x992.png",
+      "label": "project In Progress"
+    },
+    {
+      "key": "projectComingSoon",
+      "url": "/uploads/2673e471be2cb127434bd0db860c4977ad0461a4-1586x992.png",
+      "label": "project Coming Soon"
+    },
+    {
+      "key": "cameraPoster",
+      "url": "/uploads/0753f97cab2854fa9726148f8e7c706631a91f5d-1254x1254.png",
+      "label": "camera Poster"
+    },
+    {
+      "key": "revealArmor",
+      "url": "/uploads/ffc2bcf9b1d69f5e84c35765709d161ba1cd7630-696x920.webp",
+      "label": "reveal Armor"
+    },
+    {
+      "key": "motionLayeredPoster",
+      "url": "/uploads/37ae20a337db0570278035a0d0308f31e4bc68be-720x1280.png",
+      "label": "motion Layered Poster"
+    },
+    {
+      "key": "motionSurprisePoster",
+      "url": "/uploads/1f76f66d4b2216b1390f6ebe7e1e61c1a520d224-720x1280.png",
+      "label": "motion Surprise Poster"
+    },
+    {
+      "key": "motionTransformationPoster",
+      "url": "/uploads/ef1b720e39d7e187dd9ecda300b6ee0b9c3f1e30-1280x720.jpg",
+      "label": "motion Transformation Poster"
+    }
+  ]
+}

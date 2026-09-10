@@ -1,0 +1,40 @@
+{
+  "id": "1",
+  "order": 0,
+  "image": "/uploads/5a4ff2eee426d464de95b4d1db597ad8d9bc5748-1536x1024.webp",
+  "scrollImage": "",
+  "websitePreview": false,
+  "url": "",
+  "en": {
+    "title": "Customizable",
+    "type": "Procurement Service",
+    "summary": "A structured service presence that explains the procurement offer, working process, and route for tailored enquiries.",
+    "packageName": "Advanced",
+    "outcome": "A clearer way for prospective customers to understand the service and request support.",
+    "addons": [
+      "Website content planning",
+      "Custom animation"
+    ],
+    "delivered": [
+      "Procurement service website",
+      "Enhanced SEO and analytics",
+      "Structured request form"
+    ]
+  },
+  "my": {
+    "title": "Customizable",
+    "type": "ဝယ်ယူဖြည့်ဆည်းရေး ဝန်ဆောင်မှု",
+    "summary": "ဝယ်ယူဖြည့်ဆည်းရေး ဝန်ဆောင်မှု၊ လုပ်ငန်းစဉ်နှင့် စိတ်ကြိုက်စုံစမ်းရန်လမ်းကြောင်းကို ရှင်းပြသည့် စနစ်တကျဖွဲ့စည်းထားသော အွန်လိုင်းပုံရိပ်။",
+    "packageName": "Advanced",
+    "outcome": "အလားအလာရှိသော ဖောက်သည်များ ဝန်ဆောင်မှုကို နားလည်ပြီး အကူအညီတောင်းရန် ပိုမိုရှင်းလင်းသောနည်းလမ်း။",
+    "addons": [
+      "ဝဘ်ဆိုက်အကြောင်းအရာ စီစဉ်ခြင်း",
+      "စိတ်ကြိုက် အန်နီမေးရှင်း"
+    ],
+    "delivered": [
+      "ဝယ်ယူဖြည့်ဆည်းရေး ဝန်ဆောင်မှုဝဘ်ဆိုက်",
+      "အဆင့်မြှင့် SEO နှင့် အချက်အလက်ခွဲခြမ်းစိတ်ဖြာမှု",
+      "စနစ်တကျဖွဲ့စည်းထားသော တောင်းဆိုမှုဖောင်"
+    ]
+  }
+}

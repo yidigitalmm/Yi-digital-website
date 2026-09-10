@@ -1,4 +1,4 @@
-type Env = { RESEND_API_KEY?: string; TURNSTILE_SECRET_KEY?: string };
+export type Env = { RESEND_API_KEY?: string; TURNSTILE_SECRET_KEY?: string };
 const inbox = "yidigitalmm@gmail.com";
 const reply = (status: number, error?: string) => Response.json(error ? { error } : { success: true }, { status, headers: { "Cache-Control": "no-store" } });
 

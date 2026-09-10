@@ -3,7 +3,15 @@ import react from "@vitejs/plugin-react";
 import { staticRouteHtml } from "./scripts/static-route-html.ts";
 
 export default defineConfig({
-  plugins: [react(), staticRouteHtml()],
+  plugins: [react(), staticRouteHtml(), {
+    name: "admin-index",
+    configureServer(server) {
+      server.middlewares.use((req, _res, next) => {
+        if (req.url === "/admin" || req.url === "/admin/") req.url = "/admin/index.html";
+        next();
+      });
+    },
+  }],
   build: {
     rolldownOptions: {
       output: {
@@ -28,6 +36,7 @@ export default defineConfig({
     },
   },
   test: {
+    include: ["src/**/*.test.{ts,tsx}"],
     environment: "jsdom",
     globals: true,
     setupFiles: "./src/test/setup.ts",

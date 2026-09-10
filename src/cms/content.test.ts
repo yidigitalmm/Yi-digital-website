@@ -1,8 +1,8 @@
 import { describe, it, expect } from "vitest";
-import { normalizeContent } from "../../scripts/cms/normalize";
+import { normalizeContent } from "../../scripts/content/normalize";
 import { absoluteImageUrl } from "./content";
 
-const doc = { slug: "test-article", image: "https://cdn.sanity.io/images/project/production/test.jpg", en: {
+const doc = { slug: "test-article", image: "/uploads/test.jpg", en: {
   title: "Test", category: "Guide", summary: "Summary", imageAlt: "Cover", readTime: "2 min", intro: "Intro",
   sections: [{ heading: "Heading", paragraphs: ["Text"] }], checklist: [], closing: "Closing",
 } };
@@ -26,7 +26,7 @@ describe("CMS publishing", () => {
     expect(() => normalizeContent({ enabled: true, articles: [{ ...doc, en: {} }], work: [] })).toThrow();
   });
   it("preserves external sharing images and resolves existing local images", () => {
-    expect(absoluteImageUrl(doc.image)).toBe(doc.image);
+    expect(absoluteImageUrl("https://example.com/image.jpg")).toBe("https://example.com/image.jpg");
     expect(absoluteImageUrl("/social-share.png")).toBe("https://yidigitalmm.com/social-share.png");
   });
 });

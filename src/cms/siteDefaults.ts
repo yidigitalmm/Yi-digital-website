@@ -14,7 +14,7 @@ export const animationDefaults = {
 };
 export const pageDefinitions = [
   { id: "site-messages", title: "Form messages & error page", en: interfaceDefaults.en, my: interfaceDefaults.my },
-  { id: "site-global", title: "Navigation & footer", en: copy.en.global, my: copy.my.global },
+  { id: "site-global", title: "Footer & process text", en: copy.en.global, my: copy.my.global },
   { id: "site-home", title: "Home page", en: copy.en.home, my: copy.my.home },
   { id: "site-services", title: "Services & FAQs", en: copy.en.services.text, my: copy.my.services.text },
   { id: "site-packages", title: "Packages & pricing", en: { packages: copy.en.services.packages, connectedPresence: copy.en.services.connectedPresence, websiteAddons: copy.en.services.websiteAddons, sourceCodeTransfer: copy.en.services.sourceCodeTransfer }, my: { packages: copy.my.services.packages, connectedPresence: copy.my.services.connectedPresence, websiteAddons: copy.my.services.websiteAddons, sourceCodeTransfer: copy.my.services.sourceCodeTransfer } },

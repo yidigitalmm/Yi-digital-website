@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from "vitest";
 import { entriesFor, applyEntries } from "./siteModel";
 import { pageDefinitions, businessDefaults } from "./siteDefaults";
-import { normalizeSite } from "../../scripts/cms/siteNormalize";
+import { normalizeSite } from "../../scripts/content/siteNormalize";
 
 describe("whole-site CMS", () => {
   it("round-trips every existing page without changing layout arrays or translations", () => {
@@ -25,7 +25,7 @@ describe("whole-site CMS", () => {
   it("rejects unsafe contact links and malformed content", () => {
     expect(() => normalizeSite({ business: { ...businessDefaults, facebook: "javascript:alert(1)" } })).toThrow();
     expect(() => normalizeSite({ business: { ...businessDefaults, phoneNumber: "bad" } })).toThrow();
-    const page = pageDefinitions[0];
+    const page = pageDefinitions.find(page => page.id === "site-home")!;
     const entries = entriesFor(page.en, page.my);
     expect(() => normalizeSite({ pages: [{ id: page.id, entries: [...entries, entries[0]] }] })).toThrow();
   });

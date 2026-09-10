@@ -1,0 +1,97 @@
+{
+  "slug": "why-business-email-matters",
+  "order": 2,
+  "image": "/uploads/8de971cf76b5861ed9e93620810897cc7fb6ffcb-1536x1024.webp",
+  "en": {
+    "title": "Why a business email changes first impressions",
+    "category": "Branding & trust",
+    "summary": "A domain-based email is a small operational detail that makes a business feel established, accountable, and easier to trust.",
+    "imageAlt": "Business owner composing an email from hello@yourbusiness.com beside a matching business invoice",
+    "readTime": "5 min read",
+    "intro": "An email address is easy to overlook because it feels purely functional. To a customer, however, it is part of the brand—and often part of the first impression.",
+    "sections": [
+      {
+        "heading": "Your domain connects the message to the business",
+        "paragraphs": [
+          "An address such as hello@yourbusiness.com immediately confirms who the message represents. It connects the conversation to the same name customers see on the website, quotation, invoice, and social profiles.",
+          "A free personal address can still work, but it asks the customer to make an extra trust decision. Is this the correct person? Is the message official? A business address removes that uncertainty."
+        ]
+      },
+      {
+        "heading": "Professional does not need to feel corporate",
+        "paragraphs": [
+          "A small business does not need dozens of formal inboxes. One or two clear addresses—such as hello@, bookings@, or the owner’s name—are often enough. The goal is clarity, not bureaucracy.",
+          "Choose names that make sense to customers and assign responsibility for checking each inbox. An elegant address only helps when messages receive a dependable response."
+        ]
+      },
+      {
+        "heading": "Consistency strengthens recognition",
+        "paragraphs": [
+          "Using the same domain for the website and email reinforces the business name each time a customer sees it. It also makes printed materials, proposals, receipts, and staff signatures feel like parts of one system.",
+          "A consistent email signature should include the sender’s name, role, business name, primary phone number, website, and any essential booking information. Keep it simple enough to read on mobile."
+        ]
+      },
+      {
+        "heading": "Set it up as business infrastructure",
+        "paragraphs": [
+          "Use a reputable email provider, enable multi-factor authentication, and keep recovery details under business control. Avoid building an important customer channel around one employee’s personal account.",
+          "Document who owns the domain, who administers the email service, and how access can be recovered. These quiet safeguards matter when a staff member leaves or a device is lost."
+        ]
+      }
+    ],
+    "checklist": [
+      "Use an address based on the business domain",
+      "Choose inbox names customers will immediately understand",
+      "Create a consistent, mobile-friendly email signature",
+      "Enable multi-factor authentication for every account",
+      "Keep domain and recovery access under business control"
+    ],
+    "closing": "A professional email will not win a customer by itself, but it removes a reason for hesitation—and that is valuable."
+  },
+  "my": {
+    "title": "လုပ်ငန်းသုံးအီးမေးလ်က ပထမအမြင်ကို ပြောင်းလဲပေးပုံ",
+    "category": "အမှတ်တံဆိပ်နှင့် ယုံကြည်မှု",
+    "summary": "ကိုယ်ပိုင်ဒိုမိန်းအခြေပြု အီးမေးလ်သည် လုပ်ငန်းကို တည်ငြိမ်၊ တာဝန်ယူမှုရှိပြီး ယုံကြည်ရစေသည့် အသေးစိတ်အချက်တစ်ခု ဖြစ်သည်။",
+    "imageAlt": "လုပ်ငန်း invoice ဘေးတွင် hello@yourbusiness.com မှ အီးမေးလ်ရေးနေသော လုပ်ငန်းရှင်",
+    "readTime": "ဖတ်ချိန် ၅ မိနစ်",
+    "intro": "အီးမေးလ်လိပ်စာကို အသုံးပြုရုံအရာဟု အလွယ်တကူ မေ့လျော့တတ်သည်။ ဖောက်သည်အတွက်မူ ၎င်းသည် အမှတ်တံဆိပ်၏ အစိတ်အပိုင်းဖြစ်ပြီး ပထမဆုံးအမြင်တစ်ခုလည်း ဖြစ်သည်။",
+    "sections": [
+      {
+        "heading": "ဒိုမိန်းက စာကို လုပ်ငန်းနှင့် ချိတ်ဆက်ပေးသည်",
+        "paragraphs": [
+          "hello@yourbusiness.com ကဲ့သို့သော လိပ်စာသည် စာပို့သူနှင့် ဝဘ်ဆိုက်ကို ချက်ချင်းချိတ်ဆက်ပေးပြီး မှန်ကန်သောလုပ်ငန်းမှ စာဖြစ်ကြောင်း အတည်ပြုရန် လွယ်ကူစေသည်။",
+          "အထူးသဖြင့် quotation၊ invoice သို့မဟုတ် ကိုယ်ရေးအချက်အလက်များ ပါသည့်စာတွင် ဤညီညွတ်မှုက ယုံကြည်မှု တိုးစေသည်။"
+        ]
+      },
+      {
+        "heading": "ကျွမ်းကျင်မှုသည် ကုမ္ပဏီကြီးပုံစံ ဖြစ်ရန်မလို",
+        "paragraphs": [
+          "လုပ်ငန်းသုံးအီးမေးလ်သည် အေးစက်သောအသံမဟုတ်ပါ။ ရိုးရိုးရှင်းရှင်း၊ နွေးထွေးပြီး လုပ်ငန်းအမှတ်တံဆိပ်နှင့် ကိုက်ညီစွာ ရေးနိုင်သည်။",
+          "hello@၊ sales@ သို့မဟုတ် လူအမည်ကို အသုံးပြုခြင်းဖြင့် ဖောက်သည်က ဘယ်သူနှင့် ဆက်သွယ်နေကြောင်း နားလည်လွယ်စေသည်။"
+        ]
+      },
+      {
+        "heading": "တစ်သမတ်တည်းဖြစ်မှုက မှတ်မိနိုင်မှု တိုးစေသည်",
+        "paragraphs": [
+          "အီးမေးလ်ဒိုမိန်း၊ ဝဘ်ဆိုက်၊ logo နှင့် လက်မှတ်တွင် အမည်နှင့် ဆက်သွယ်ရန်များ တူညီပါက လုပ်ငန်းကို မှတ်မိလွယ်စေသည်။",
+          "စာတိုင်းတွင် တူညီသော လက်မှတ်ပုံစံကို အသုံးပြုခြင်းက အသေးစားလုပ်ငန်းတစ်ခုကိုပင် စနစ်တကျ စီမံထားကြောင်း ပြသသည်။"
+        ]
+      },
+      {
+        "heading": "လုပ်ငန်းအခြေခံစနစ်အဖြစ် ပြင်ဆင်ပါ",
+        "paragraphs": [
+          "ဒိုမိန်းနှင့် အီးမေးလ်အကောင့်များကို လုပ်ငန်းပိုင်အကောင့်အောက်တွင် ထားပြီး recovery အချက်အလက်ကို လုံခြုံစွာ သိမ်းပါ။",
+          "အကောင့်တိုင်းတွင် multi-factor authentication ဖွင့်ပြီး ဝန်ထမ်းပြောင်းလဲချိန်တွင် access ကို စနစ်တကျ လွှဲပြောင်းပါ။"
+        ]
+      }
+    ],
+    "checklist": [
+      "လုပ်ငန်းဒိုမိန်းအခြေပြု အီးမေးလ် အသုံးပြုသည်",
+      "ဖောက်သည်နားလည်လွယ်သော inbox အမည် ရွေးထားသည်",
+      "မိုဘိုင်းနှင့်ကိုက်ညီသော တစ်သမတ်တည်း လက်မှတ်ရှိသည်",
+      "အကောင့်တိုင်းတွင် multi-factor authentication ဖွင့်ထားသည်",
+      "ဒိုမိန်းနှင့် recovery access ကို လုပ်ငန်းက ထိန်းချုပ်ထားသည်"
+    ],
+    "closing": "ကျွမ်းကျင်သောအီးမေးလ်တစ်ခုတည်းက ဖောက်သည်ကို မရစေနိုင်သော်လည်း တွန့်ဆုတ်စေမည့် အကြောင်းရင်းတစ်ခုကို ဖယ်ရှားပေးသည်။"
+  }
+}
