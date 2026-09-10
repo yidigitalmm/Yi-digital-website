@@ -1,0 +1,32 @@
+name: CMS preview link
+
+on:
+  check_run:
+    types: [completed]
+
+permissions:
+  contents: read
+  checks: read
+  statuses: write
+
+jobs:
+  preview-link:
+    if: github.event.check_run.app.id == 85455 && github.event.check_run.name == 'Workers Builds: yi-digital-website'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # Use trusted default-branch code, never code from the content draft.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const { previewStatus } = require('./scripts/github/preview-status.cjs');
+            const { data: check } = await github.rest.checks.get({
+              ...context.repo,
+              check_run_id: context.payload.check_run.id,
+            });
+            const status = previewStatus(check);
+            if (status) await github.rest.repos.createCommitStatus({ ...context.repo, ...status });

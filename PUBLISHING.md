@@ -64,3 +64,9 @@ After verification:
 The backup represents the export time. Any later Sanity changes must be migrated before cutover; avoid editing in both systems during the transition.
 
 References: [Decap GitHub backend](https://decapcms.org/docs/github-backend/), [external OAuth](https://decapcms.org/docs/external-oauth-clients/), [GitHub OAuth authorization](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps).
+
+## Preview links inside Decap
+
+Cloudflare Workers reports builds as GitHub Check Runs, while Decap reads commit statuses. `.github/workflows/cms-preview.yml` bridges completed checks from the verified Cloudflare app into `deploy/decap-preview` statuses. It uses the immutable preview URL from the check summary and never publishes content or starts a deployment. No additional secret is needed. The workflow and `scripts/github/preview-status.cjs` must be merged into `main` before the event trigger becomes active.
+
+After saving a draft, wait for its Cloudflare build and the **CMS preview link** workflow to finish, then click **Check for Preview** beside the publishing controls. The resulting preview link opens the draft site. **View Live** opens production. A missing or unrecognized URL is reported as an error rather than a successful preview.
