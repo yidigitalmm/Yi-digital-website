@@ -1,5 +1,8 @@
 // Cloudflare Workers publishes Check Runs; Decap reads legacy commit statuses.
-function previewStatus(check) {
+function previewStatus(check, refs) {
+  // Cloudflare does not populate check_suite.head_branch. Match the current
+  // draft ref instead; production and superseded draft commits need no link.
+  if (!refs.some(ref => ref.ref.startsWith('refs/heads/cms/') && ref.object.sha === check.head_sha)) return null;
   if (check.app?.id !== 85455 || check.name !== 'Workers Builds: yi-digital-website') return null;
   if (check.status !== 'completed') return null;
   const base = { sha: check.head_sha, context: 'deploy/decap-preview' };

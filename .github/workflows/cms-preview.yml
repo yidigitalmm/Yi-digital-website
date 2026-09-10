@@ -37,5 +37,9 @@ jobs:
               ...context.repo,
               check_run_id: context.payload.check_run?.id ?? Number(context.payload.inputs.check_run_id),
             });
-            const status = previewStatus(check);
+            const { data: refs } = await github.rest.git.listMatchingRefs({
+              ...context.repo,
+              ref: 'heads/cms/',
+            });
+            const status = previewStatus(check, refs);
             if (status) await github.rest.repos.createCommitStatus({ ...context.repo, ...status });
