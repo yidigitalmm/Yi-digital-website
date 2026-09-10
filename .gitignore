@@ -1,0 +1,34 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+vite.config.d.ts
+vite.config.js
+.DS_Store
+.env
+.env.*
+.superpowers/
+.dev.vars
+.dev.vars.*
+.wrangler/
+studio/.sanity/
+src/cms/snapshot.json.tmp
+
+# Share templates, never local credentials.
+!.env.example
+!.dev.vars.example
+
+# Local media production, browser captures, and scratch files.
+/local-only/
+/.img2threejs/
+/.media/
+/.playwright-cli/
+/assets/
+/output/
+/outputs/
+/tmp/
+/work/
+/website-and-online-presence-packages-plan.txt
+*.log
+playwright-report/
+test-results/

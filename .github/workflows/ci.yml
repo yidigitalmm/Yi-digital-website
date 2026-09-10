@@ -1,0 +1,24 @@
+name: Website checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm test -- --run
+      # Validate the committed content without CMS credentials or a live fetch.
+      - run: npm run build:offline
+      - run: npm run cms:build

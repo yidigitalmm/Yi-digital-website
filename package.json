@@ -1,0 +1,47 @@
+{
+  "name": "everythingonline-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run cms:sync && npm run build:offline",
+    "test": "vitest",
+    "preview": "vite preview --host 127.0.0.1",
+    "build:offline": "tsc --noEmit && vite build",
+    "cms:login": "cd studio && sanity login",
+    "cms:dev": "cd studio && sanity dev --host localhost",
+    "cms:build": "cd studio && sanity build",
+    "cms:import": "cd studio && sanity exec ../scripts/cms/import.ts --with-user-token",
+    "cms:sync": "tsx scripts/cms/sync.ts",
+    "cms:import-pages": "cd studio && sanity exec ../scripts/cms/import-pages.ts --with-user-token"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@types/three": "^0.185.4",
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.17.0",
+    "motion": "^12.40.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-icons": "^5.6.0",
+    "react-router-dom": "^7.18.3",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^25.9.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "jsdom": "^29.1.1",
+    "sanity": "^6.13.1",
+    "styled-components": "^6.5.3",
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16",
+    "vitest": "^4.1.8"
+  }
+}

@@ -1,0 +1,4 @@
+# Copy to .dev.vars for local Cloudflare Pages Functions testing.
+# Configure real values as secrets in Cloudflare for deployment.
+RESEND_API_KEY=
+TURNSTILE_SECRET_KEY=
