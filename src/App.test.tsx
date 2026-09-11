@@ -214,10 +214,10 @@ describe("Yi Digital", () => {
     expect(within(projectCases[3]).getByRole("img", { name: /taunggyi hotel scrolling website preview/i })).toHaveAttribute("src", projects[3].scrollImage ?? projects[3].image);
     expect(within(projectCases[3]).getByRole("link", { name: /visit live website/i })).toHaveAttribute("href", "https://taunggyihotel-thepeak-website.yetunkhine.workers.dev/");
     expect(screen.getAllByText("Package selected")).toHaveLength(4);
-    expect(screen.getAllByText("Advanced")).toHaveLength(2);
+    expect(screen.getAllByText("Advanced")).toHaveLength(1);
     expect(screen.getByText("Hybrid")).toBeInTheDocument();
-    expect(screen.getByText("Basic Online")).toBeInTheDocument();
-    expect(screen.getAllByText("Website content planning")).toHaveLength(2);
+    expect(screen.getAllByText("Basic Online")).toHaveLength(2);
+    expect(screen.getAllByText("Website content planning")).toHaveLength(3);
   });
 
   it("renders the package comparison", () => {

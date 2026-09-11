@@ -260,10 +260,10 @@
       "my": "ဖောက်သည်တစ်ဦးချင်း ရွေးချယ်ခဲ့သည့်အရာနှင့် ရရှိလာသော အကျိုးကျေးဇူး။"
     },
     {
-      "key": "[\"text\",\"Customer names and performance figures remain private. Current package and add-on entries are project-reference mappings until approved customer details are supplied.\"]",
-      "label": "Customer names and performance figures remain private. Current package and add-on entries are project-reference mappings until approved customer details are supplied.",
-      "en": "Customer names and performance figures remain private. Current package and add-on entries are project-reference mappings until approved customer details are supplied.",
-      "my": "ဖောက်သည်အမည်နှင့် စွမ်းဆောင်ရည်ကိန်းဂဏန်းများကို လျှို့ဝှက်ထားပါသည်။ လက်ရှိပက်ကေ့ချ်နှင့် ထပ်တိုးဝန်ဆောင်မှုများသည် အတည်ပြုထားသော ဖောက်သည်အချက်အလက်များ မရမချင်း ပရောဂျက်နမူနာအဖြစ်သာ ဖော်ပြထားပါသည်။"
+      "key": "[\"text\",\"Explore the packages and add-ons selected for each project. Performance figures remain private.\"]",
+      "label": "Explore the packages and add-ons selected for each project. Performance figures remain private.",
+      "en": "Explore the packages and add-ons selected for each project. Performance figures remain private.",
+      "my": "ပရောဂျက်တစ်ခုချင်းစီအတွက် ရွေးချယ်ထားသော ပက်ကေ့ချ်များနှင့် ထပ်တိုးဝန်ဆောင်မှုများကို လေ့လာပါ။ စွမ်းဆောင်ရည်ကိန်းဂဏန်းများကို လျှို့ဝှက်ထားပါသည်။"
     },
     {
       "key": "[\"text\",\"scrolling website preview\"]",

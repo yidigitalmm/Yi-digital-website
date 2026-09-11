@@ -9,11 +9,11 @@
     "title": "The Peak",
     "type": "Restaurant",
     "summary": "A clear, mobile-first experience from discovering the restaurant to viewing its menu, location, and contact details.",
-    "packageName": "Hybrid",
+    "packageName": "Basic Online",
     "outcome": "Essential dining information is easier to browse, update, and act on.",
     "addons": [
       "Website content planning",
-      "Additional website language"
+      "Connected Presence"
     ],
     "delivered": [
       "Menu-led website",
@@ -25,11 +25,11 @@
     "title": "The Peak",
     "type": "စားသောက်ဆိုင်",
     "summary": "စားသောက်ဆိုင်ကို ရှာတွေ့ခြင်းမှ မီနူး၊ တည်နေရာနှင့် ဆက်သွယ်ရန်အချက်အလက်များ ကြည့်ရှုခြင်းအထိ မိုဘိုင်းဦးစားပေး အတွေ့အကြုံ။",
-    "packageName": "Hybrid",
+    "packageName": "Basic Online",
     "outcome": "အရေးကြီးသော စားသောက်ဆိုင်အချက်အလက်များကို ကြည့်ရှု၊ ပြင်ဆင်နှင့် လုပ်ဆောင်ရန် ပိုမိုလွယ်ကူသည်။",
     "addons": [
       "ဝဘ်ဆိုက်အကြောင်းအရာ စီစဉ်ခြင်း",
-      "ဝဘ်ဆိုက်ဘာသာစကား ထပ်ထည့်ခြင်း"
+      "ချိတ်ဆက်ထားသော အွန်လိုင်းပုံရိပ်"
     ],
     "delivered": [
       "မီနူးဦးစားပေး ဝဘ်ဆိုက်",

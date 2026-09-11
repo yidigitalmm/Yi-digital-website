@@ -64,10 +64,12 @@ export const topicItems: ReadonlyArray<[ElementType, string, { label: string; sl
 ];
 
 export function ScrollReset() {
-  const { pathname } = useLocation();
+  const { pathname, hash } = useLocation();
   useLayoutEffect(() => {
-    window.scrollTo({ top: 0 });
-  }, [pathname]);
+    const target = hash ? document.getElementById(hash.slice(1)) : null;
+    if (target) target.scrollIntoView({ block: "start" });
+    else window.scrollTo({ top: 0 });
+  }, [pathname, hash]);
   return null;
 }
 

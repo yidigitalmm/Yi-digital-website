@@ -732,7 +732,7 @@
         "title": "Sein Htan Pin",
         "type": "Bean Exporter",
         "summary": "A professional company presence that introduces the exporter, communicates its products, and gives trade partners a clear route to enquire.",
-        "packageName": "Basic Online",
+        "packageName": "Hybrid",
         "outcome": "A credible digital reference for buyers and potential business partners.",
         "addons": [
           "Connected Presence"
@@ -751,7 +751,7 @@
         "title": "Sein Htan Pin",
         "type": "ပဲမျိုးစုံ ပို့ကုန်လုပ်ငန်း",
         "summary": "ပို့ကုန်လုပ်ငန်းနှင့် ထုတ်ကုန်များကို မိတ်ဆက်ပြီး ကုန်သွယ်ဖက်များအတွက် ရှင်းလင်းသော စုံစမ်းဆက်သွယ်မှုလမ်းကြောင်း ပေးသည့် ကျွမ်းကျင်သော ကုမ္ပဏီအွန်လိုင်းပုံရိပ်။",
-        "packageName": "Basic Online",
+        "packageName": "Hybrid",
         "outcome": "ဝယ်ယူသူများနှင့် အလားအလာရှိသော စီးပွားဖက်များအတွက် ယုံကြည်ရသော ဒစ်ဂျစ်တယ်အကိုးအကား။",
         "addons": [
           "ချိတ်ဆက်ထားသော အွန်လိုင်းပုံရိပ်"
@@ -772,11 +772,11 @@
         "title": "The Peak",
         "type": "Restaurant",
         "summary": "A clear, mobile-first experience from discovering the restaurant to viewing its menu, location, and contact details.",
-        "packageName": "Hybrid",
+        "packageName": "Basic Online",
         "outcome": "Essential dining information is easier to browse, update, and act on.",
         "addons": [
           "Website content planning",
-          "Additional website language"
+          "Connected Presence"
         ],
         "delivered": [
           "Menu-led website",
@@ -792,11 +792,11 @@
         "title": "The Peak",
         "type": "စားသောက်ဆိုင်",
         "summary": "စားသောက်ဆိုင်ကို ရှာတွေ့ခြင်းမှ မီနူး၊ တည်နေရာနှင့် ဆက်သွယ်ရန်အချက်အလက်များ ကြည့်ရှုခြင်းအထိ မိုဘိုင်းဦးစားပေး အတွေ့အကြုံ။",
-        "packageName": "Hybrid",
+        "packageName": "Basic Online",
         "outcome": "အရေးကြီးသော စားသောက်ဆိုင်အချက်အလက်များကို ကြည့်ရှု၊ ပြင်ဆင်နှင့် လုပ်ဆောင်ရန် ပိုမိုလွယ်ကူသည်။",
         "addons": [
           "ဝဘ်ဆိုက်အကြောင်းအရာ စီစဉ်ခြင်း",
-          "ဝဘ်ဆိုက်ဘာသာစကား ထပ်ထည့်ခြင်း"
+          "ချိတ်ဆက်ထားသော အွန်လိုင်းပုံရိပ်"
         ],
         "delivered": [
           "မီနူးဦးစားပေး ဝဘ်ဆိုက်",
@@ -814,11 +814,11 @@
         "title": "Taunggyi Hotel",
         "type": "Hotel",
         "summary": "A welcoming hotel presence that makes accommodation details, location information, and the path to enquire easier to understand.",
-        "packageName": "Advanced",
+        "packageName": "Basic Online",
         "outcome": "A clearer, more consistent journey from discovering the hotel to making contact.",
         "addons": [
           "Connected Presence",
-          "Additional website language"
+          "Website content planning"
         ],
         "delivered": [
           "Accommodation-led website",
@@ -834,11 +834,11 @@
         "title": "Taunggyi Hotel",
         "type": "ဟိုတယ်",
         "summary": "တည်းခိုခန်းအချက်အလက်၊ တည်နေရာနှင့် စုံစမ်းဆက်သွယ်ရန်လမ်းကြောင်းကို နားလည်ရလွယ်ကူစေသည့် ကြိုဆိုမှုရှိသော ဟိုတယ်အွန်လိုင်းပုံရိပ်။",
-        "packageName": "Advanced",
+        "packageName": "Basic Online",
         "outcome": "ဟိုတယ်ကို ရှာတွေ့ခြင်းမှ ဆက်သွယ်ခြင်းအထိ ပိုမိုရှင်းလင်းပြီး တစ်သမတ်တည်းရှိသော ခရီးစဉ်။",
         "addons": [
           "ချိတ်ဆက်ထားသော အွန်လိုင်းပုံရိပ်",
-          "ဝဘ်ဆိုက်ဘာသာစကား ထပ်ထည့်ခြင်း"
+          "ဝဘ်ဆိုက်အကြောင်းအရာ စီစဉ်ခြင်း"
         ],
         "delivered": [
           "တည်းခိုဝန်ဆောင်မှုဦးစားပေး ဝဘ်ဆိုက်",
@@ -4397,11 +4397,11 @@
           "my": "ဖောက်သည်တစ်ဦးချင်း ရွေးချယ်ခဲ့သည့်အရာနှင့် ရရှိလာသော အကျိုးကျေးဇူး။"
         },
         {
-          "key": "[\"text\",\"Customer names and performance figures remain private. Current package and add-on entries are project-reference mappings until approved customer details are supplied.\"]",
-          "label": "Customer names and performance figures remain private. Current package and add-on entries are project-reference mappings until approved customer details are supplied.",
+          "key": "[\"text\",\"Explore the packages and add-ons selected for each project. Performance figures remain private.\"]",
+          "label": "Explore the packages and add-ons selected for each project. Performance figures remain private.",
           "kind": "string",
-          "en": "Customer names and performance figures remain private. Current package and add-on entries are project-reference mappings until approved customer details are supplied.",
-          "my": "ဖောက်သည်အမည်နှင့် စွမ်းဆောင်ရည်ကိန်းဂဏန်းများကို လျှို့ဝှက်ထားပါသည်။ လက်ရှိပက်ကေ့ချ်နှင့် ထပ်တိုးဝန်ဆောင်မှုများသည် အတည်ပြုထားသော ဖောက်သည်အချက်အလက်များ မရမချင်း ပရောဂျက်နမူနာအဖြစ်သာ ဖော်ပြထားပါသည်။"
+          "en": "Explore the packages and add-ons selected for each project. Performance figures remain private.",
+          "my": "ပရောဂျက်တစ်ခုချင်းစီအတွက် ရွေးချယ်ထားသော ပက်ကေ့ချ်များနှင့် ထပ်တိုးဝန်ဆောင်မှုများကို လေ့လာပါ။ စွမ်းဆောင်ရည်ကိန်းဂဏန်းများကို လျှို့ဝှက်ထားပါသည်။"
         },
         {
           "key": "[\"text\",\"scrolling website preview\"]",

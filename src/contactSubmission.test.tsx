@@ -16,9 +16,20 @@ async function fillForm() {
   render(<App />);
   await userEvent.type(screen.getByRole("textbox", { name: "Name" }), "Test Customer");
   await userEvent.type(screen.getByRole("textbox", { name: "Email" }), "customer@example.com");
+  await userEvent.type(screen.getByRole("textbox", { name: "Phone number" }), "+959123456789");
   await userEvent.type(screen.getByRole("textbox", { name: "Short message" }), "Please help with my website.");
 }
 describe("contact submission UI", () => {
+  it("blocks submission when the required phone number is empty", async () => {
+    const mock = vi.fn(); vi.stubGlobal("fetch", mock);
+    await fillForm();
+    const phone = screen.getByRole("textbox", { name: "Phone number" });
+    await userEvent.clear(phone);
+    expect(phone).toBeRequired();
+    await userEvent.click(screen.getByRole("button", { name: "Request a consultation" }));
+    expect(phone).toBeInvalid();
+    expect(mock).not.toHaveBeenCalled();
+  });
   it("stays on the page and confirms only a successful API response", async () => {
     const mock = vi.fn().mockResolvedValue(Response.json({ success: true }));vi.stubGlobal("fetch", mock);
     await fillForm();
