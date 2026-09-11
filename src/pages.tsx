@@ -307,6 +307,12 @@ function ContactPage({ locale }: { locale: Locale }) {
       }
       setStatus("success");
       form.reset();
+      try {
+        const analytics = window as Window & { gtag?: (...args: unknown[]) => void };
+        analytics.gtag?.("event", "generate_lead", { form_name: "contact_enquiry" });
+      } catch {
+        // Analytics must never turn a successful enquiry into a submission error.
+      }
     } catch { setStatus("error"); }
     finally {
       requestInFlight.current = false;
