@@ -159,10 +159,10 @@ export function Footer({ locale }: { locale: Locale }) {
         <Brand />
         <p className="copyright">{c.copyright}</p>
         <div className="footer-social" aria-label={c.socialMedia}>
-          <a href={business.facebook} aria-label="Facebook" target="_blank" rel="noreferrer"><SiFacebook /></a>
-          <a href={business.instagram} aria-label="Instagram" target="_blank" rel="noreferrer"><SiInstagram /></a>
-          <a href={business.tiktok} aria-label="TikTok" target="_blank" rel="noreferrer"><SiTiktok /></a>
-          <a href={business.linkedin} aria-label="LinkedIn" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
+          <a href={business.facebook} aria-label="Facebook" target="_blank" rel="noreferrer"><SiFacebook aria-hidden="true" focusable="false" /></a>
+          <a href={business.instagram} aria-label="Instagram" target="_blank" rel="noreferrer"><SiInstagram aria-hidden="true" focusable="false" /></a>
+          <a href={business.tiktok} aria-label="TikTok" target="_blank" rel="noreferrer"><SiTiktok aria-hidden="true" focusable="false" /></a>
+          <a href={business.linkedin} aria-label="LinkedIn" target="_blank" rel="noreferrer"><FaLinkedinIn aria-hidden="true" focusable="false" /></a>
         </div>
       </div>
     </footer>

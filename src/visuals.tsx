@@ -1,3 +1,4 @@
+import { optimizedImage } from "./optimizedImages";
 import { getMedia } from "./cms/siteContent";
 import { type CSSProperties, useEffect, useRef, useState } from "react";
 import { useGSAP } from "@gsap/react";
@@ -42,7 +43,7 @@ export function HeroVisual({ locale }: { locale: Locale }) {
         role="img"
         aria-label={c.heroVisualLabel}
       >
-        <img className="hero-browser-shell" src={images.heroBrowser} alt="" draggable={false} />
+        <img className="hero-browser-shell" src={images.heroBrowser} fetchPriority="high" loading="eager" alt="" draggable={false} />
         <div className="hero-search-query" aria-hidden="true"><span>{c.searchQuery}</span></div>
         <div className="hero-results-loading" aria-hidden="true">
           <span />
@@ -50,7 +51,7 @@ export function HeroVisual({ locale }: { locale: Locale }) {
         </div>
         <div className="hero-card-stack" aria-hidden="true">
           {cards.map(([name, src]) => (
-            <img className={`hero-result-card hero-result-card-${name}`} src={src} alt="" draggable={false} key={name} />
+            <img className={`hero-result-card hero-result-card-${name}`} {...optimizedImage(src)} sizes="(max-width: 600px) 220px, 360px" alt="" draggable={false} key={name} />
           ))}
         </div>
       </div>
@@ -229,7 +230,7 @@ export function PerspectiveProjectDeck({ locale }: { locale: Locale }) {
                 }
               }}
             >
-              <img src={image} alt="" />
+              <img {...optimizedImage(image)} sizes="(max-width: 600px) 265px, 365px" loading="lazy" decoding="async" alt="" />
             </Link>
             {index < 4 ? <span><strong>{c.projects[index][0]}</strong><small>{c.projects[index][1]}</small></span> : null}
           </article>

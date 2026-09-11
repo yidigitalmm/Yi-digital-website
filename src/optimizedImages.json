@@ -1,0 +1,78 @@
+{
+  "/uploads/0eefff27f4c86f48fc1ff546354533052daa384a-960x720.webp": {
+    "src": "/optimized/e9a2289cfe7f-960.webp",
+    "srcSet": "/optimized/e9a2289cfe7f-480.webp 480w, /optimized/e9a2289cfe7f-960.webp 960w"
+  },
+  "/uploads/1a1624153d92776f3bd7701c6a6159723da42a68-1536x1024.webp": {
+    "src": "/optimized/85a08860efd5-960.webp",
+    "srcSet": "/optimized/85a08860efd5-480.webp 480w, /optimized/85a08860efd5-960.webp 960w"
+  },
+  "/uploads/2673e471be2cb127434bd0db860c4977ad0461a4-1586x992.png": {
+    "src": "/optimized/7e508b5124b0-960.webp",
+    "srcSet": "/optimized/7e508b5124b0-480.webp 480w, /optimized/7e508b5124b0-960.webp 960w"
+  },
+  "/uploads/27248f48390fdbbb53e306e7d52f0fbc10ef6cab-1440x8956.webp": {
+    "src": "/optimized/2b8fe49782ce-960.webp",
+    "srcSet": "/optimized/2b8fe49782ce-480.webp 480w, /optimized/2b8fe49782ce-960.webp 960w"
+  },
+  "/uploads/32cd8c809c336135ab13e9d5733d47680a740bc2-960x720.webp": {
+    "src": "/optimized/fc54c63d1be1-960.webp",
+    "srcSet": "/optimized/fc54c63d1be1-480.webp 480w, /optimized/fc54c63d1be1-960.webp 960w"
+  },
+  "/uploads/44ee0821ede3b564d1d06c7d28225feb6632b190-1586x992.png": {
+    "src": "/optimized/454d2d51f54a-960.webp",
+    "srcSet": "/optimized/454d2d51f54a-480.webp 480w, /optimized/454d2d51f54a-960.webp 960w"
+  },
+  "/uploads/595c60866347a3579c67ea2e2ab5ff9aed429d25-960x720.webp": {
+    "src": "/optimized/50e39033685b-960.webp",
+    "srcSet": "/optimized/50e39033685b-480.webp 480w, /optimized/50e39033685b-960.webp 960w"
+  },
+  "/uploads/5a4ff2eee426d464de95b4d1db597ad8d9bc5748-1536x1024.webp": {
+    "src": "/optimized/a42b70b5a04f-960.webp",
+    "srcSet": "/optimized/a42b70b5a04f-480.webp 480w, /optimized/a42b70b5a04f-960.webp 960w"
+  },
+  "/uploads/66a2cfe369e97488d04ac80b40b49bcd4f5dc014-1440x4580.webp": {
+    "src": "/optimized/b3d542c9bae6-960.webp",
+    "srcSet": "/optimized/b3d542c9bae6-480.webp 480w, /optimized/b3d542c9bae6-960.webp 960w"
+  },
+  "/uploads/70ba235d9b720e0ec2df6c76433984090e8b2086-1536x1024.webp": {
+    "src": "/optimized/010441c3d6e4-960.webp",
+    "srcSet": "/optimized/010441c3d6e4-480.webp 480w, /optimized/010441c3d6e4-960.webp 960w"
+  },
+  "/uploads/7f4f11e357367d3343fa036efdfc89d247baa68b-1536x1024.webp": {
+    "src": "/optimized/1af4c3e25ec3-960.webp",
+    "srcSet": "/optimized/1af4c3e25ec3-480.webp 480w, /optimized/1af4c3e25ec3-960.webp 960w"
+  },
+  "/uploads/816e1b44ffaa0e1521d2cff7767256c433422ef8-1440x7538.webp": {
+    "src": "/optimized/a0ce16e59886-960.webp",
+    "srcSet": "/optimized/a0ce16e59886-480.webp 480w, /optimized/a0ce16e59886-960.webp 960w"
+  },
+  "/uploads/8de971cf76b5861ed9e93620810897cc7fb6ffcb-1536x1024.webp": {
+    "src": "/optimized/de5d1248bee6-960.webp",
+    "srcSet": "/optimized/de5d1248bee6-480.webp 480w, /optimized/de5d1248bee6-960.webp 960w"
+  },
+  "/uploads/ae0c71044edc2187ba7a8f5d54478073afba23fc-1536x1024.webp": {
+    "src": "/optimized/caf0f32f76ff-384.webp",
+    "srcSet": "/optimized/caf0f32f76ff-192.webp 192w, /optimized/caf0f32f76ff-384.webp 384w"
+  },
+  "/uploads/aec38c279eadfbd57cb2cdfe85088c42ef362f0e-1536x1024.webp": {
+    "src": "/optimized/d86fa1a49997-960.webp",
+    "srcSet": "/optimized/d86fa1a49997-480.webp 480w, /optimized/d86fa1a49997-960.webp 960w"
+  },
+  "/uploads/d03e0a753c98a06b0668c1a33af3fcaeed86829f-1536x1024.webp": {
+    "src": "/optimized/1d9207845147-960.webp",
+    "srcSet": "/optimized/1d9207845147-480.webp 480w, /optimized/1d9207845147-960.webp 960w"
+  },
+  "/uploads/dbe4749e8e9e0ef3ef2c125e977c9a671ed7568c-960x720.webp": {
+    "src": "/optimized/993c4710d299-960.webp",
+    "srcSet": "/optimized/993c4710d299-480.webp 480w, /optimized/993c4710d299-960.webp 960w"
+  },
+  "/uploads/f60219d616ce1790c0d1e3596623aebecf300b75-1536x1024.webp": {
+    "src": "/optimized/9fc504851b99-960.webp",
+    "srcSet": "/optimized/9fc504851b99-480.webp 480w, /optimized/9fc504851b99-960.webp 960w"
+  },
+  "/uploads/fd60ec23d6a09ceed52f48d3bd4effda819e357e-960x720.webp": {
+    "src": "/optimized/3760bc163f7d-960.webp",
+    "srcSet": "/optimized/3760bc163f7d-480.webp 480w, /optimized/3760bc163f7d-960.webp 960w"
+  }
+}
