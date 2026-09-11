@@ -390,6 +390,42 @@
       "label": "Local visibility foundation",
       "en": "Local visibility foundation",
       "my": "ဒေသတွင်း ရှာတွေ့နိုင်မှု အခြေခံစနစ်"
+    },
+    {
+      "key": "[\"What is included in the website price?\"]",
+      "label": "What is included in the website price?",
+      "en": "What is included in the website price?",
+      "my": "ဝဘ်ဆိုက်ဈေးနှုန်းတွင် ဘာတွေပါဝင်ပါသလဲ?"
+    },
+    {
+      "key": "[\"Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.\"]",
+      "label": "Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.",
+      "en": "Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.",
+      "my": "ရွေးချယ်ထားသော ပက်ကေ့ချ်တွင် ဝဘ်ဆိုက်ဒီဇိုင်းနှင့် တည်ဆောက်ခြင်း၊ ပထမနှစ်ဒိုမိန်း၊ SSL နှင့် စတင်မိတ်ဆက်ခြင်း ပါဝင်ပါသည်။ စာမျက်နှာအရေအတွက်၊ ပြင်ဆင်မှု၊ အကြောင်းအရာ update နှင့် ပံ့ပိုးမှုတို့သည် ပက်ကေ့ချ်အလိုက် ကွာခြားပါသည်။ Google နှင့် လူမှုကွန်ရက်ပရိုဖိုင် ပြင်ဆင်ခြင်းကို Connected Presence အဖြစ် သီးခြားကျသင့်ပြီး ထပ်တိုးဝန်ဆောင်မှုများလည်း သီးခြားဖြစ်ပါသည်။"
+    },
+    {
+      "key": "[\"What will I pay each year?\"]",
+      "label": "What will I pay each year?",
+      "en": "What will I pay each year?",
+      "my": "နှစ်စဉ် ဘယ်လောက်ပေးရပါမလဲ?"
+    },
+    {
+      "key": "[\"From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.\"]",
+      "label": "From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.",
+      "en": "From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.",
+      "my": "ဒုတိယနှစ်မှစ၍ နှစ်စဉ်ထိန်းသိမ်းခသည် နောက်ဆုံးပရောဂျက်ဈေးနှုန်း၏ ၃၀% ဖြစ်ပါသည်။ ဒိုမိန်းသက်တမ်းတိုးခနှင့် အခပေးပြင်ပဝန်ဆောင်မှုများ သီးခြားကျသင့်ပါသည်။ လုပ်ငန်းမစတင်မီ ဤကုန်ကျစရိတ်များကို အဆိုပြုချက်တွင် အတည်ပြုပေးပါသည်။"
+    },
+    {
+      "key": "[\"Do you work with businesses outside Yangon?\"]",
+      "label": "Do you work with businesses outside Yangon?",
+      "en": "Do you work with businesses outside Yangon?",
+      "my": "ရန်ကုန်ပြင်ပရှိ လုပ်ငန်းများအတွက် ဝန်ဆောင်မှုပေးပါသလား?"
+    },
+    {
+      "key": "[\"Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.\"]",
+      "label": "Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.",
+      "en": "Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.",
+      "my": "ပေးပါသည်။ Yi Digital သည် မြန်မာနိုင်ငံတစ်ဝန်းရှိ လုပ်ငန်းများနှင့် လက်တွဲဆောင်ရွက်ပါသည်။ သင့်လုပ်ငန်းတည်နေရာနှင့် လိုအပ်ချက်များကို ပြောပြပါ။ ဆွေးနွေးတိုင်ပင်ချိန်တွင် လုပ်ငန်းအတိုင်းအတာနှင့် အတူတကွဆောင်ရွက်မည့်ပုံစံကို သဘောတူညီပါမည်။"
     }
   ],
   "numbers": [],

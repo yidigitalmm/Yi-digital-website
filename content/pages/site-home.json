@@ -196,8 +196,14 @@
     {
       "key": "[\"servicesTitle\"]",
       "label": "Services Title",
-      "en": "Everything your business needs to show up well.",
-      "my": "သင့်လုပ်ငန်းကို အွန်လိုင်းပေါ်တွင် ကောင်းမွန်စွာ ဖော်ပြရန် လိုအပ်သမျှ။"
+      "en": "Everything your business needs",
+      "my": "သင့်လုပ်ငန်းအတွက် လိုအပ်သမျှ"
+    },
+    {
+      "key": "[\"servicesBody\"]",
+      "label": "Services Body",
+      "en": "Yi Digital builds websites and connects your domain, Google and social profiles—helping businesses across Myanmar get found, build trust and receive enquiries.",
+      "my": "Yi Digital သည် မြန်မာနိုင်ငံတစ်ဝန်းရှိ လုပ်ငန်းများအတွက် ဝဘ်ဆိုက်၊ ဒိုမိန်း၊ Google နှင့် လူမှုကွန်ရက်ပရိုဖိုင်များကို ချိတ်ဆက်တည်ဆောက်ပေးပြီး ဖောက်သည်များ ရှာတွေ့၊ ယုံကြည်၊ ဆက်သွယ်မေးမြန်းနိုင်ရန် ကူညီပေးပါသည်။"
     },
     {
       "key": "[\"services\",0,0]",
@@ -382,8 +388,8 @@
     {
       "key": "[\"learnMore\"]",
       "label": "Learn More",
-      "en": "Learn more",
-      "my": "ပိုမိုလေ့လာရန်"
+      "en": "Explore the journal",
+      "my": "ဆောင်းပါးများကို လေ့လာရန်"
     },
     {
       "key": "[\"readArticle\"]",

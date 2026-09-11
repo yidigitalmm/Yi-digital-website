@@ -89,7 +89,8 @@ export const copy = {
       "coffeeSearch": "Coffee shop near me",
       "openStatus": "4.9 · Open · 0.3 mi",
       "servicesEyebrow": "Services",
-      "servicesTitle": "Everything your business needs to show up well.",
+      "servicesTitle": "Everything your business needs",
+      "servicesBody": "Yi Digital builds websites and connects your domain, Google and social profiles—helping businesses across Myanmar get found, build trust and receive enquiries.",
       "services": [
         [
           "Website & Domain",
@@ -146,7 +147,7 @@ export const copy = {
       "tapHint": "Tap once to lift · tap again to view",
       "journalEyebrow": "Journal",
       "journalTitle": "Practical thinking for business owners.",
-      "learnMore": "Learn more",
+      "learnMore": "Explore the journal",
       "readArticle": "Read article",
       "articles": {
         "complete-google-business-profile": [
@@ -209,6 +210,12 @@ export const copy = {
         "Shared Agreement": "Shared Agreement",
         "You review and approve the full plan before any implementation work begins.": "You review and approve the full plan before any implementation work begins.",
         "Before we begin.": "Before we begin.",
+        "What is included in the website price?": "What is included in the website price?",
+        "Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.": "Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.",
+        "What will I pay each year?": "What will I pay each year?",
+        "From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.": "From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.",
+        "Do you work with businesses outside Yangon?": "Do you work with businesses outside Yangon?",
+        "Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.": "Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.",
         "How long does a typical project take?": "How long does a typical project take?",
         "Do you provide content and photography?": "Do you provide content and photography?",
         "Can I upgrade to a larger package later?": "Can I upgrade to a larger package later?",
@@ -705,7 +712,8 @@ export const copy = {
       "coffeeSearch": "အနီးအနားရှိ ကော်ဖီဆိုင်",
       "openStatus": "၄.၉ · ဖွင့်ထားသည် · ၀.၃ မိုင်",
       "servicesEyebrow": "ဝန်ဆောင်မှုများ",
-      "servicesTitle": "သင့်လုပ်ငန်းကို အွန်လိုင်းပေါ်တွင် ကောင်းမွန်စွာ ဖော်ပြရန် လိုအပ်သမျှ။",
+      "servicesTitle": "သင့်လုပ်ငန်းအတွက် လိုအပ်သမျှ",
+      "servicesBody": "Yi Digital သည် မြန်မာနိုင်ငံတစ်ဝန်းရှိ လုပ်ငန်းများအတွက် ဝဘ်ဆိုက်၊ ဒိုမိန်း၊ Google နှင့် လူမှုကွန်ရက်ပရိုဖိုင်များကို ချိတ်ဆက်တည်ဆောက်ပေးပြီး ဖောက်သည်များ ရှာတွေ့၊ ယုံကြည်၊ ဆက်သွယ်မေးမြန်းနိုင်ရန် ကူညီပေးပါသည်။",
       "services": [
         [
           "ဝဘ်ဆိုက်နှင့် ဒိုမိန်း",
@@ -762,7 +770,7 @@ export const copy = {
       "tapHint": "တစ်ချက်နှိပ်၍ မြှင့်ပါ · ထပ်နှိပ်၍ ကြည့်ရှုပါ",
       "journalEyebrow": "ဗဟုသုတဆောင်းပါးများ",
       "journalTitle": "လုပ်ငန်းရှင်များအတွက် လက်တွေ့အသုံးဝင်သော အကြံပြုချက်များ။",
-      "learnMore": "ပိုမိုလေ့လာရန်",
+      "learnMore": "ဆောင်းပါးများကို လေ့လာရန်",
       "readArticle": "ဆောင်းပါး ဖတ်ရန်",
       "articles": {
         "complete-google-business-profile": [
@@ -825,6 +833,12 @@ export const copy = {
         "Shared Agreement": "နှစ်ဖက်သဘောတူညီချက်",
         "You review and approve the full plan before any implementation work begins.": "အကောင်အထည်ဖော်မှု မစမီ အစီအစဉ်အပြည့်အစုံကို သင်စစ်ဆေးအတည်ပြုပါသည်။",
         "Before we begin.": "မစတင်မီ သိထားသင့်သည်များ။",
+        "What is included in the website price?": "ဝဘ်ဆိုက်ဈေးနှုန်းတွင် ဘာတွေပါဝင်ပါသလဲ?",
+        "Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.": "ရွေးချယ်ထားသော ပက်ကေ့ချ်တွင် ဝဘ်ဆိုက်ဒီဇိုင်းနှင့် တည်ဆောက်ခြင်း၊ ပထမနှစ်ဒိုမိန်း၊ SSL နှင့် စတင်မိတ်ဆက်ခြင်း ပါဝင်ပါသည်။ စာမျက်နှာအရေအတွက်၊ ပြင်ဆင်မှု၊ အကြောင်းအရာ update နှင့် ပံ့ပိုးမှုတို့သည် ပက်ကေ့ချ်အလိုက် ကွာခြားပါသည်။ Google နှင့် လူမှုကွန်ရက်ပရိုဖိုင် ပြင်ဆင်ခြင်းကို Connected Presence အဖြစ် သီးခြားကျသင့်ပြီး ထပ်တိုးဝန်ဆောင်မှုများလည်း သီးခြားဖြစ်ပါသည်။",
+        "What will I pay each year?": "နှစ်စဉ် ဘယ်လောက်ပေးရပါမလဲ?",
+        "From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.": "ဒုတိယနှစ်မှစ၍ နှစ်စဉ်ထိန်းသိမ်းခသည် နောက်ဆုံးပရောဂျက်ဈေးနှုန်း၏ ၃၀% ဖြစ်ပါသည်။ ဒိုမိန်းသက်တမ်းတိုးခနှင့် အခပေးပြင်ပဝန်ဆောင်မှုများ သီးခြားကျသင့်ပါသည်။ လုပ်ငန်းမစတင်မီ ဤကုန်ကျစရိတ်များကို အဆိုပြုချက်တွင် အတည်ပြုပေးပါသည်။",
+        "Do you work with businesses outside Yangon?": "ရန်ကုန်ပြင်ပရှိ လုပ်ငန်းများအတွက် ဝန်ဆောင်မှုပေးပါသလား?",
+        "Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.": "ပေးပါသည်။ Yi Digital သည် မြန်မာနိုင်ငံတစ်ဝန်းရှိ လုပ်ငန်းများနှင့် လက်တွဲဆောင်ရွက်ပါသည်။ သင့်လုပ်ငန်းတည်နေရာနှင့် လိုအပ်ချက်များကို ပြောပြပါ။ ဆွေးနွေးတိုင်ပင်ချိန်တွင် လုပ်ငန်းအတိုင်းအတာနှင့် အတူတကွဆောင်ရွက်မည့်ပုံစံကို သဘောတူညီပါမည်။",
         "How long does a typical project take?": "ပုံမှန်ပရောဂျက်တစ်ခု မည်မျှကြာပါသလဲ?",
         "Do you provide content and photography?": "စာသားအကြောင်းအရာနှင့် ဓာတ်ပုံဝန်ဆောင်မှု ပေးပါသလား?",
         "Can I upgrade to a larger package later?": "နောက်ပိုင်းတွင် ပိုကြီးသော ပက်ကေ့ချ်သို့ ပြောင်းနိုင်ပါသလား?",

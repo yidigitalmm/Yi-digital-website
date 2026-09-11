@@ -2065,8 +2065,15 @@
           "key": "[\"servicesTitle\"]",
           "label": "Services Title",
           "kind": "string",
-          "en": "Everything your business needs to show up well.",
-          "my": "သင့်လုပ်ငန်းကို အွန်လိုင်းပေါ်တွင် ကောင်းမွန်စွာ ဖော်ပြရန် လိုအပ်သမျှ။"
+          "en": "Everything your business needs",
+          "my": "သင့်လုပ်ငန်းအတွက် လိုအပ်သမျှ"
+        },
+        {
+          "key": "[\"servicesBody\"]",
+          "label": "Services Body",
+          "kind": "string",
+          "en": "Yi Digital builds websites and connects your domain, Google and social profiles—helping businesses across Myanmar get found, build trust and receive enquiries.",
+          "my": "Yi Digital သည် မြန်မာနိုင်ငံတစ်ဝန်းရှိ လုပ်ငန်းများအတွက် ဝဘ်ဆိုက်၊ ဒိုမိန်း၊ Google နှင့် လူမှုကွန်ရက်ပရိုဖိုင်များကို ချိတ်ဆက်တည်ဆောက်ပေးပြီး ဖောက်သည်များ ရှာတွေ့၊ ယုံကြည်၊ ဆက်သွယ်မေးမြန်းနိုင်ရန် ကူညီပေးပါသည်။"
         },
         {
           "key": "[\"services\",0,0]",
@@ -2282,8 +2289,8 @@
           "key": "[\"learnMore\"]",
           "label": "Learn More",
           "kind": "string",
-          "en": "Learn more",
-          "my": "ပိုမိုလေ့လာရန်"
+          "en": "Explore the journal",
+          "my": "ဆောင်းပါးများကို လေ့လာရန်"
         },
         {
           "key": "[\"readArticle\"]",
@@ -3550,28 +3557,28 @@
           "key": "[\"/\",0]",
           "label": "/ · Item 1",
           "kind": "string",
-          "en": "Websites & Online Presence",
+          "en": "Website Design in Myanmar",
           "my": "ဝဘ်ဆိုက်နှင့် အွန်လိုင်းလုပ်ငန်းပုံရိပ်"
         },
         {
           "key": "[\"/\",1]",
           "label": "/ · Item 2",
           "kind": "string",
-          "en": "Yi Digital builds websites and online presence for businesses in Yangon, Myanmar. Help customers find you, trust you, and get in touch.",
+          "en": "Professional websites and online presence for businesses across Myanmar. Help customers find and trust your business. Enquire with Yi Digital today.",
           "my": "Yi Digital သည် လုပ်ငန်းများအတွက် ဝဘ်ဆိုက်နှင့် အွန်လိုင်းလုပ်ငန်းပုံရိပ်ကို ဖန်တီးပေးပါသည်။ ဖောက်သည်များ သင့်လုပ်ငန်းကို ရှာတွေ့ပြီး ယုံကြည်စွာ ဆက်သွယ်နိုင်ရန် ကူညီပေးပါသည်။"
         },
         {
           "key": "[\"/services\",0]",
           "label": "/services · Item 1",
           "kind": "string",
-          "en": "Website Services & Packages",
+          "en": "Website Design Packages & Prices in Myanmar",
           "my": "ဝဘ်ဆိုက်ဝန်ဆောင်မှုများနှင့် ပက်ကေ့ချ်များ"
         },
         {
           "key": "[\"/services\",1]",
           "label": "/services · Item 2",
           "kind": "string",
-          "en": "Explore Yi Digital website packages, online presence services, and add-ons to find the right scope for your business.",
+          "en": "Compare website design packages, prices and online presence services for businesses across Myanmar. Contact Yi Digital to discuss the right fit for your business.",
           "my": "သင့်လုပ်ငန်းနှင့် ကိုက်ညီမည့် Yi Digital ဝဘ်ဆိုက်ပက်ကေ့ချ်များ၊ အွန်လိုင်းဝန်ဆောင်မှုများနှင့် ထပ်တိုးဝန်ဆောင်မှုများကို လေ့လာပါ။"
         },
         {
@@ -4089,6 +4096,48 @@
           "kind": "string",
           "en": "Local visibility foundation",
           "my": "ဒေသတွင်း ရှာတွေ့နိုင်မှု အခြေခံစနစ်"
+        },
+        {
+          "key": "[\"What is included in the website price?\"]",
+          "label": "What is included in the website price?",
+          "kind": "string",
+          "en": "What is included in the website price?",
+          "my": "ဝဘ်ဆိုက်ဈေးနှုန်းတွင် ဘာတွေပါဝင်ပါသလဲ?"
+        },
+        {
+          "key": "[\"Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.\"]",
+          "label": "Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.",
+          "kind": "string",
+          "en": "Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.",
+          "my": "ရွေးချယ်ထားသော ပက်ကေ့ချ်တွင် ဝဘ်ဆိုက်ဒီဇိုင်းနှင့် တည်ဆောက်ခြင်း၊ ပထမနှစ်ဒိုမိန်း၊ SSL နှင့် စတင်မိတ်ဆက်ခြင်း ပါဝင်ပါသည်။ စာမျက်နှာအရေအတွက်၊ ပြင်ဆင်မှု၊ အကြောင်းအရာ update နှင့် ပံ့ပိုးမှုတို့သည် ပက်ကေ့ချ်အလိုက် ကွာခြားပါသည်။ Google နှင့် လူမှုကွန်ရက်ပရိုဖိုင် ပြင်ဆင်ခြင်းကို Connected Presence အဖြစ် သီးခြားကျသင့်ပြီး ထပ်တိုးဝန်ဆောင်မှုများလည်း သီးခြားဖြစ်ပါသည်။"
+        },
+        {
+          "key": "[\"What will I pay each year?\"]",
+          "label": "What will I pay each year?",
+          "kind": "string",
+          "en": "What will I pay each year?",
+          "my": "နှစ်စဉ် ဘယ်လောက်ပေးရပါမလဲ?"
+        },
+        {
+          "key": "[\"From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.\"]",
+          "label": "From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.",
+          "kind": "string",
+          "en": "From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.",
+          "my": "ဒုတိယနှစ်မှစ၍ နှစ်စဉ်ထိန်းသိမ်းခသည် နောက်ဆုံးပရောဂျက်ဈေးနှုန်း၏ ၃၀% ဖြစ်ပါသည်။ ဒိုမိန်းသက်တမ်းတိုးခနှင့် အခပေးပြင်ပဝန်ဆောင်မှုများ သီးခြားကျသင့်ပါသည်။ လုပ်ငန်းမစတင်မီ ဤကုန်ကျစရိတ်များကို အဆိုပြုချက်တွင် အတည်ပြုပေးပါသည်။"
+        },
+        {
+          "key": "[\"Do you work with businesses outside Yangon?\"]",
+          "label": "Do you work with businesses outside Yangon?",
+          "kind": "string",
+          "en": "Do you work with businesses outside Yangon?",
+          "my": "ရန်ကုန်ပြင်ပရှိ လုပ်ငန်းများအတွက် ဝန်ဆောင်မှုပေးပါသလား?"
+        },
+        {
+          "key": "[\"Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.\"]",
+          "label": "Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.",
+          "kind": "string",
+          "en": "Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.",
+          "my": "ပေးပါသည်။ Yi Digital သည် မြန်မာနိုင်ငံတစ်ဝန်းရှိ လုပ်ငန်းများနှင့် လက်တွဲဆောင်ရွက်ပါသည်။ သင့်လုပ်ငန်းတည်နေရာနှင့် လိုအပ်ချက်များကို ပြောပြပါ။ ဆွေးနွေးတိုင်ပင်ချိန်တွင် လုပ်ငန်းအတိုင်းအတာနှင့် အတူတကွဆောင်ရွက်မည့်ပုံစံကို သဘောတူညီပါမည်။"
         }
       ]
     },

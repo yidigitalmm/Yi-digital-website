@@ -1,4 +1,4 @@
-import { business } from "../src/cms/siteContent.ts";
+import { business, getMedia } from "../src/cms/siteContent.ts";
 import { absoluteImageUrl } from "../src/cms/content.ts";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve, dirname } from "node:path";
@@ -15,6 +15,7 @@ export function renderRouteHtml(template: string, path: string) {
   const tag = (key: string, value: string) => `<meta ${key.startsWith("og:") ? "property" : "name"}="${key}" content="${escape(value)}" />`;
   const head = [
     `<title>${escape(meta.title)}</title>`,
+    ...(path === "/" ? [`<link rel="preload" as="image" href="${escape(getMedia("heroBrowser", "/images/hero-animation/browser-window-supplied.webp"))}" fetchpriority="high" />`] : []),
     tag("description", meta.description), tag("robots", meta.missing ? "noindex, follow" : "index, follow"),
     tag("og:title", meta.title), tag("og:description", meta.description), tag("og:type", meta.type),
     tag("og:site_name", business.brandName), tag("og:image", absoluteImageUrl(meta.image)), tag("og:image:alt", meta.imageAlt),

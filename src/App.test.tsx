@@ -38,8 +38,8 @@ describe("Yi Digital", () => {
   });
 
   it.each([
-    ["/", "Websites & Online Presence"],
-    ["/services", "Website Services & Packages"],
+    ["/", "Website Design in Myanmar"],
+    ["/services", "Website Design Packages & Prices in Myanmar"],
     ["/our-work", "Previous Work"],
     ["/journal", "Journal"],
     ["/contact", "Contact & Consultation"],
@@ -61,7 +61,7 @@ describe("Yi Digital", () => {
     expect(document.head.querySelector('meta[name="robots"]')).toHaveAttribute("content", "noindex, follow");
     await userEvent.click(screen.getByRole("link", { name: "Back to home" }));
     expect(window.location.pathname).toBe("/");
-    expect(document.title).toBe("Websites & Online Presence | Yi Digital");
+    expect(document.title).toBe("Website Design in Myanmar | Yi Digital");
     expect(document.head.querySelector('meta[name="robots"]')).toHaveAttribute("content", "index, follow");
   });
 
@@ -140,7 +140,7 @@ describe("Yi Digital", () => {
     expect(screen.getByText("EN", { selector: "button" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "သင့်လုပ်ငန်းကို ရှာတွေ့နိုင်ပါသလား?" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "ရှာတွေ့နိုင်စေခြင်း" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "သင့်လုပ်ငန်းကို အွန်လိုင်းပေါ်တွင် ကောင်းမွန်စွာ ဖော်ပြရန် လိုအပ်သမျှ။" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "သင့်လုပ်ငန်းအတွက် လိုအပ်သမျှ" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "လုပ်ငန်းရှင်များအတွက် လက်တွေ့အသုံးဝင်သော အကြံပြုချက်များ။" })).toBeInTheDocument();
     expect(screen.getByText("© ၂၀၂၆ Yi Digital။ မူပိုင်ခွင့်အားလုံး ရယူထားသည်။")).toBeInTheDocument();
   });

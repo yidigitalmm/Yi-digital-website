@@ -1,3 +1,4 @@
+import { optimizedImage } from "./optimizedImages";
 import { business, interfaceText } from "./cms/siteContent";
 import { type FormEvent, lazy, Suspense, useEffect, useRef, useState } from "react";
 import { PageMetadata } from "./PageMetadata";
@@ -56,7 +57,7 @@ function HomePage({ locale }: { locale: Locale }) {
       </section>
 
       <section className="capability-strip">
-        {c.capabilities.map(([name, detail], index) => { const Icon = capabilityIcons[index]; return <div key={name}><Icon /><span><strong>{name}</strong><small>{detail}</small></span></div>; })}
+        {c.capabilities.map(([name, detail], index) => { const Icon = capabilityIcons[index]; return <div key={name}><Icon aria-hidden="true" focusable="false" /><span><strong>{name}</strong><small>{detail}</small></span></div>; })}
       </section>
 
       <div className="home-transformation-story">
@@ -71,12 +72,12 @@ function HomePage({ locale }: { locale: Locale }) {
 
         <section className="section comparison-story">
           <article><p className="eyebrow">{c.before[0]}</p><h2>{c.before[1]}</h2><p>{c.before[2]}</p><div className="mini-search"><Search size={15} /> {c.coffeeSearch}</div><div className="ghost-results"><i /><i /></div></article>
-          <article><p className="eyebrow">{c.after[0]}</p><h2>{c.after[1]}</h2><p>{c.after[2]}</p><div className="mini-search"><Search size={15} /> {c.coffeeSearch}</div><div className="result"><img src={images.cafeCounter} alt="" /><span><strong>Brew & Co. Coffee</strong><small>{c.openStatus}</small></span></div></article>
+          <article><p className="eyebrow">{c.after[0]}</p><h2>{c.after[1]}</h2><p>{c.after[2]}</p><div className="mini-search"><Search size={15} /> {c.coffeeSearch}</div><div className="result"><img {...optimizedImage(images.cafeCounter)} sizes="90px" loading="lazy" decoding="async" alt="" /><span><strong>Brew & Co. Coffee</strong><small>{c.openStatus}</small></span></div></article>
         </section>
       </div>
 
       <section className="section service-list-section">
-        <SectionTitle eyebrow={c.servicesEyebrow} title={c.servicesTitle} />
+        <SectionTitle eyebrow={c.servicesEyebrow} title={c.servicesTitle} body={c.servicesBody} />
         <div className="service-list">
           {c.services.map(([name, body], index) => <Link to="/services" key={name}><b>0{index + 1}</b><strong>{name}</strong><span>{body}</span><ArrowRight /></Link>)}
         </div>
@@ -93,7 +94,7 @@ function HomePage({ locale }: { locale: Locale }) {
           <ButtonLink tone="outline" to="/journal">{c.learnMore}</ButtonLink>
         </div>
         <div className="article-row" tabIndex={0} role="region" aria-label={interfaceText(locale, "Journal articles")}>
-          {getArticles(locale).slice(0, 3).map((article) => <article key={article.slug}><img src={article.image} alt={article.imageAlt} /><h3>{article.title}</h3><p>{article.summary}</p><Link to={`/journal/${article.slug}`}>{c.readArticle} <ArrowRight size={14} /></Link></article>)}
+          {getArticles(locale).slice(0, 3).map((article) => <article key={article.slug}><img {...optimizedImage(article.image)} sizes="(max-width: 700px) 85vw, 400px" loading="lazy" decoding="async" alt={article.imageAlt} /><h3>{article.title}</h3><p>{article.summary}</p><Link to={`/journal/${article.slug}`}>{c.readArticle} <ArrowRight size={14} /></Link></article>)}
         </div>
       </section>
       <ConsultationBand locale={locale} />
@@ -151,8 +152,11 @@ function ServicesPage({ locale }: { locale: Locale }) {
       <section className="assurance-band"><p>{t("What every engagement includes")}</p>{localizedAssurances.map(([Icon, label, body]) => <div key={label}><Icon /><h3>{label}</h3><span>{body}</span></div>)}</section>
       <Faq
         title={t("Before we begin.")}
-        questions={localize(locale, "services", ["How long does a typical project take?", "Do you provide content and photography?", "Can I upgrade to a larger package later?", "What if I already have a website or domain?"])}
+        questions={localize(locale, "services", ["What is included in the website price?", "What will I pay each year?", "Do you work with businesses outside Yangon?", "How long does a typical project take?", "Do you provide content and photography?", "Can I upgrade to a larger package later?", "What if I already have a website or domain?"])}
         answers={localize(locale, "services", [
+          "Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.",
+          "From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.",
+          "Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.",
           "A typical project takes 14 days after the design is confirmed.",
           "Yes. Content and photography support are available through the Content Planning add-on.",
           "Yes. You can upgrade to a larger package later as your content, features, or support needs grow.",
