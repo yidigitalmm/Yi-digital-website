@@ -9,6 +9,12 @@ function mockProvider() {
   vi.stubGlobal("fetch", mock); return mock;
 }
 describe("contact email routing", () => {
+  it.each([undefined, "", "   "])("rejects missing or blank phone numbers (%s) before contacting providers", async (phone) => {
+    const mock = mockProvider();
+    const body = { ...fields, phone } as typeof fields;
+    expect((await onRequest({ request: request(body), env })).status).toBe(400);
+    expect(mock).not.toHaveBeenCalled();
+  });
   it("sends both messages with the correct recipients and reply addresses", async () => {
     const mock = mockProvider();
     expect((await onRequest({ request: request(), env })).status).toBe(200);

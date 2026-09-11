@@ -46,22 +46,20 @@ Merge the migration branch into `main` and confirm the Cloudflare build succeeds
 
 Draft saves should not update production. Cloudflare may create preview versions for branches depending on its settings. Local Decap mode writes files directly and does not test the production GitHub draft/publish flow.
 
-## 4. Finish Sanity retirement
+## 4. Sanity retirement status
 
-The migration copied 7 articles, 4 projects, 9 editorial page groups, business settings and 41 images. Code-owned navigation/interface fields remain in code. Published content was compared with the export after converting image paths; no drafts existed at export time.
+Decap publishing and previews were verified by the owner on 2026-09-10. The site now uses Git-managed content and local media exclusively.
 
-Backups on the migration machine are under `local-only/backups/`, including `sanity-production-2026-09-10.tar.gz`, raw documents and retired source. This directory is ignored by Git. Copy the archive to the team's private backup storage before deleting the Sanity project.
+Completed:
 
-Sanity Studio, its dependencies, import/sync scripts and the unfinished two-way publishing workflow have been removed from the working repository. The live Sanity project and existing webhook have intentionally been retained until the new flow is verified.
+- Removed Sanity Studio, dependencies, import/sync scripts and the retired two-way publishing workflow.
+- Verified no Sanity credentials remain in local environment files or GitHub repository settings; GitHub has no configured environments.
+- Sanity project `zq4h340g` lists no project API tokens and no registered hosted Studio.
+- Deleted the local Sanity export archive, extracted dataset/assets, raw documents, retired source and migration scripts/references at the owner's request. No local Sanity backup is retained. Active Decap content and `public/uploads/` are unchanged.
 
-After verification:
+Still pending: disable **Cloudflare rebuild** in Sanity project `zq4h340g`. The saved CLI login can read project metadata but the update API returns `401 Unauthorized` and says project membership is required. Sign in to Sanity Manage with an authorized project account, open API → Webhooks, and disable this webhook. The project and dataset have not been deleted.
 
-- Disable the old Sanity **Cloudflare rebuild** webhook in project `zq4h340g`.
-- Remove obsolete Sanity-related build variables and automation tokens, if configured. Revoke any GitHub dispatch token created solely for the retired synchronization design.
-- Unpublish the old hosted Studio if one exists and stop using it for edits.
-- Retain the dataset/archive for rollback; permanently deleting the Sanity project is a separate owner decision.
-
-The backup represents the export time. Any later Sanity changes must be migrated before cutover; avoid editing in both systems during the transition.
+Cloudflare account settings have not been audited in this cleanup. Remove any obsolete Sanity-only build variables if present; preserve the GitHub OAuth, Turnstile and Resend settings used by the current site.
 
 References: [Decap GitHub backend](https://decapcms.org/docs/github-backend/), [external OAuth](https://decapcms.org/docs/external-oauth-clients/), [GitHub OAuth authorization](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps).
 

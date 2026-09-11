@@ -22,7 +22,7 @@ export async function onRequest({ request, env }: { request: Request; env: Env }
       fields[key] = value.trim();
     }
     if (fields.website) return reply(400, "Invalid submission");
-    if (!fields.name || !fields.message || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email) || !fields.token) return reply(400, "Missing required fields");
+    if (!fields.name || !fields.phone || !fields.message || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email) || !fields.token) return reply(400, "Missing required fields");
     const verification = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
       method: "POST", headers: { "Content-Type": "application/json" }, signal: AbortSignal.timeout(10000),
       body: JSON.stringify({ secret: env.TURNSTILE_SECRET_KEY, response: fields.token, remoteip: request.headers.get("CF-Connecting-IP") ?? undefined }),

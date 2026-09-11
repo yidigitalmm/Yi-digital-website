@@ -12,7 +12,7 @@ describe("Worker contact routing", () => {
     const assets = vi.fn().mockResolvedValue(new Response(null, { status: 405 }));
     const request = new Request("https://yidigitalmm.com/api/contact", {
       method: "POST", headers: { Origin: "https://yidigitalmm.com", "Content-Type": "application/json" },
-      body: JSON.stringify({ name: "Customer", email: "customer@example.com", message: "Enquiry", token: "test-token" }),
+      body: JSON.stringify({ name: "Customer", phone: "+959123456789", email: "customer@example.com", message: "Enquiry", token: "test-token" }),
     });
     const response = await worker.fetch(request, { ASSETS: { fetch: assets }, RESEND_API_KEY: "test", TURNSTILE_SECRET_KEY: "test" });
     expect(response.status).toBe(200);

@@ -9,11 +9,11 @@
     "title": "Taunggyi Hotel",
     "type": "Hotel",
     "summary": "A welcoming hotel presence that makes accommodation details, location information, and the path to enquire easier to understand.",
-    "packageName": "Advanced",
+    "packageName": "Basic Online",
     "outcome": "A clearer, more consistent journey from discovering the hotel to making contact.",
     "addons": [
       "Connected Presence",
-      "Additional website language"
+      "Website content planning"
     ],
     "delivered": [
       "Accommodation-led website",
@@ -25,11 +25,11 @@
     "title": "Taunggyi Hotel",
     "type": "ဟိုတယ်",
     "summary": "တည်းခိုခန်းအချက်အလက်၊ တည်နေရာနှင့် စုံစမ်းဆက်သွယ်ရန်လမ်းကြောင်းကို နားလည်ရလွယ်ကူစေသည့် ကြိုဆိုမှုရှိသော ဟိုတယ်အွန်လိုင်းပုံရိပ်။",
-    "packageName": "Advanced",
+    "packageName": "Basic Online",
     "outcome": "ဟိုတယ်ကို ရှာတွေ့ခြင်းမှ ဆက်သွယ်ခြင်းအထိ ပိုမိုရှင်းလင်းပြီး တစ်သမတ်တည်းရှိသော ခရီးစဉ်။",
     "addons": [
       "ချိတ်ဆက်ထားသော အွန်လိုင်းပုံရိပ်",
-      "ဝဘ်ဆိုက်ဘာသာစကား ထပ်ထည့်ခြင်း"
+      "ဝဘ်ဆိုက်အကြောင်းအရာ စီစဉ်ခြင်း"
     ],
     "delivered": [
       "တည်းခိုဝန်ဆောင်မှုဦးစားပေး ဝဘ်ဆိုက်",
