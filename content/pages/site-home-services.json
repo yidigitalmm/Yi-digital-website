@@ -1,0 +1,73 @@
+{
+  "title": "Home — service summaries",
+  "strings": [
+    {
+      "key": "[\"Business websites\"]",
+      "label": "Business websites",
+      "en": "Business websites",
+      "my": "လုပ်ငန်း ဝဘ်ဆိုက်များ"
+    },
+    {
+      "key": "[\"E-commerce, booking & loyalty\"]",
+      "label": "E-commerce, booking & loyalty",
+      "en": "E-commerce, booking & loyalty",
+      "my": "အွန်လိုင်းအရောင်း၊ booking နှင့် loyalty"
+    },
+    {
+      "key": "[\"Website system add-ons · US$250–450\"]",
+      "label": "Website system add-ons · US$250–450",
+      "en": "Website system add-ons · US$250–450",
+      "my": "ဝဘ်ဆိုက်စနစ် ထပ်တိုးမှု · US$250–450"
+    },
+    {
+      "key": "[\"Company profiles & catalogs\"]",
+      "label": "Company profiles & catalogs",
+      "en": "Company profiles & catalogs",
+      "my": "ကုမ္ပဏီပရိုဖိုင်နှင့် ကတ်တလောက်"
+    },
+    {
+      "key": "[\"PDF documents · US$75 each · Additional language US$25\"]",
+      "label": "PDF documents · US$75 each · Additional language US$25",
+      "en": "PDF documents · US$75 each · Additional language US$25",
+      "my": "PDF စာရွက်စာတမ်း · တစ်ခု US$75 · ထပ်တိုးဘာသာ US$25"
+    },
+    {
+      "key": "[\"Languages, animation & CMS\"]",
+      "label": "Languages, animation & CMS",
+      "en": "Languages, animation & CMS",
+      "my": "ဘာသာစကား၊ animation နှင့် CMS"
+    },
+    {
+      "key": "[\"Translation, custom scroll animation and content editing.\"]",
+      "label": "Translation, custom scroll animation and content editing.",
+      "en": "Translation, custom scroll animation and content editing.",
+      "my": "ဘာသာပြန်၊ စိတ်ကြိုက် scroll animation နှင့် အကြောင်းအရာပြင်ဆင်မှု။"
+    },
+    {
+      "key": "[\"Google, social & invitations\"]",
+      "label": "Google, social & invitations",
+      "en": "Google, social & invitations",
+      "my": "Google၊ လူမှုကွန်ရက်နှင့် ဖိတ်စာများ"
+    },
+    {
+      "key": "[\"Profile setup US$125 · Digital invitations US$25–75\"]",
+      "label": "Profile setup US$125 · Digital invitations US$25–75",
+      "en": "Profile setup US$125 · Digital invitations US$25–75",
+      "my": "ပရိုဖိုင်တည်ဆောက်မှု US$125 · ဒစ်ဂျစ်တယ်ဖိတ်စာ US$25–75"
+    },
+    {
+      "key": "[\"Websites, business systems and digital documents. Choose a starting point; add what you need.\"]",
+      "label": "Websites, business systems and digital documents. Choose a starting point; add what you need.",
+      "en": "Websites, business systems and digital documents. Choose a starting point; add what you need.",
+      "my": "ဝဘ်ဆိုက်၊ လုပ်ငန်းသုံးစနစ်နှင့် ဒစ်ဂျစ်တယ်စာရွက်စာတမ်းများ။ အခြေခံပက်ကေ့ချ်မှစ၍ လိုအပ်သည်များကို ထပ်တိုးနိုင်ပါသည်။"
+    },
+    {
+      "key": "[\"Single page {singlePrice} · Up to 8 pages {businessPrice}\"]",
+      "label": "Single page {single Price} · Up to 8 pages {business Price}",
+      "en": "Single page {singlePrice} · Up to 8 pages {businessPrice}",
+      "my": "စာမျက်နှာတစ်ခု {singlePrice} · ၈ မျက်နှာအထိ {businessPrice}"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

@@ -51,7 +51,7 @@ export function InstantCameraShowcase({ locale }: { locale: Locale }) {
           <Camera size={20} /><span>{status === "ready" ? c.again : c.shoot}</span><i aria-hidden="true" />
         </button>
         <p className="instant-status" role="status">{status === "developing" ? c.developing : status === "ready" ? c.ready : status === "loading" ? c.loading : status === "error" ? c.fallback : ""}</p>
-        <div className="instant-uses motion-uses"><small>{c.uses}</small><div>{c.tags.map(tag => <span key={tag}>{tag}</span>)}</div></div>
+        <div className="instant-uses motion-uses uses-desktop"><small>{c.uses}</small><div>{c.tags.map(tag => <span key={tag}>{tag}</span>)}</div></div>
       </div>
       <div className="instant-camera-stage">
         <div className="instant-camera-canvas" ref={host} role="group" aria-label={c.drag} tabIndex={0} />
@@ -61,6 +61,7 @@ export function InstantCameraShowcase({ locale }: { locale: Locale }) {
         <div className="instant-stage-footer"><span>{c.drag}</span><button type="button" onClick={() => controller.current?.reset()} aria-label={c.reset}><RotateCcw size={18} /></button></div>
         {status === "ready" && <button className="instant-photo-open" aria-label={c.photo} type="button" onClick={() => dialog.current?.showModal()}>{c.photo} ↗</button>}
       </div>
+<div className="instant-uses motion-uses uses-stacked"><small>{c.uses}</small><div>{c.tags.map(tag => <span key={tag}>{tag}</span>)}</div></div>
       <dialog ref={dialog} aria-label={c.photo} className="instant-photo-dialog" onClick={event => { if (event.target === event.currentTarget) dialog.current?.close(); }}>
         <button className="instant-photo-close" type="button" aria-label={c.close} onClick={() => dialog.current?.close()}><X /></button>
         <figure><img src={getMedia("cafeCounter", "/images/generated/cafe-counter.webp")} alt={c.caption} /><figcaption>{c.caption}<small>{c.signature}</small></figcaption></figure>

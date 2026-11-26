@@ -1,0 +1,109 @@
+{
+  "title": "Animation — tea journey",
+  "strings": [
+    {
+      "key": "[\"INTERACTIVE WEB EXPERIENCES\"]",
+      "label": "INTERACTIVE WEB EXPERIENCES",
+      "en": "INTERACTIVE WEB EXPERIENCES",
+      "my": "အပြန်အလှန်တုံ့ပြန်သော ဝဘ်အတွေ့အကြုံ"
+    },
+    {
+      "key": "[\"A website you can play with.\"]",
+      "label": "A website you can play with.",
+      "en": "A website you can play with.",
+      "my": "ကိုယ်တိုင် စမ်းသပ်ကြည့်နိုင်သော ဝဘ်ဆိုက်။"
+    },
+    {
+      "key": "[\"Move the slider. Explore the details. Give your customers a reason to stay.\"]",
+      "label": "Move the slider. Explore the details. Give your customers a reason to stay.",
+      "en": "Move the slider. Explore the details. Give your customers a reason to stay.",
+      "my": "ဆလိုက်ဒါကို ရွှေ့ပြီး အသေးစိတ် စမ်းသပ်ကြည့်ပါ။"
+    },
+    {
+      "key": "[\"Follow a tea leaf from the hillside to the shop: growing, harvesting, fermenting and packaging. Each scroll moves the story forward; scroll back to revisit a step.\"]",
+      "label": "Follow a tea leaf from the hillside to the shop: growing, harvesting, fermenting and packaging. Each scroll moves the story forward; scroll back to revisit a step.",
+      "en": "Follow a tea leaf from the hillside to the shop: growing, harvesting, fermenting and packaging. Each scroll moves the story forward; scroll back to revisit a step.",
+      "my": "တောင်စောင်းရှိ လက်ဖက်ခင်းမှ ဆိုင်အထိ — စိုက်ပျိုးခြင်း၊ ခူးဆွတ်ခြင်း၊ အချဉ်ဖောက်ခြင်းနှင့် ထုပ်ပိုးခြင်းတို့ကို ကြည့်ပါ။ Scroll ဖြင့် ရှေ့တိုးနောက်ဆုတ် ကြည့်နိုင်ပါသည်။"
+    },
+    {
+      "key": "[\"WORKS WELL FOR\"]",
+      "label": "WORKS WELL FOR",
+      "en": "WORKS WELL FOR",
+      "my": "အသုံးပြုနိုင်သည့်နေရာများ"
+    },
+    {
+      "key": "[\"Product journeys\"]",
+      "label": "Product journeys",
+      "en": "Product journeys",
+      "my": "ထုတ်ကုန်ခရီးစဉ်များ"
+    },
+    {
+      "key": "[\"Brand stories\"]",
+      "label": "Brand stories",
+      "en": "Brand stories",
+      "my": "အမှတ်တံဆိပ် ဇာတ်လမ်းများ"
+    },
+    {
+      "key": "[\"Process explainers\"]",
+      "label": "Process explainers",
+      "en": "Process explainers",
+      "my": "လုပ်ငန်းစဉ် ရှင်းလင်းချက်များ"
+    },
+    {
+      "key": "[\"TEA / FROM FIELD TO SHOP\"]",
+      "label": "TEA / FROM FIELD TO SHOP",
+      "en": "TEA / FROM FIELD TO SHOP",
+      "my": "လက်ဖက် / စိုက်ခင်းမှ ဆိုင်အထိ"
+    },
+    {
+      "key": "[\"Reset\"]",
+      "label": "Reset",
+      "en": "Reset",
+      "my": "ပြန်စရန်"
+    },
+    {
+      "key": "[\"Tea journey: growth, harvest, fermentation, packaging and shop sale\"]",
+      "label": "Tea journey: growth, harvest, fermentation, packaging and shop sale",
+      "en": "Tea journey: growth, harvest, fermentation, packaging and shop sale",
+      "my": "လက်ဖက်ခရီးစဉ် — စိုက်ပျိုးခြင်း၊ ခူးဆွတ်ခြင်း၊ အချဉ်ဖောက်ခြင်း၊ ထုပ်ပိုးခြင်းနှင့် ရောင်းချခြင်း"
+    },
+    {
+      "key": "[\"The animation could not load. Please reload the page to try again.\"]",
+      "label": "The animation could not load. Please reload the page to try again.",
+      "en": "The animation could not load. Please reload the page to try again.",
+      "my": "Animation မရရှိနိုင်ပါ။ စာမျက်နှာကို ပြန်ဖွင့်ပြီး စမ်းကြည့်ပါ။"
+    },
+    {
+      "key": "[\"Drag to explore\"]",
+      "label": "Drag to explore",
+      "en": "Drag to explore",
+      "my": "ရွှေ့၍ စမ်းသပ်ရန်"
+    },
+    {
+      "key": "[\"Animation progress\"]",
+      "label": "Animation progress",
+      "en": "Animation progress",
+      "my": "Animation တိုးတက်မှု"
+    },
+    {
+      "key": "[\"Reduced motion: use the slider to explore.\"]",
+      "label": "Reduced motion: use the slider to explore.",
+      "en": "Reduced motion: use the slider to explore.",
+      "my": "လှုပ်ရှားမှု လျှော့ထားသည်။ ဆလိုက်ဒါဖြင့် စမ်းသပ်ပါ။"
+    },
+    {
+      "key": "[\"Scroll inside the frame to explore the tea journey. Scroll outside to move the page, or keep scrolling at either end. On touch screens, use the slider.\"]",
+      "label": "Scroll inside the frame to explore the tea journey. Scroll outside to move the page, or keep scrolling at either end. On touch screens, use the slider.",
+      "en": "Scroll inside the frame to explore the tea journey. Scroll outside to move the page, or keep scrolling at either end. On touch screens, use the slider.",
+      "my": "ဘောင်အတွင်း scroll ဖြင့် လက်ဖက်ခရီးစဉ်ကို ကြည့်ပါ။ ဘောင်အပြင်တွင် စာမျက်နှာကို ရွှေ့နိုင်သည်။ Touch screen တွင် ဆလိုက်ဒါကို အသုံးပြုပါ။"
+    },
+    {
+      "key": "[\"Try all interactive demos\"]",
+      "label": "Try all interactive demos",
+      "en": "Try all interactive demos",
+      "my": "စမ်းသပ်မှုအားလုံး ကြည့်ရန်"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

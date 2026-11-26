@@ -25,6 +25,9 @@ export function normalizeSite(result: { pages?: SitePage[]; media?: MediaItem[];
   if (new Set(pages.map(page => page.id)).size !== pages.length) throw new Error("Duplicate page documents");
   const media = (result.media ?? []).map(item => {
     if (!(item.key in mediaDefaults) || !/^\/(?!\/)/.test(item.url ?? "") || item.url.includes("..")) throw new Error(`Invalid website image: ${item.key}`);
+    const defaultPath = (mediaDefaults as Record<string, string>)[item.key];
+    const videoExtension = defaultPath.match(/\.(mp4|webm)$/)?.[1];
+    if (videoExtension && !item.url.toLowerCase().endsWith(`.${videoExtension}`)) throw new Error(`Expected .${videoExtension} video for ${item.key}`);
     return { key: item.key, url: item.url };
   });
   if (new Set(media.map(item => item.key)).size !== media.length) throw new Error("Duplicate image slots");

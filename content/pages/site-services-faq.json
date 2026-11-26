@@ -1,0 +1,31 @@
+{
+  "title": "Services — updated FAQ answers",
+  "strings": [
+    {
+      "key": "[\"Website packages include hosting for simple Cloudflare-hosted websites, standard SSL, first-year standard domain registration below US$20, 3 design revision rounds, 3 implementation reviews and 30 days post-launch support. Additional resources and higher-priced domains are charged separately.\"]",
+      "label": "Website packages include hosting for simple Cloudflare-hosted websites, standard SSL, first-year standard domain registration below US$20, 3 design revision rounds, 3 implementation reviews and 30 days post-launch support. Additional resources and higher-priced domains are charged separately.",
+      "en": "Website packages include hosting for simple Cloudflare-hosted websites, standard SSL, first-year standard domain registration below US$20, 3 design revision rounds, 3 implementation reviews and 30 days post-launch support. Additional resources and higher-priced domains are charged separately.",
+      "my": "Website packages include hosting for simple Cloudflare-hosted websites, standard SSL, first-year standard domain registration below US$20, 3 design revision rounds, 3 implementation reviews and 30 days post-launch support. Additional resources and higher-priced domains are charged separately."
+    },
+    {
+      "key": "[\"Annual maintenance is 30% of the project price, starting on the subscription date. It includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover, excluding design and layout changes. Additional resource costs are separate.\"]",
+      "label": "Annual maintenance is 30% of the project price, starting on the subscription date. It includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover, excluding design and layout changes. Additional resource costs are separate.",
+      "en": "Annual maintenance is 30% of the project price, starting on the subscription date. It includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover, excluding design and layout changes. Additional resource costs are separate.",
+      "my": "Annual maintenance is 30% of the project price, starting on the subscription date. It includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover, excluding design and layout changes. Additional resource costs are separate."
+    },
+    {
+      "key": "[\"The first website implementation is delivered within 14 days after the design is confirmed.\"]",
+      "label": "The first website implementation is delivered within 14 days after the design is confirmed.",
+      "en": "The first website implementation is delivered within 14 days after the design is confirmed.",
+      "my": "The first website implementation is delivered within 14 days after the design is confirmed."
+    },
+    {
+      "key": "[\"Content preparation is included in the website package. Photography requirements are agreed separately.\"]",
+      "label": "Content preparation is included in the website package. Photography requirements are agreed separately.",
+      "en": "Content preparation is included in the website package. Photography requirements are agreed separately.",
+      "my": "Content preparation is included in the website package. Photography requirements are agreed separately."
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

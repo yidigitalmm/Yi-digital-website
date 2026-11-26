@@ -22,7 +22,7 @@ const config={backend:{name:'github',repo:'yidigitalmm/Yi-digital-website',branc
   {name:'pages',label:'Page text & pricing',editor:{preview:false},files:pages},
   {name:'settings',label:'Business & images',editor:{preview:false},files:[
     {name:'business',label:'Contact & social links',file:'content/settings/business.json',fields:Object.keys(business).map(key=>text(key,title(key)))},
-    {name:'media',label:'Website images',file:'content/settings/media.json',fields:[{name:'items',label:'Images',widget:'list',allow_add:false,allow_delete:false,collapsed:true,summary:'{{fields.label}}',fields:[{name:'key',widget:'hidden'},{name:'label',widget:'hidden'},image('url','Image')]}]},
+    {name:'media',label:'Website images & animation media',file:'content/settings/media.json',fields:[{name:'items',label:'Images & animation media',hint:'Image slots accept images. Video slots must keep the existing .mp4 or .webm format; use a directly playable local upload.',widget:'list',allow_add:false,allow_delete:false,collapsed:true,summary:'{{fields.label}}',fields:[{name:'key',widget:'hidden'},{name:'label',widget:'hidden'},{name:'url',label:'Image or video file',widget:'file',allow_multiple:false}]}]},
   ]},
 ]};
 await mkdir('public/admin',{recursive:true});

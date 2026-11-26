@@ -1,3 +1,7 @@
+import { editorialText } from './cms/editorialText';
+import { HomeTransformation } from "./HomeTransformation";
+import { ServicePackages } from "./ServicePackages";
+import { serviceOffering } from "./serviceOffering";
 import { optimizedImage } from "./optimizedImages";
 import { business, interfaceText } from "./cms/siteContent";
 import { type FormEvent, lazy, Suspense, useEffect, useRef, useState } from "react";
@@ -9,6 +13,9 @@ import {
   BriefcaseBusiness,
   Check,
   Compass,
+  FileText,
+  ShoppingBag,
+  WandSparkles,
   Eye,
   ExternalLink,
   Globe2,
@@ -42,7 +49,16 @@ import { HeroVisual, PerspectiveProjectDeck, ServicesHero } from "./visuals";
 function HomePage({ locale }: { locale: Locale }) {
   const c = copy[locale].home;
   const capabilityIcons = [Globe2, SiGoogle, Users, Mail, BarChart3] as const;
-  const outcomeIcons = [Eye, ShieldCheck, BarChart3] as const;
+  const l = (en: string, my: string) => editorialText('home-services', locale, en, my);
+  const offering = serviceOffering(locale);
+  const serviceIcons = [Globe2, ShoppingBag, FileText, WandSparkles, MessageCircle];
+  const homeServices = [
+    [l('Business websites','လုပ်ငန်း ဝဘ်ဆိုက်များ'), l("Single page {singlePrice} · Up to 8 pages {businessPrice}","စာမျက်နှာတစ်ခု {singlePrice} · ၈ မျက်နှာအထိ {businessPrice}").replace("{singlePrice}", offering.options[0].price).replace("{businessPrice}", offering.options[1].price), 'packages'],
+    [l('E-commerce, booking & loyalty','အွန်လိုင်းအရောင်း၊ booking နှင့် loyalty'), l('Website system add-ons · US$250–450','ဝဘ်ဆိုက်စနစ် ထပ်တိုးမှု · US$250–450'), 'system-addons'],
+    [l('Company profiles & catalogs','ကုမ္ပဏီပရိုဖိုင်နှင့် ကတ်တလောက်'), l('PDF documents · US$75 each · Additional language US$25','PDF စာရွက်စာတမ်း · တစ်ခု US$75 · ထပ်တိုးဘာသာ US$25'), 'pdf-services'],
+    [l('Languages, animation & CMS','ဘာသာစကား၊ animation နှင့် CMS'), l('Translation, custom scroll animation and content editing.','ဘာသာပြန်၊ စိတ်ကြိုက် scroll animation နှင့် အကြောင်းအရာပြင်ဆင်မှု။'), 'addons'],
+    [l('Google, social & invitations','Google၊ လူမှုကွန်ရက်နှင့် ဖိတ်စာများ'), l('Profile setup US$125 · Digital invitations US$25–75','ပရိုဖိုင်တည်ဆောက်မှု US$125 · ဒစ်ဂျစ်တယ်ဖိတ်စာ US$25–75'), 'more-services'],
+  ];
   return (
     <>
       <section className="home-hero">
@@ -60,26 +76,12 @@ function HomePage({ locale }: { locale: Locale }) {
         {c.capabilities.map(([name, detail], index) => { const Icon = capabilityIcons[index]; return <div key={name}><Icon aria-hidden="true" focusable="false" /><span><strong>{name}</strong><small>{detail}</small></span></div>; })}
       </section>
 
-      <div className="home-transformation-story">
-        <div className="outcome-reveal">
-          <section className="section outcome-section">
-            <SectionTitle eyebrow={c.outcomeEyebrow} title={c.outcomeTitle} />
-            <div className="outcome-cards">
-              {c.outcomes.map(([title, body], index) => { const Icon = outcomeIcons[index]; return <article key={title}><Icon /><h3>{title}</h3><p>{body}</p></article>; })}
-            </div>
-          </section>
-        </div>
-
-        <section className="section comparison-story">
-          <article><p className="eyebrow">{c.before[0]}</p><h2>{c.before[1]}</h2><p>{c.before[2]}</p><div className="mini-search"><Search size={15} /> {c.coffeeSearch}</div><div className="ghost-results"><i /><i /></div></article>
-          <article><p className="eyebrow">{c.after[0]}</p><h2>{c.after[1]}</h2><p>{c.after[2]}</p><div className="mini-search"><Search size={15} /> {c.coffeeSearch}</div><div className="result"><img {...optimizedImage(images.cafeCounter)} sizes="90px" loading="lazy" decoding="async" alt="" /><span><strong>Brew & Co. Coffee</strong><small>{c.openStatus}</small></span></div></article>
-        </section>
-      </div>
+      <HomeTransformation locale={locale} />
 
       <section className="section service-list-section">
-        <SectionTitle eyebrow={c.servicesEyebrow} title={c.servicesTitle} body={c.servicesBody} />
-        <div className="service-list">
-          {c.services.map(([name, body], index) => <Link to="/services" key={name}><b>0{index + 1}</b><strong>{name}</strong><span>{body}</span><ArrowRight /></Link>)}
+        <SectionTitle eyebrow={c.servicesEyebrow} title={c.servicesTitle} body={l("Websites, business systems and digital documents. Choose a starting point; add what you need.","ဝဘ်ဆိုက်၊ လုပ်ငန်းသုံးစနစ်နှင့် ဒစ်ဂျစ်တယ်စာရွက်စာတမ်းများ။ အခြေခံပက်ကေ့ချ်မှစ၍ လိုအပ်သည်များကို ထပ်တိုးနိုင်ပါသည်။")} />
+        <div className="home-service-tiles">
+          {homeServices.map(([name, body, anchor], index) => { const Icon = serviceIcons[index]; return <Link to={"/services#"+anchor} key={name}><Icon className="service-tile-icon" aria-hidden="true"/><h3>{name}</h3><p>{body}</p><ArrowRight className="service-tile-arrow" aria-hidden="true"/></Link>; })}
         </div>
       </section>
 
@@ -103,62 +105,23 @@ function HomePage({ locale }: { locale: Locale }) {
 }
 
 function ServicesPage({ locale }: { locale: Locale }) {
-  const c = copy[locale].services;
   const t = (value: string) => translate(locale, "services", value);
-  const localizedPackages = c.packages.options;
-  const localizedRows = c.packages.comparisonRows;
-  const localizedTerms = c.packages.terms;
   const localizedAssurances = localize(locale, "services", assuranceItems);
   return (
     <>
       <ServicesHero locale={locale} />
-      <section className="section packages-section" id="packages">
-        <SectionTitle eyebrow={t("Packages")} title={t("A clear path from presence to growth.")} />
-        <div className="mobile-package-overview" aria-label={t("Package options")}>
-          <p>{t("Choose a package to see what is included.")}</p>
-          {localizedPackages.map((pkg, index) => <details className="mobile-package" key={pkg.name}>
-            <summary>
-              {pkg.recommended ? <small>{t("Recommended")}</small> : null}
-              <span className="mobile-package-title">{pkg.name}<span aria-hidden="true">+</span></span>
-              <strong>{pkg.price}</strong>
-              <span className="mobile-package-summary">{pkg.summary}</span>
-            </summary>
-            <div className="mobile-package-details">
-              <ButtonLink to={`/contact?package=${encodeURIComponent(packages[index].name)}#contact-form`} tone={pkg.recommended ? "gold" : "outline"}>{t("Select this package")}</ButtonLink>
-              <ul>{pkg.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul>
-              <dl>{localizedRows.map((row) => <div key={row[0]}><dt>{row[0]}</dt><dd>{row[index + 1]}</dd></div>)}</dl>
-            </div>
-          </details>)}
-        </div>
-        <div className="package-grid" aria-label={t("Package options")}>
-          {localizedPackages.map((pkg, index) => <article className={pkg.recommended ? "package-card recommended" : "package-card"} key={pkg.name}>{pkg.recommended ? <span className="recommendation">{t("Recommended")}</span> : null}<span className="package-numeral">{pkg.numeral}</span><h3>{pkg.name}</h3><strong className="price">{pkg.price}</strong><p>{pkg.summary}</p><ul>{pkg.bullets.map((bullet) => <li key={bullet}><Check size={15} />{bullet}</li>)}</ul><ButtonLink to={`/contact?package=${encodeURIComponent(packages[index].name)}#contact-form`} tone={pkg.recommended ? "gold" : "outline"}>{t("Select this package")}</ButtonLink></article>)}
-        </div>
-        <div className="comparison-wrap" id="package-comparison">
-          <h3>{t("Compare the foundations.")}</h3>
-          <table aria-label={t("Package comparison")}><thead><tr><th>{t("Includes")}</th>{localizedPackages.map((pkg) => <th key={pkg.name}>{pkg.name}</th>)}</tr></thead><tbody>{localizedRows.map((row) => <tr key={row[0]}><th>{row[0]}</th>{row.slice(1).map((cell, index) => <td key={`${row[0]}-${index}`}>{cell}</td>)}</tr>)}</tbody></table>
-        </div>
-        <div className="package-terms"><h3>{t("Notes")}</h3>{localizedTerms.map(([title, body]) => <article key={title}><strong>{title}</strong><p>{body}</p></article>)}</div>
-      </section>
-      <section className="section connected-presence">
-        <div><p className="eyebrow">{t("Connected Presence")}</p><h2>{t("Google and social profiles, connected.")}</h2><p>{c.connectedPresence.summary}</p></div>
-        <div className="connected-presence-details"><strong>{c.connectedPresence.price}</strong><ul>{c.connectedPresence.bullets.map((bullet) => <li key={bullet}><Check size={15} />{bullet}</li>)}</ul><small>{t("Google controls Business Profile approval and verification. Monthly posting, photography, video production and advertising are not included.")}</small></div>
-      </section>
-      <section className="section addons-section">
-        <SectionTitle eyebrow={t("Optional services")} title={t("Add only what your business needs.")} body={t("Add-ons are priced separately from the selected package and require approval before work begins.")} />
-        <div className="addon-grid">{c.websiteAddons.map(([name, price]) => <article key={name}><h3>{name}</h3><strong>{price}</strong></article>)}</div>
-        <div className="source-code-transfer"><strong>{t("Source-code transfer")}</strong><p>{c.sourceCodeTransfer.price}</p><small>{c.sourceCodeTransfer.note}</small></div>
-      </section>
+      <ServicePackages locale={locale} />
       <Process locale={locale} section="services" title="How we work together." />
       <section className="assurance-band"><p>{t("What every engagement includes")}</p>{localizedAssurances.map(([Icon, label, body]) => <div key={label}><Icon /><h3>{label}</h3><span>{body}</span></div>)}</section>
       <Faq
         title={t("Before we begin.")}
         questions={localize(locale, "services", ["What is included in the website price?", "What will I pay each year?", "Do you work with businesses outside Yangon?", "How long does a typical project take?", "Do you provide content and photography?", "Can I upgrade to a larger package later?", "What if I already have a website or domain?"])}
         answers={localize(locale, "services", [
-          "Your selected package includes website design and development, a first-year domain, SSL and launch. Page limits, revisions, content updates and support vary by package. Google and social profile setup are priced separately under Connected Presence; optional add-ons are also separate.",
-          "From the second year, annual maintenance is 30% of your final project price. Domain renewal and paid third-party services are separate. We confirm these costs in your proposal before work begins.",
+          "Website packages include hosting for simple Cloudflare-hosted websites, standard SSL, first-year standard domain registration below US$20, 3 design revision rounds, 3 implementation reviews and 30 days post-launch support. Additional resources and higher-priced domains are charged separately.",
+          "Annual maintenance is 30% of the project price, starting on the subscription date. It includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover, excluding design and layout changes. Additional resource costs are separate.",
           "Yes. Yi Digital works with businesses across Myanmar. Tell us where your business is based and what you need, and we’ll agree on the scope and how to work together during your consultation.",
-          "A typical project takes 14 days after the design is confirmed.",
-          "Yes. Content and photography support are available through the Content Planning add-on.",
+          "The first website implementation is delivered within 14 days after the design is confirmed.",
+          "Content preparation is included in the website package. Photography requirements are agreed separately.",
           "Yes. You can upgrade to a larger package later as your content, features, or support needs grow.",
           "We also provide website renovation services. We can assess your current website or domain and recommend what can be retained, improved, or rebuilt.",
         ])}
@@ -280,7 +243,8 @@ function ContactPage({ locale }: { locale: Locale }) {
   const t = (value: string) => translate(locale, "contact", value);
   const [searchParams] = useSearchParams();
   const requestedPackage = searchParams.get("package");
-  const selectedPackage = requestedPackage && packages.some((pkg) => pkg.name === requestedPackage) ? requestedPackage : "";
+  const offeredPackages = serviceOffering("en").options;
+  const selectedPackage = requestedPackage && offeredPackages.some((pkg) => pkg.name === requestedPackage) ? requestedPackage : "";
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [token, setToken] = useState("");
   const [verificationError, setVerificationError] = useState(false);
@@ -351,7 +315,7 @@ function ContactPage({ locale }: { locale: Locale }) {
             <label><span>{t("Business name")} <small className="field-optional">({t("optional")})</small></span><input autoComplete="organization" name="businessName" /></label>
             <label><span>{t("Email")} <small className="field-required" aria-hidden="true">*</small></span><input autoComplete="email" inputMode="email" name="email" type="email" required maxLength={254} /></label>
             <label><span>{t("Phone number")} <small className="field-required" aria-hidden="true">*</small></span><input autoComplete="tel" inputMode="tel" name="phone" type="tel" required maxLength={60} /></label>
-            <label><span>{t("Package interest")} <small className="field-optional">({t("optional")})</small></span><select defaultValue={selectedPackage} key={selectedPackage || "no-package"} name="packageInterest"><option value="" disabled>{t("Select one")}</option><option>{t("Not sure yet")}</option>{packages.map((pkg, index) => <option key={index} value={pkg.name}>{copy[locale].services.packages.options[index].name}</option>)}</select></label>
+            <label><span>{t("Package interest")} <small className="field-optional">({t("optional")})</small></span><select defaultValue={selectedPackage} key={selectedPackage || "no-package"} name="packageInterest"><option value="" disabled>{t("Select one")}</option><option>{t("Not sure yet")}</option>{offeredPackages.map((pkg, index) => <option key={index} value={pkg.name}>{serviceOffering(locale).options[index].name}</option>)}</select></label>
             <label><span>{t("Ideal launch timing")} <small className="field-optional">({t("optional")})</small></span><select defaultValue="" name="launchTiming"><option value="" disabled>{t("Select one")}</option><option>{t("As soon as possible")}</option><option>{t("Within 1 month")}</option><option>{t("Within 1–3 months")}</option><option>{t("Just exploring")}</option></select></label>
           </div>
           <label><span>{t("Short message")} <small className="field-required" aria-hidden="true">*</small></span><textarea name="message" required maxLength={5000} placeholder={t("Tell us about your business and what you hope to achieve.")} /></label>

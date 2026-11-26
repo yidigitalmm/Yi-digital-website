@@ -1,4 +1,6 @@
-import { animationCopy, getMedia } from "./cms/siteContent";
+import { motionUseCaseDefaults } from './cms/recentDefaults';
+import { InteractiveDemos } from "./InteractiveDemos";
+import { animationCopy, getMedia, pageContent } from "./cms/siteContent";
 import { useEffect, useRef, useState } from "react";
 import {
   MousePointer2,
@@ -11,14 +13,16 @@ import { NanotechRevealCanvas } from "./NanotechRevealCanvas";
 
 
 const startEndVideos = [
-  { src: "/videos/start-end/burger-build-transparent.webm", type: "video/webm", fallback: "/videos/start-end/burger-build.mp4", poster: getMedia("motionLayeredPoster", "/videos/start-end/burger-build-transparent-poster.png"), format: "portrait", theme: "burger" },
-  { src: "/videos/start-end/blind-box-reveal-transparent.webm", type: "video/webm", fallback: "/videos/start-end/blind-box-reveal-fallback.mp4", poster: getMedia("motionSurprisePoster", "/videos/start-end/blind-box-reveal-transparent-poster.png"), format: "portrait", theme: "blindbox" },
-  { src: "/videos/start-end/kitchen-build.mp4", type: "video/mp4", fallback: null, poster: getMedia("motionTransformationPoster", "/videos/start-end/kitchen-build-poster.jpg"), format: "wide", theme: "kitchen" },
+  { src: getMedia("motionLayeredVideo", "/videos/start-end/burger-build-transparent.webm"), type: "video/webm", fallback: getMedia("motionLayeredFallback", "/videos/start-end/burger-build.mp4"), poster: getMedia("motionLayeredPoster", "/videos/start-end/burger-build-transparent-poster.png"), format: "portrait", theme: "burger" },
+  { src: getMedia("motionSurpriseVideo", "/videos/start-end/blind-box-reveal-transparent.webm"), type: "video/webm", fallback: getMedia("motionSurpriseFallback", "/videos/start-end/blind-box-reveal-fallback.mp4"), poster: getMedia("motionSurprisePoster", "/videos/start-end/blind-box-reveal-transparent-poster.png"), format: "portrait", theme: "blindbox" },
+  { src: getMedia("motionTransformationVideo", "/videos/start-end/kitchen-build.mp4"), type: "video/mp4", fallback: null, poster: getMedia("motionTransformationPoster", "/videos/start-end/kitchen-build-poster.jpg"), format: "wide", theme: "kitchen" },
 ] as const;
 
 function StartEndShowcase({ locale }: { locale: Locale }) {
   const c = animationCopy[locale].motion;
   const [activeIndex, setActiveIndex] = useState(0);
+  const useCaseCopy = pageContent('site-motion-use-cases', locale, motionUseCaseDefaults[locale]);
+  const useCases = useCaseCopy.items;
   const videoRef = useRef<HTMLVideoElement>(null);
   const sectionRef = useRef<HTMLElement>(null);
   const mediaRef = useRef<HTMLDivElement>(null);
@@ -88,6 +92,7 @@ function StartEndShowcase({ locale }: { locale: Locale }) {
             <p className="eyebrow">{active.type}</p>
             <h3>{active.title}</h3>
             <p>{active.body}</p>
+            <div className="motion-uses uses-desktop"><small>{useCaseCopy.label}</small><div>{useCases[activeIndex].map(tag => <span key={tag}>{tag}</span>)}</div></div>
           </article>
           <div ref={mediaRef} className={`start-end-media is-${media.format}`}>
             <div className="start-end-orbit" aria-hidden="true"><i /><i /><i /></div>
@@ -106,6 +111,7 @@ function StartEndShowcase({ locale }: { locale: Locale }) {
             </video>
             <button aria-label={c.replay} className="start-end-replay" onClick={replay} type="button"><RotateCcw /></button>
           </div>
+          <div className="motion-uses uses-stacked"><small>{useCaseCopy.label}</small><div>{useCases[activeIndex].map(tag => <span key={tag}>{tag}</span>)}</div></div>
         </div>
       </div>
 
@@ -165,6 +171,7 @@ export function AnimationShowcasePage({ locale }: { locale: Locale }) {
 
   return (
     <div className="motion-showcase-page">
+      <InteractiveDemos locale={locale} />
       <div className="motion-sections">
         <section className="identity-reveal-section">
           <div

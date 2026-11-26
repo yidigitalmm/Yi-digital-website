@@ -68,3 +68,23 @@ References: [Decap GitHub backend](https://decapcms.org/docs/github-backend/), [
 Cloudflare Workers reports builds as GitHub Check Runs, while Decap reads commit statuses. `.github/workflows/cms-preview.yml` bridges completed checks from the verified Cloudflare app into `deploy/decap-preview` statuses. It uses the immutable preview URL from the check summary and never publishes content or starts a deployment. No additional secret is needed. The workflow and `scripts/github/preview-status.cjs` must be merged into `main` before the event trigger becomes active.
 
 After saving a draft, wait for its Cloudflare build and the **CMS preview link** workflow to finish, then click **Check for Preview** beside the publishing controls. The resulting preview link opens the draft site. **View Live** opens production. A missing or unrecognized URL is reported as an error rather than a successful preview.
+
+## Current website editing (November 2026)
+
+Under **Page text & pricing**:
+- **Services — packages & system prices** controls current USD packages, system add-ons and displayed package terms. Old MMK packages and unused comparison-table/private draft fields are no longer shown.
+- **Services — headings, inclusions & terms** controls section headings, package expansion charges, PDF language charges, maintenance percentage, Google/social and invitation prices, and supporting copy.
+- **Connected presence — details** controls the Google/social description and included items.
+- **Home — service summaries** controls the homepage cards. Keep `{singlePrice}` and `{businessPrice}` in the website summary; they are filled from current package prices. Other summary prices are editorial text: update them alongside the corresponding services price.
+- **Home — search demonstration** controls Suky and the illustrative listing. Update the searching message alongside the name.
+- **Animation — tea journey** controls tea copy and use-case labels. **Animation — example use cases** controls the three motion example tag sets. Existing **Animation page** fields still control the reveal, camera and main motion copy.
+- **Services — updated FAQ answers** holds newer FAQ text. Original service copy remains under **Services & FAQs**.
+
+Under **Business & images → Website images & animation media**, replace the service images, tea poster/video or motion example files. Preserve video formats: transparent examples use WebM, fallbacks and tea use MP4. Replacing video media does not change animation sequencing or interaction logic. Tea is one assembled video; editing individual source clips requires rebuilding it.
+
+English and Myanmar are separate editable fields. Keep related descriptions consistent when changing a price or scope. The layout, number of cards, responsive behaviour, animation logic and camera model stay code-managed.
+
+Publishing still requires the normal Git workflow and deployment build (`npm run build`). The build validates content and local media, regenerates the website snapshot and editor configuration, then tests and builds the site. Do not edit `src/cms/snapshot.json` or `public/admin/config.yml` directly. These CMS changes have not been pushed or deployed automatically.
+
+### Local tea production files
+The browser uses only `public/videos/start-end/tea-journey.mp4` and its poster. Original clips are kept in ignored `local-only/tea-source/` and are not required for CI or deployment. To rebuild with ffmpeg installed, run `node scripts/media/build-tea-journey.mjs`; an optional first argument selects another source directory containing the nine named clips. Private invoices, catalog decisions and design-review artifacts are also intentionally ignored.

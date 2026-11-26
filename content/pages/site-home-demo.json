@@ -1,0 +1,61 @@
+{
+  "title": "Home — search demonstration",
+  "strings": [
+    {
+      "key": "[\"Compare before and after\"]",
+      "label": "Compare before and after",
+      "en": "Compare before and after",
+      "my": "မတိုင်မီနှင့် ပြီးနောက် နှိုင်းယှဉ်ရန်"
+    },
+    {
+      "key": "[\"Searching for Suky…\"]",
+      "label": "Searching for Suky…",
+      "en": "Searching for Suky…",
+      "my": "Suky ကို ရှာဖွေနေသည်…"
+    },
+    {
+      "key": "[\"Your business is missing.\"]",
+      "label": "Your business is missing.",
+      "en": "Your business is missing.",
+      "my": "သင့်လုပ်ငန်းကို ရှာမတွေ့ပါ။"
+    },
+    {
+      "key": "[\"(86 reviews) · Café\"]",
+      "label": "(86 reviews) · Café",
+      "en": "(86 reviews) · Café",
+      "my": "(သုံးသပ်ချက် ၈၆ ခု) · ကော်ဖီဆိုင်"
+    },
+    {
+      "key": "[\"Open · Closes at 8 pm\"]",
+      "label": "Open · Closes at 8 pm",
+      "en": "Open · Closes at 8 pm",
+      "my": "ဖွင့်ထားသည် · ည ၈ နာရီ ပိတ်မည်"
+    },
+    {
+      "key": "[\"Sanchaung, Yangon\"]",
+      "label": "Sanchaung, Yangon",
+      "en": "Sanchaung, Yangon",
+      "my": "စမ်းချောင်း၊ ရန်ကုန်"
+    },
+    {
+      "key": "[\"Website · Directions · Contact\"]",
+      "label": "Website · Directions · Contact",
+      "en": "Website · Directions · Contact",
+      "my": "ဝဘ်ဆိုက် · လမ်းညွှန် · ဆက်သွယ်ရန်"
+    },
+    {
+      "key": "[\"Suky\"]",
+      "label": "Suky",
+      "en": "Suky",
+      "my": "Suky"
+    },
+    {
+      "key": "[\"★ 4.8\"]",
+      "label": "★ 4.8",
+      "en": "★ 4.8",
+      "my": "★ 4.8"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

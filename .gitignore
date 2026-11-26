@@ -31,3 +31,12 @@ src/cms/snapshot.json.tmp
 *.log
 playwright-report/
 test-results/
+
+# Local design verification reports and isolated browser profiles.
+/.taste-skill/
+
+# Private business documents and local design review artifacts.
+/invoice-work/
+/design-review/
+/Yi Digital Editable Invoice Template.docx
+/service-catalog-decisions.json
