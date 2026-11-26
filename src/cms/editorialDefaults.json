@@ -1,0 +1,256 @@
+{
+  "services-details": {
+    "en": {
+      "To be confirmed": "To be confirmed",
+      "Product catalog, cart, checkout and order management.": "Product catalog, cart, checkout and order management.",
+      "Available time slots, capacity, confirmations and cancellation rules.": "Available time slots, capacity, confirmations and cancellation rules.",
+      "Member accounts, points, rewards and redemption.": "Member accounts, points, rewards and redemption.",
+      "WEBSITE PACKAGES": "WEBSITE PACKAGES",
+      "Start with the right foundation.": "Start with the right foundation.",
+      "Choose the space your business needs.": "Choose the space your business needs.",
+      "Additional page: US$25": "Additional page: US$25",
+      "Additional section: US$10": "Additional section: US$10",
+      "Discuss this package": "Discuss this package",
+      "The essentials, included.": "The essentials, included.",
+      "Hosting included": "Hosting included",
+      "Standard SSL included": "Standard SSL included",
+      "One language · mobile-friendly design": "One language · mobile-friendly design",
+      "Contact options & basic SEO setup": "Contact options & basic SEO setup",
+      "Package details": "Package details",
+      "WEBSITE SYSTEMS": "WEBSITE SYSTEMS",
+      "Make your website do more.": "Make your website do more.",
+      "Add a system to either website package. Functional screens are included in the system scope.": "Add a system to either website package. Functional screens are included in the system scope.",
+      "Final scope & integrations to confirm": "Final scope & integrations to confirm",
+      "COMPANY DOCUMENTS": "COMPANY DOCUMENTS",
+      "Ready for your next introduction.": "Ready for your next introduction.",
+      "Designed PDFs for trade fairs, customer presentations and vendor registration. One language included.": "Designed PDFs for trade fairs, customer presentations and vendor registration. One language included.",
+      "Additional language: +US$25 per language.": "Additional language: +US$25 per language.",
+      "OPTIONAL EXTRAS": "OPTIONAL EXTRAS",
+      "Only the extras you need.": "Only the extras you need.",
+      "Additional website languages include translation. Animation includes 3 revision rounds. CMS lets you update text and images, not the layout.": "Additional website languages include translation. Animation includes 3 revision rounds. CMS lets you update text and images, not the layout.",
+      "AFTER LAUNCH": "AFTER LAUNCH",
+      "A little care. Lasting value.": "A little care. Lasting value.",
+      "30 days of post-launch support are included with your website.": "30 days of post-launch support are included with your website.",
+      "Annual maintenance": "Annual maintenance",
+      "of project price / year": "of project price / year",
+      "Includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover. Design and layout changes are excluded.": "Includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover. Design and layout changes are excluded.",
+      "Coverage starts on your subscription date.": "Coverage starts on your subscription date.",
+      "Maintenance, hosting & ownership details": "Maintenance, hosting & ownership details",
+      "Source-code ownership and transfer are available separately at 50% of the final project price. After transfer, hosting, maintenance, security, backups, updates and third-party services are the customer’s responsibility unless a new support agreement is purchased.": "Source-code ownership and transfer are available separately at 50% of the final project price. After transfer, hosting, maintenance, security, backups, updates and third-party services are the customer’s responsibility unless a new support agreement is purchased.",
+      "CONNECTED PRESENCE": "CONNECTED PRESENCE",
+      "Google & social profiles.": "Google & social profiles.",
+      "See what is included": "See what is included",
+      "Platform approval and verification are controlled by the provider. Posting and advertising are not included.": "Platform approval and verification are controlled by the provider. Posting and advertising are not included.",
+      "INVITATIONS & EVENTS": "INVITATIONS & EVENTS",
+      "An invitation worth opening.": "An invitation worth opening.",
+      "Digital wedding and corporate invitations, with event information and optional RSVP.": "Digital wedding and corporate invitations, with event information and optional RSVP.",
+      "Your website package": "Your website package",
+      "Selected systems": "Selected systems",
+      "Optional extras": "Optional extras",
+      "Plan your project": "Plan your project",
+      "30%": "30%",
+      "US$125": "US$125",
+      "US$25–75": "US$25–75"
+    },
+    "my": {
+      "To be confirmed": "အတည်ပြုရန် ကျန်ရှိ",
+      "Product catalog, cart, checkout and order management.": "ကုန်ပစ္စည်းစာရင်း၊ ဈေးဝယ်ခြင်း၊ ငွေရှင်းခြင်းနှင့် အော်ဒါစီမံခန့်ခွဲမှု။",
+      "Available time slots, capacity, confirmations and cancellation rules.": "အချိန်ရွေးချယ်မှု၊ လက်ခံနိုင်သည့်အရေအတွက်၊ အတည်ပြုမှုနှင့် ပယ်ဖျက်မှုစည်းမျဉ်းများ။",
+      "Member accounts, points, rewards and redemption.": "အသင်းဝင်အကောင့်၊ အမှတ်၊ ဆုလာဘ်နှင့် လဲလှယ်မှု။",
+      "WEBSITE PACKAGES": "ဝဘ်ဆိုက် ပက်ကေ့ချ်များ",
+      "Start with the right foundation.": "သင့်တော်သော အခြေခံဖြင့် စတင်ပါ။",
+      "Choose the space your business needs.": "သင့်လုပ်ငန်းအတွက် လိုအပ်သောအရွယ်အစားကို ရွေးပါ။",
+      "Additional page: US$25": "ထပ်တိုးစာမျက်နှာ: US$25",
+      "Additional section: US$10": "ထပ်တိုးအပိုင်း: US$10",
+      "Discuss this package": "ဤပက်ကေ့ချ်အကြောင်း ဆွေးနွေးရန်",
+      "The essentials, included.": "အခြေခံလိုအပ်ချက်များ ပါဝင်ပြီး။",
+      "Hosting included": "Hosting ပါဝင်",
+      "Standard SSL included": "ပုံမှန် SSL ပါဝင်",
+      "One language · mobile-friendly design": "ဘာသာစကားတစ်မျိုး · ဖုန်းနှင့်ကိုက်ညီသော ဒီဇိုင်း",
+      "Contact options & basic SEO setup": "ဆက်သွယ်ရန်နှင့် အခြေခံ SEO ပြင်ဆင်မှု",
+      "Package details": "ပက်ကေ့ချ် အသေးစိတ်",
+      "WEBSITE SYSTEMS": "ဝဘ်ဆိုက် စနစ်များ",
+      "Make your website do more.": "သင့်ဝဘ်ဆိုက်ကို ပိုမိုအသုံးဝင်စေပါ။",
+      "Add a system to either website package. Functional screens are included in the system scope.": "ဝဘ်ဆိုက်ပက်ကေ့ချ်တွင် စနစ်ထပ်တိုးနိုင်သည်။ စနစ်ဆိုင်ရာစာမျက်နှာများသည် စနစ်အတိုင်းအတာတွင် ပါဝင်သည်။",
+      "Final scope & integrations to confirm": "နောက်ဆုံးအတိုင်းအတာနှင့် ချိတ်ဆက်မှုများ အတည်ပြုရန်",
+      "COMPANY DOCUMENTS": "ကုမ္ပဏီ စာရွက်စာတမ်းများ",
+      "Ready for your next introduction.": "နောက်တစ်ကြိမ် မိတ်ဆက်ရန် အသင့်။",
+      "Designed PDFs for trade fairs, customer presentations and vendor registration. One language included.": "ကုန်စည်ပြပွဲ၊ ဖောက်သည်မိတ်ဆက်မှုနှင့် ပေးသွင်းသူမှတ်ပုံတင်ရန် ဒီဇိုင်းပြုလုပ်ထားသော PDF များ။ ဘာသာတစ်မျိုး ပါဝင်သည်။",
+      "Additional language: +US$25 per language.": "ထပ်တိုးဘာသာစကားတစ်မျိုးလျှင် US$25။",
+      "OPTIONAL EXTRAS": "ရွေးချယ်နိုင်သော ထပ်တိုးဝန်ဆောင်မှုများ",
+      "Only the extras you need.": "လိုအပ်သော ဝန်ဆောင်မှုများကိုသာ ထပ်တိုးပါ။",
+      "Additional website languages include translation. Animation includes 3 revision rounds. CMS lets you update text and images, not the layout.": "ထပ်တိုးဘာသာစကားတွင် ဘာသာပြန်ခြင်း ပါဝင်သည်။ Animation တွင် ပြင်ဆင်မှု ၃ ကြိမ် ပါဝင်သည်။ CMS ဖြင့် စာသားနှင့်ပုံများ ပြင်ဆင်နိုင်ပြီး layout ပြင်ဆင်၍ မရပါ။",
+      "AFTER LAUNCH": "စတင်အသုံးပြုပြီးနောက်",
+      "A little care. Lasting value.": "ရေရှည်အသုံးဝင်ရန် ထိန်းသိမ်းပေးခြင်း။",
+      "30 days of post-launch support are included with your website.": "ဝဘ်ဆိုက်စတင်အသုံးပြုပြီး ရက် ၃၀ ပံ့ပိုးမှု ပါဝင်သည်။",
+      "Annual maintenance": "နှစ်စဉ်ထိန်းသိမ်းမှု",
+      "of project price / year": "ပရောဂျက်တန်ဖိုး / နှစ်",
+      "Includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover. Design and layout changes are excluded.": "တစ်လလျှင် ဒေတာပြင်ဆင်ခွင့် ၁ ကြိမ် ပါဝင်သည်။ မသုံးဖြစ်သော ပြင်ဆင်ခွင့်သည် လကုန်တွင် သက်တမ်းကုန်ပြီး နောက်လသို့ လွှဲပြောင်း၍ မရပါ။ ဒီဇိုင်းနှင့် layout ပြင်ဆင်ခြင်း မပါဝင်ပါ။",
+      "Coverage starts on your subscription date.": "ပံ့ပိုးမှုသည် စာရင်းသွင်းသည့်နေ့မှ စတင်သည်။",
+      "Maintenance, hosting & ownership details": "ထိန်းသိမ်းမှု၊ hosting နှင့် ပိုင်ဆိုင်မှု အသေးစိတ်",
+      "Source-code ownership and transfer are available separately at 50% of the final project price. After transfer, hosting, maintenance, security, backups, updates and third-party services are the customer’s responsibility unless a new support agreement is purchased.": "Source-code ပိုင်ဆိုင်မှုနှင့် လွှဲပြောင်းမှုအတွက် နောက်ဆုံးပရောဂျက်တန်ဖိုး၏ ၅၀% သီးခြားကောက်ခံသည်။ လွှဲပြောင်းပြီးနောက် ပံ့ပိုးမှုသဘောတူညီချက်အသစ် မဝယ်ယူပါက hosting၊ ထိန်းသိမ်းမှု၊ လုံခြုံရေး၊ backup၊ update နှင့် ပြင်ပဝန်ဆောင်မှုများကို ဖောက်သည်က တာဝန်ယူရမည်။",
+      "CONNECTED PRESENCE": "ချိတ်ဆက်ထားသော အွန်လိုင်းတည်ရှိမှု",
+      "Google & social profiles.": "Google နှင့် လူမှုကွန်ရက် ပရိုဖိုင်များ။",
+      "See what is included": "ပါဝင်မှုများ ကြည့်ရန်",
+      "Platform approval and verification are controlled by the provider. Posting and advertising are not included.": "ပလက်ဖောင်းမှ အတည်ပြုခြင်းကို သက်ဆိုင်ရာကုမ္ပဏီက ဆုံးဖြတ်သည်။ ပို့စ်တင်ခြင်းနှင့် ကြော်ငြာခြင်း မပါဝင်ပါ။",
+      "INVITATIONS & EVENTS": "ဖိတ်စာနှင့် ပွဲများ",
+      "An invitation worth opening.": "ဖွင့်ကြည့်ချင်စရာ ဖိတ်စာ။",
+      "Digital wedding and corporate invitations, with event information and optional RSVP.": "မင်္ဂလာဆောင်နှင့် ကော်ပိုရိတ်ပွဲများအတွက် အချက်အလက်နှင့် ရွေးချယ်နိုင်သော RSVP ပါဝင်သည့် ဒစ်ဂျစ်တယ်ဖိတ်စာ။",
+      "Your website package": "ဝဘ်ဆိုက် ပက်ကေ့ချ်",
+      "Selected systems": "ရွေးချယ်ထားသော စနစ်များ",
+      "Optional extras": "ထပ်တိုးဝန်ဆောင်မှုများ",
+      "Plan your project": "သင့်ပရောဂျက် စီစဉ်ရန်",
+      "30%": "30%",
+      "US$125": "US$125",
+      "US$25–75": "US$25–75"
+    }
+  },
+  "tea": {
+    "en": {
+      "INTERACTIVE WEB EXPERIENCES": "INTERACTIVE WEB EXPERIENCES",
+      "A website you can play with.": "A website you can play with.",
+      "Move the slider. Explore the details. Give your customers a reason to stay.": "Move the slider. Explore the details. Give your customers a reason to stay.",
+      "Follow a tea leaf from the hillside to the shop: growing, harvesting, fermenting and packaging. Each scroll moves the story forward; scroll back to revisit a step.": "Follow a tea leaf from the hillside to the shop: growing, harvesting, fermenting and packaging. Each scroll moves the story forward; scroll back to revisit a step.",
+      "WORKS WELL FOR": "WORKS WELL FOR",
+      "Product journeys": "Product journeys",
+      "Brand stories": "Brand stories",
+      "Process explainers": "Process explainers",
+      "TEA / FROM FIELD TO SHOP": "TEA / FROM FIELD TO SHOP",
+      "Reset": "Reset",
+      "Tea journey: growth, harvest, fermentation, packaging and shop sale": "Tea journey: growth, harvest, fermentation, packaging and shop sale",
+      "The animation could not load. Please reload the page to try again.": "The animation could not load. Please reload the page to try again.",
+      "Drag to explore": "Drag to explore",
+      "Animation progress": "Animation progress",
+      "Reduced motion: use the slider to explore.": "Reduced motion: use the slider to explore.",
+      "Scroll inside the frame to explore the tea journey. Scroll outside to move the page, or keep scrolling at either end. On touch screens, use the slider.": "Scroll inside the frame to explore the tea journey. Scroll outside to move the page, or keep scrolling at either end. On touch screens, use the slider.",
+      "Try all interactive demos": "Try all interactive demos"
+    },
+    "my": {
+      "INTERACTIVE WEB EXPERIENCES": "အပြန်အလှန်တုံ့ပြန်သော ဝဘ်အတွေ့အကြုံ",
+      "A website you can play with.": "ကိုယ်တိုင် စမ်းသပ်ကြည့်နိုင်သော ဝဘ်ဆိုက်။",
+      "Move the slider. Explore the details. Give your customers a reason to stay.": "ဆလိုက်ဒါကို ရွှေ့ပြီး အသေးစိတ် စမ်းသပ်ကြည့်ပါ။",
+      "Follow a tea leaf from the hillside to the shop: growing, harvesting, fermenting and packaging. Each scroll moves the story forward; scroll back to revisit a step.": "တောင်စောင်းရှိ လက်ဖက်ခင်းမှ ဆိုင်အထိ — စိုက်ပျိုးခြင်း၊ ခူးဆွတ်ခြင်း၊ အချဉ်ဖောက်ခြင်းနှင့် ထုပ်ပိုးခြင်းတို့ကို ကြည့်ပါ။ Scroll ဖြင့် ရှေ့တိုးနောက်ဆုတ် ကြည့်နိုင်ပါသည်။",
+      "WORKS WELL FOR": "အသုံးပြုနိုင်သည့်နေရာများ",
+      "Product journeys": "ထုတ်ကုန်ခရီးစဉ်များ",
+      "Brand stories": "အမှတ်တံဆိပ် ဇာတ်လမ်းများ",
+      "Process explainers": "လုပ်ငန်းစဉ် ရှင်းလင်းချက်များ",
+      "TEA / FROM FIELD TO SHOP": "လက်ဖက် / စိုက်ခင်းမှ ဆိုင်အထိ",
+      "Reset": "ပြန်စရန်",
+      "Tea journey: growth, harvest, fermentation, packaging and shop sale": "လက်ဖက်ခရီးစဉ် — စိုက်ပျိုးခြင်း၊ ခူးဆွတ်ခြင်း၊ အချဉ်ဖောက်ခြင်း၊ ထုပ်ပိုးခြင်းနှင့် ရောင်းချခြင်း",
+      "The animation could not load. Please reload the page to try again.": "Animation မရရှိနိုင်ပါ။ စာမျက်နှာကို ပြန်ဖွင့်ပြီး စမ်းကြည့်ပါ။",
+      "Drag to explore": "ရွှေ့၍ စမ်းသပ်ရန်",
+      "Animation progress": "Animation တိုးတက်မှု",
+      "Reduced motion: use the slider to explore.": "လှုပ်ရှားမှု လျှော့ထားသည်။ ဆလိုက်ဒါဖြင့် စမ်းသပ်ပါ။",
+      "Scroll inside the frame to explore the tea journey. Scroll outside to move the page, or keep scrolling at either end. On touch screens, use the slider.": "ဘောင်အတွင်း scroll ဖြင့် လက်ဖက်ခရီးစဉ်ကို ကြည့်ပါ။ ဘောင်အပြင်တွင် စာမျက်နှာကို ရွှေ့နိုင်သည်။ Touch screen တွင် ဆလိုက်ဒါကို အသုံးပြုပါ။",
+      "Try all interactive demos": "စမ်းသပ်မှုအားလုံး ကြည့်ရန်"
+    }
+  },
+  "home-demo": {
+    "en": {
+      "Compare before and after": "Compare before and after",
+      "Searching for Suky…": "Searching for Suky…",
+      "Your business is missing.": "Your business is missing.",
+      "(86 reviews) · Café": "(86 reviews) · Café",
+      "Open · Closes at 8 pm": "Open · Closes at 8 pm",
+      "Sanchaung, Yangon": "Sanchaung, Yangon",
+      "Website · Directions · Contact": "Website · Directions · Contact",
+      "Suky": "Suky",
+      "★ 4.8": "★ 4.8"
+    },
+    "my": {
+      "Compare before and after": "မတိုင်မီနှင့် ပြီးနောက် နှိုင်းယှဉ်ရန်",
+      "Searching for Suky…": "Suky ကို ရှာဖွေနေသည်…",
+      "Your business is missing.": "သင့်လုပ်ငန်းကို ရှာမတွေ့ပါ။",
+      "(86 reviews) · Café": "(သုံးသပ်ချက် ၈၆ ခု) · ကော်ဖီဆိုင်",
+      "Open · Closes at 8 pm": "ဖွင့်ထားသည် · ည ၈ နာရီ ပိတ်မည်",
+      "Sanchaung, Yangon": "စမ်းချောင်း၊ ရန်ကုန်",
+      "Website · Directions · Contact": "ဝဘ်ဆိုက် · လမ်းညွှန် · ဆက်သွယ်ရန်",
+      "Suky": "Suky",
+      "★ 4.8": "★ 4.8"
+    }
+  },
+  "home-services": {
+    "en": {
+      "Business websites": "Business websites",
+      "E-commerce, booking & loyalty": "E-commerce, booking & loyalty",
+      "Website system add-ons · US$250–450": "Website system add-ons · US$250–450",
+      "Company profiles & catalogs": "Company profiles & catalogs",
+      "PDF documents · US$75 each · Additional language US$25": "PDF documents · US$75 each · Additional language US$25",
+      "Languages, animation & CMS": "Languages, animation & CMS",
+      "Translation, custom scroll animation and content editing.": "Translation, custom scroll animation and content editing.",
+      "Google, social & invitations": "Google, social & invitations",
+      "Profile setup US$125 · Digital invitations US$25–75": "Profile setup US$125 · Digital invitations US$25–75",
+      "Websites, business systems and digital documents. Choose a starting point; add what you need.": "Websites, business systems and digital documents. Choose a starting point; add what you need.",
+      "Single page {singlePrice} · Up to 8 pages {businessPrice}": "Single page {singlePrice} · Up to 8 pages {businessPrice}"
+    },
+    "my": {
+      "Business websites": "လုပ်ငန်း ဝဘ်ဆိုက်များ",
+      "E-commerce, booking & loyalty": "အွန်လိုင်းအရောင်း၊ booking နှင့် loyalty",
+      "Website system add-ons · US$250–450": "ဝဘ်ဆိုက်စနစ် ထပ်တိုးမှု · US$250–450",
+      "Company profiles & catalogs": "ကုမ္ပဏီပရိုဖိုင်နှင့် ကတ်တလောက်",
+      "PDF documents · US$75 each · Additional language US$25": "PDF စာရွက်စာတမ်း · တစ်ခု US$75 · ထပ်တိုးဘာသာ US$25",
+      "Languages, animation & CMS": "ဘာသာစကား၊ animation နှင့် CMS",
+      "Translation, custom scroll animation and content editing.": "ဘာသာပြန်၊ စိတ်ကြိုက် scroll animation နှင့် အကြောင်းအရာပြင်ဆင်မှု။",
+      "Google, social & invitations": "Google၊ လူမှုကွန်ရက်နှင့် ဖိတ်စာများ",
+      "Profile setup US$125 · Digital invitations US$25–75": "ပရိုဖိုင်တည်ဆောက်မှု US$125 · ဒစ်ဂျစ်တယ်ဖိတ်စာ US$25–75",
+      "Websites, business systems and digital documents. Choose a starting point; add what you need.": "ဝဘ်ဆိုက်၊ လုပ်ငန်းသုံးစနစ်နှင့် ဒစ်ဂျစ်တယ်စာရွက်စာတမ်းများ။ အခြေခံပက်ကေ့ချ်မှစ၍ လိုအပ်သည်များကို ထပ်တိုးနိုင်ပါသည်။",
+      "Single page {singlePrice} · Up to 8 pages {businessPrice}": "စာမျက်နှာတစ်ခု {singlePrice} · ၈ မျက်နှာအထိ {businessPrice}"
+    }
+  },
+  "motion-use-cases": {
+    "en": {
+      "label": "Works well for",
+      "items": [
+        [
+          "Product components",
+          "Food & ingredients",
+          "Process explainers"
+        ],
+        [
+          "Product launches",
+          "Unboxing experiences",
+          "Promotional campaigns"
+        ],
+        [
+          "Before & after",
+          "Interior design",
+          "Renovations"
+        ]
+      ]
+    },
+    "my": {
+      "label": "အသုံးပြုနိုင်သည့်နေရာများ",
+      "items": [
+        [
+          "ထုတ်ကုန်အစိတ်အပိုင်းများ",
+          "အစားအစာနှင့် ပါဝင်ပစ္စည်းများ",
+          "လုပ်ငန်းစဉ် ရှင်းလင်းချက်"
+        ],
+        [
+          "ထုတ်ကုန်သစ် မိတ်ဆက်ခြင်း",
+          "ထုပ်ပိုးမှု ဖွင့်ပြခြင်း",
+          "ပရိုမိုးရှင်းများ"
+        ],
+        [
+          "မတိုင်မီနှင့် ပြီးနောက်",
+          "အတွင်းခန်းဒီဇိုင်း",
+          "ပြုပြင်မွမ်းမံမှုများ"
+        ]
+      ]
+    }
+  },
+  "services-faq": {
+    "en": {
+      "Website packages include hosting for simple Cloudflare-hosted websites, standard SSL, first-year standard domain registration below US$20, 3 design revision rounds, 3 implementation reviews and 30 days post-launch support. Additional resources and higher-priced domains are charged separately.": "Website packages include hosting for simple Cloudflare-hosted websites, standard SSL, first-year standard domain registration below US$20, 3 design revision rounds, 3 implementation reviews and 30 days post-launch support. Additional resources and higher-priced domains are charged separately.",
+      "Annual maintenance is 30% of the project price, starting on the subscription date. It includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover, excluding design and layout changes. Additional resource costs are separate.": "Annual maintenance is 30% of the project price, starting on the subscription date. It includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover, excluding design and layout changes. Additional resource costs are separate.",
+      "The first website implementation is delivered within 14 days after the design is confirmed.": "The first website implementation is delivered within 14 days after the design is confirmed.",
+      "Content preparation is included in the website package. Photography requirements are agreed separately.": "Content preparation is included in the website package. Photography requirements are agreed separately."
+    },
+    "my": {
+      "Website packages include hosting for simple Cloudflare-hosted websites, standard SSL, first-year standard domain registration below US$20, 3 design revision rounds, 3 implementation reviews and 30 days post-launch support. Additional resources and higher-priced domains are charged separately.": "Website packages include hosting for simple Cloudflare-hosted websites, standard SSL, first-year standard domain registration below US$20, 3 design revision rounds, 3 implementation reviews and 30 days post-launch support. Additional resources and higher-priced domains are charged separately.",
+      "Annual maintenance is 30% of the project price, starting on the subscription date. It includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover, excluding design and layout changes. Additional resource costs are separate.": "Annual maintenance is 30% of the project price, starting on the subscription date. It includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover, excluding design and layout changes. Additional resource costs are separate.",
+      "The first website implementation is delivered within 14 days after the design is confirmed.": "The first website implementation is delivered within 14 days after the design is confirmed.",
+      "Content preparation is included in the website package. Photography requirements are agreed separately.": "Content preparation is included in the website package. Photography requirements are agreed separately."
+    }
+  }
+}

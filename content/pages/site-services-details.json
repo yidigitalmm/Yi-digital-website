@@ -1,0 +1,307 @@
+{
+  "title": "Services — headings, inclusions & terms",
+  "strings": [
+    {
+      "key": "[\"To be confirmed\"]",
+      "label": "To be confirmed",
+      "en": "To be confirmed",
+      "my": "အတည်ပြုရန် ကျန်ရှိ"
+    },
+    {
+      "key": "[\"Product catalog, cart, checkout and order management.\"]",
+      "label": "Product catalog, cart, checkout and order management.",
+      "en": "Product catalog, cart, checkout and order management.",
+      "my": "ကုန်ပစ္စည်းစာရင်း၊ ဈေးဝယ်ခြင်း၊ ငွေရှင်းခြင်းနှင့် အော်ဒါစီမံခန့်ခွဲမှု။"
+    },
+    {
+      "key": "[\"Available time slots, capacity, confirmations and cancellation rules.\"]",
+      "label": "Available time slots, capacity, confirmations and cancellation rules.",
+      "en": "Available time slots, capacity, confirmations and cancellation rules.",
+      "my": "အချိန်ရွေးချယ်မှု၊ လက်ခံနိုင်သည့်အရေအတွက်၊ အတည်ပြုမှုနှင့် ပယ်ဖျက်မှုစည်းမျဉ်းများ။"
+    },
+    {
+      "key": "[\"Member accounts, points, rewards and redemption.\"]",
+      "label": "Member accounts, points, rewards and redemption.",
+      "en": "Member accounts, points, rewards and redemption.",
+      "my": "အသင်းဝင်အကောင့်၊ အမှတ်၊ ဆုလာဘ်နှင့် လဲလှယ်မှု။"
+    },
+    {
+      "key": "[\"WEBSITE PACKAGES\"]",
+      "label": "WEBSITE PACKAGES",
+      "en": "WEBSITE PACKAGES",
+      "my": "ဝဘ်ဆိုက် ပက်ကေ့ချ်များ"
+    },
+    {
+      "key": "[\"Start with the right foundation.\"]",
+      "label": "Start with the right foundation.",
+      "en": "Start with the right foundation.",
+      "my": "သင့်တော်သော အခြေခံဖြင့် စတင်ပါ။"
+    },
+    {
+      "key": "[\"Choose the space your business needs.\"]",
+      "label": "Choose the space your business needs.",
+      "en": "Choose the space your business needs.",
+      "my": "သင့်လုပ်ငန်းအတွက် လိုအပ်သောအရွယ်အစားကို ရွေးပါ။"
+    },
+    {
+      "key": "[\"Additional page: US$25\"]",
+      "label": "Business website — additional page price",
+      "en": "Additional page: US$25",
+      "my": "ထပ်တိုးစာမျက်နှာ: US$25"
+    },
+    {
+      "key": "[\"Additional section: US$10\"]",
+      "label": "Single-page website — additional section price",
+      "en": "Additional section: US$10",
+      "my": "ထပ်တိုးအပိုင်း: US$10"
+    },
+    {
+      "key": "[\"Discuss this package\"]",
+      "label": "Discuss this package",
+      "en": "Discuss this package",
+      "my": "ဤပက်ကေ့ချ်အကြောင်း ဆွေးနွေးရန်"
+    },
+    {
+      "key": "[\"The essentials, included.\"]",
+      "label": "The essentials, included.",
+      "en": "The essentials, included.",
+      "my": "အခြေခံလိုအပ်ချက်များ ပါဝင်ပြီး။"
+    },
+    {
+      "key": "[\"Hosting included\"]",
+      "label": "Hosting included",
+      "en": "Hosting included",
+      "my": "Hosting ပါဝင်"
+    },
+    {
+      "key": "[\"Standard SSL included\"]",
+      "label": "Standard SSL included",
+      "en": "Standard SSL included",
+      "my": "ပုံမှန် SSL ပါဝင်"
+    },
+    {
+      "key": "[\"One language · mobile-friendly design\"]",
+      "label": "One language · mobile-friendly design",
+      "en": "One language · mobile-friendly design",
+      "my": "ဘာသာစကားတစ်မျိုး · ဖုန်းနှင့်ကိုက်ညီသော ဒီဇိုင်း"
+    },
+    {
+      "key": "[\"Contact options & basic SEO setup\"]",
+      "label": "Contact options & basic SEO setup",
+      "en": "Contact options & basic SEO setup",
+      "my": "ဆက်သွယ်ရန်နှင့် အခြေခံ SEO ပြင်ဆင်မှု"
+    },
+    {
+      "key": "[\"Package details\"]",
+      "label": "Package details",
+      "en": "Package details",
+      "my": "ပက်ကေ့ချ် အသေးစိတ်"
+    },
+    {
+      "key": "[\"WEBSITE SYSTEMS\"]",
+      "label": "WEBSITE SYSTEMS",
+      "en": "WEBSITE SYSTEMS",
+      "my": "ဝဘ်ဆိုက် စနစ်များ"
+    },
+    {
+      "key": "[\"Make your website do more.\"]",
+      "label": "Make your website do more.",
+      "en": "Make your website do more.",
+      "my": "သင့်ဝဘ်ဆိုက်ကို ပိုမိုအသုံးဝင်စေပါ။"
+    },
+    {
+      "key": "[\"Add a system to either website package. Functional screens are included in the system scope.\"]",
+      "label": "Add a system to either website package. Functional screens are included in the system scope.",
+      "en": "Add a system to either website package. Functional screens are included in the system scope.",
+      "my": "ဝဘ်ဆိုက်ပက်ကေ့ချ်တွင် စနစ်ထပ်တိုးနိုင်သည်။ စနစ်ဆိုင်ရာစာမျက်နှာများသည် စနစ်အတိုင်းအတာတွင် ပါဝင်သည်။"
+    },
+    {
+      "key": "[\"Final scope & integrations to confirm\"]",
+      "label": "Final scope & integrations to confirm",
+      "en": "Final scope & integrations to confirm",
+      "my": "နောက်ဆုံးအတိုင်းအတာနှင့် ချိတ်ဆက်မှုများ အတည်ပြုရန်"
+    },
+    {
+      "key": "[\"COMPANY DOCUMENTS\"]",
+      "label": "COMPANY DOCUMENTS",
+      "en": "COMPANY DOCUMENTS",
+      "my": "ကုမ္ပဏီ စာရွက်စာတမ်းများ"
+    },
+    {
+      "key": "[\"Ready for your next introduction.\"]",
+      "label": "Ready for your next introduction.",
+      "en": "Ready for your next introduction.",
+      "my": "နောက်တစ်ကြိမ် မိတ်ဆက်ရန် အသင့်။"
+    },
+    {
+      "key": "[\"Designed PDFs for trade fairs, customer presentations and vendor registration. One language included.\"]",
+      "label": "Designed PDFs for trade fairs, customer presentations and vendor registration. One language included.",
+      "en": "Designed PDFs for trade fairs, customer presentations and vendor registration. One language included.",
+      "my": "ကုန်စည်ပြပွဲ၊ ဖောက်သည်မိတ်ဆက်မှုနှင့် ပေးသွင်းသူမှတ်ပုံတင်ရန် ဒီဇိုင်းပြုလုပ်ထားသော PDF များ။ ဘာသာတစ်မျိုး ပါဝင်သည်။"
+    },
+    {
+      "key": "[\"Additional language: +US$25 per language.\"]",
+      "label": "PDF documents — additional language price",
+      "en": "Additional language: +US$25 per language.",
+      "my": "ထပ်တိုးဘာသာစကားတစ်မျိုးလျှင် US$25။"
+    },
+    {
+      "key": "[\"OPTIONAL EXTRAS\"]",
+      "label": "OPTIONAL EXTRAS",
+      "en": "OPTIONAL EXTRAS",
+      "my": "ရွေးချယ်နိုင်သော ထပ်တိုးဝန်ဆောင်မှုများ"
+    },
+    {
+      "key": "[\"Only the extras you need.\"]",
+      "label": "Only the extras you need.",
+      "en": "Only the extras you need.",
+      "my": "လိုအပ်သော ဝန်ဆောင်မှုများကိုသာ ထပ်တိုးပါ။"
+    },
+    {
+      "key": "[\"Additional website languages include translation. Animation includes 3 revision rounds. CMS lets you update text and images, not the layout.\"]",
+      "label": "Additional website languages include translation. Animation includes 3 revision rounds. CMS lets you update text and images, not the layout.",
+      "en": "Additional website languages include translation. Animation includes 3 revision rounds. CMS lets you update text and images, not the layout.",
+      "my": "ထပ်တိုးဘာသာစကားတွင် ဘာသာပြန်ခြင်း ပါဝင်သည်။ Animation တွင် ပြင်ဆင်မှု ၃ ကြိမ် ပါဝင်သည်။ CMS ဖြင့် စာသားနှင့်ပုံများ ပြင်ဆင်နိုင်ပြီး layout ပြင်ဆင်၍ မရပါ။"
+    },
+    {
+      "key": "[\"AFTER LAUNCH\"]",
+      "label": "AFTER LAUNCH",
+      "en": "AFTER LAUNCH",
+      "my": "စတင်အသုံးပြုပြီးနောက်"
+    },
+    {
+      "key": "[\"A little care. Lasting value.\"]",
+      "label": "A little care. Lasting value.",
+      "en": "A little care. Lasting value.",
+      "my": "ရေရှည်အသုံးဝင်ရန် ထိန်းသိမ်းပေးခြင်း။"
+    },
+    {
+      "key": "[\"30 days of post-launch support are included with your website.\"]",
+      "label": "30 days of post-launch support are included with your website.",
+      "en": "30 days of post-launch support are included with your website.",
+      "my": "ဝဘ်ဆိုက်စတင်အသုံးပြုပြီး ရက် ၃၀ ပံ့ပိုးမှု ပါဝင်သည်။"
+    },
+    {
+      "key": "[\"Annual maintenance\"]",
+      "label": "Annual maintenance",
+      "en": "Annual maintenance",
+      "my": "နှစ်စဉ်ထိန်းသိမ်းမှု"
+    },
+    {
+      "key": "[\"of project price / year\"]",
+      "label": "Of project price / year",
+      "en": "of project price / year",
+      "my": "ပရောဂျက်တန်ဖိုး / နှစ်"
+    },
+    {
+      "key": "[\"Includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover. Design and layout changes are excluded.\"]",
+      "label": "Includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover. Design and layout changes are excluded.",
+      "en": "Includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover. Design and layout changes are excluded.",
+      "my": "တစ်လလျှင် ဒေတာပြင်ဆင်ခွင့် ၁ ကြိမ် ပါဝင်သည်။ မသုံးဖြစ်သော ပြင်ဆင်ခွင့်သည် လကုန်တွင် သက်တမ်းကုန်ပြီး နောက်လသို့ လွှဲပြောင်း၍ မရပါ။ ဒီဇိုင်းနှင့် layout ပြင်ဆင်ခြင်း မပါဝင်ပါ။"
+    },
+    {
+      "key": "[\"Coverage starts on your subscription date.\"]",
+      "label": "Coverage starts on your subscription date.",
+      "en": "Coverage starts on your subscription date.",
+      "my": "ပံ့ပိုးမှုသည် စာရင်းသွင်းသည့်နေ့မှ စတင်သည်။"
+    },
+    {
+      "key": "[\"Maintenance, hosting & ownership details\"]",
+      "label": "Maintenance, hosting & ownership details",
+      "en": "Maintenance, hosting & ownership details",
+      "my": "ထိန်းသိမ်းမှု၊ hosting နှင့် ပိုင်ဆိုင်မှု အသေးစိတ်"
+    },
+    {
+      "key": "[\"Source-code ownership and transfer are available separately at 50% of the final project price. After transfer, hosting, maintenance, security, backups, updates and third-party services are the customer’s responsibility unless a new support agreement is purchased.\"]",
+      "label": "Source-code ownership and transfer are available separately at 50% of the final project price. After transfer, hosting, maintenance, security, backups, updates and third-party services are the customer’s responsibility unless a new support agreement is purchased.",
+      "en": "Source-code ownership and transfer are available separately at 50% of the final project price. After transfer, hosting, maintenance, security, backups, updates and third-party services are the customer’s responsibility unless a new support agreement is purchased.",
+      "my": "Source-code ပိုင်ဆိုင်မှုနှင့် လွှဲပြောင်းမှုအတွက် နောက်ဆုံးပရောဂျက်တန်ဖိုး၏ ၅၀% သီးခြားကောက်ခံသည်။ လွှဲပြောင်းပြီးနောက် ပံ့ပိုးမှုသဘောတူညီချက်အသစ် မဝယ်ယူပါက hosting၊ ထိန်းသိမ်းမှု၊ လုံခြုံရေး၊ backup၊ update နှင့် ပြင်ပဝန်ဆောင်မှုများကို ဖောက်သည်က တာဝန်ယူရမည်။"
+    },
+    {
+      "key": "[\"CONNECTED PRESENCE\"]",
+      "label": "CONNECTED PRESENCE",
+      "en": "CONNECTED PRESENCE",
+      "my": "ချိတ်ဆက်ထားသော အွန်လိုင်းတည်ရှိမှု"
+    },
+    {
+      "key": "[\"Google & social profiles.\"]",
+      "label": "Google & social profiles.",
+      "en": "Google & social profiles.",
+      "my": "Google နှင့် လူမှုကွန်ရက် ပရိုဖိုင်များ။"
+    },
+    {
+      "key": "[\"See what is included\"]",
+      "label": "See what is included",
+      "en": "See what is included",
+      "my": "ပါဝင်မှုများ ကြည့်ရန်"
+    },
+    {
+      "key": "[\"Platform approval and verification are controlled by the provider. Posting and advertising are not included.\"]",
+      "label": "Platform approval and verification are controlled by the provider. Posting and advertising are not included.",
+      "en": "Platform approval and verification are controlled by the provider. Posting and advertising are not included.",
+      "my": "ပလက်ဖောင်းမှ အတည်ပြုခြင်းကို သက်ဆိုင်ရာကုမ္ပဏီက ဆုံးဖြတ်သည်။ ပို့စ်တင်ခြင်းနှင့် ကြော်ငြာခြင်း မပါဝင်ပါ။"
+    },
+    {
+      "key": "[\"INVITATIONS & EVENTS\"]",
+      "label": "INVITATIONS & EVENTS",
+      "en": "INVITATIONS & EVENTS",
+      "my": "ဖိတ်စာနှင့် ပွဲများ"
+    },
+    {
+      "key": "[\"An invitation worth opening.\"]",
+      "label": "An invitation worth opening.",
+      "en": "An invitation worth opening.",
+      "my": "ဖွင့်ကြည့်ချင်စရာ ဖိတ်စာ။"
+    },
+    {
+      "key": "[\"Digital wedding and corporate invitations, with event information and optional RSVP.\"]",
+      "label": "Digital wedding and corporate invitations, with event information and optional RSVP.",
+      "en": "Digital wedding and corporate invitations, with event information and optional RSVP.",
+      "my": "မင်္ဂလာဆောင်နှင့် ကော်ပိုရိတ်ပွဲများအတွက် အချက်အလက်နှင့် ရွေးချယ်နိုင်သော RSVP ပါဝင်သည့် ဒစ်ဂျစ်တယ်ဖိတ်စာ။"
+    },
+    {
+      "key": "[\"Your website package\"]",
+      "label": "Your website package",
+      "en": "Your website package",
+      "my": "ဝဘ်ဆိုက် ပက်ကေ့ချ်"
+    },
+    {
+      "key": "[\"Selected systems\"]",
+      "label": "Selected systems",
+      "en": "Selected systems",
+      "my": "ရွေးချယ်ထားသော စနစ်များ"
+    },
+    {
+      "key": "[\"Optional extras\"]",
+      "label": "Optional extras",
+      "en": "Optional extras",
+      "my": "ထပ်တိုးဝန်ဆောင်မှုများ"
+    },
+    {
+      "key": "[\"Plan your project\"]",
+      "label": "Plan your project",
+      "en": "Plan your project",
+      "my": "သင့်ပရောဂျက် စီစဉ်ရန်"
+    },
+    {
+      "key": "[\"30%\"]",
+      "label": "Annual maintenance — percentage",
+      "en": "30%",
+      "my": "30%"
+    },
+    {
+      "key": "[\"US$125\"]",
+      "label": "Google & social profiles — price",
+      "en": "US$125",
+      "my": "US$125"
+    },
+    {
+      "key": "[\"US$25–75\"]",
+      "label": "Digital invitations — price range",
+      "en": "US$25–75",
+      "my": "US$25–75"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

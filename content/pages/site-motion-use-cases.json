@@ -1,0 +1,67 @@
+{
+  "title": "Animation — example use cases",
+  "strings": [
+    {
+      "key": "[\"label\"]",
+      "label": "Label",
+      "en": "Works well for",
+      "my": "အသုံးပြုနိုင်သည့်နေရာများ"
+    },
+    {
+      "key": "[\"items\",0,0]",
+      "label": "Items · Item 1 · Item 1",
+      "en": "Product components",
+      "my": "ထုတ်ကုန်အစိတ်အပိုင်းများ"
+    },
+    {
+      "key": "[\"items\",0,1]",
+      "label": "Items · Item 1 · Item 2",
+      "en": "Food & ingredients",
+      "my": "အစားအစာနှင့် ပါဝင်ပစ္စည်းများ"
+    },
+    {
+      "key": "[\"items\",0,2]",
+      "label": "Items · Item 1 · Item 3",
+      "en": "Process explainers",
+      "my": "လုပ်ငန်းစဉ် ရှင်းလင်းချက်"
+    },
+    {
+      "key": "[\"items\",1,0]",
+      "label": "Items · Item 2 · Item 1",
+      "en": "Product launches",
+      "my": "ထုတ်ကုန်သစ် မိတ်ဆက်ခြင်း"
+    },
+    {
+      "key": "[\"items\",1,1]",
+      "label": "Items · Item 2 · Item 2",
+      "en": "Unboxing experiences",
+      "my": "ထုပ်ပိုးမှု ဖွင့်ပြခြင်း"
+    },
+    {
+      "key": "[\"items\",1,2]",
+      "label": "Items · Item 2 · Item 3",
+      "en": "Promotional campaigns",
+      "my": "ပရိုမိုးရှင်းများ"
+    },
+    {
+      "key": "[\"items\",2,0]",
+      "label": "Items · Item 3 · Item 1",
+      "en": "Before & after",
+      "my": "မတိုင်မီနှင့် ပြီးနောက်"
+    },
+    {
+      "key": "[\"items\",2,1]",
+      "label": "Items · Item 3 · Item 2",
+      "en": "Interior design",
+      "my": "အတွင်းခန်းဒီဇိုင်း"
+    },
+    {
+      "key": "[\"items\",2,2]",
+      "label": "Items · Item 3 · Item 3",
+      "en": "Renovations",
+      "my": "ပြုပြင်မွမ်းမံမှုများ"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

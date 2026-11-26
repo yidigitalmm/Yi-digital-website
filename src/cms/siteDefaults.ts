@@ -1,3 +1,5 @@
+import { editorialDefinitions, serviceMediaDefaults, videoDefaults } from './recentDefaults.ts';
+import { serviceOfferingDefaults } from '../serviceOfferingDefaults.ts';
 import { copy, images } from "../contentDefaults.ts";
 import { showcaseCopy, startEndCopy, cameraCopy } from "../animationCopyDefaults.ts";
 import { pages } from "../seoDefaults.ts";
@@ -17,7 +19,9 @@ export const pageDefinitions = [
   { id: "site-global", title: "Footer & process text", en: copy.en.global, my: copy.my.global },
   { id: "site-home", title: "Home page", en: copy.en.home, my: copy.my.home },
   { id: "site-services", title: "Services & FAQs", en: copy.en.services.text, my: copy.my.services.text },
-  { id: "site-packages", title: "Packages & pricing", en: { packages: copy.en.services.packages, connectedPresence: copy.en.services.connectedPresence, websiteAddons: copy.en.services.websiteAddons, sourceCodeTransfer: copy.en.services.sourceCodeTransfer }, my: { packages: copy.my.services.packages, connectedPresence: copy.my.services.connectedPresence, websiteAddons: copy.my.services.websiteAddons, sourceCodeTransfer: copy.my.services.sourceCodeTransfer } },
+  { id: "site-packages", title: "Connected presence — details", en: { connectedPresence: copy.en.services.connectedPresence }, my: { connectedPresence: copy.my.services.connectedPresence } },
+  { id: "site-offerings", title: "Services — packages & system prices", en: serviceOfferingDefaults("en"), my: serviceOfferingDefaults("my") },
+  ...editorialDefinitions,
   { id: "site-contact", title: "Contact page & FAQs", en: copy.en.contact, my: copy.my.contact },
   { id: "site-work", title: "Previous Work page text", en: copy.en.previousWork, my: copy.my.previousWork },
   { id: "site-journal", title: "Journal page text", en: copy.en.journal, my: copy.my.journal },
@@ -25,7 +29,7 @@ export const pageDefinitions = [
   { id: "site-seo", title: "Search & sharing descriptions", en: pages.en, my: pages.my },
 ] as const;
 export const mediaDefaults = {
-  ...images,
+  ...images, ...serviceMediaDefaults, ...videoDefaults,
   logoLight: "/brand/yi-digital-horizontal-light.svg", logoDark: "/brand/yi-digital-horizontal-dark.svg", socialShare: "/social-share.png",
   projectExporter: "/images/projects/sein-htan-pin-preview.webp", projectRestaurant: "/images/projects/the-peak-preview.webp", projectHotel: "/images/projects/taunggyi-hotel-preview.webp",
   projectInProgress: "/images/projects/in-progress-card.png", projectComingSoon: "/images/projects/more-coming-soon-card.png",

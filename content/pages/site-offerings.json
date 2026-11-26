@@ -1,0 +1,205 @@
+{
+  "title": "Services — packages & system prices",
+  "strings": [
+    {
+      "key": "[\"options\",0,\"name\"]",
+      "label": "Options · Item 1 · Name",
+      "en": "Single-Page Website",
+      "my": "စာမျက်နှာတစ်မျက်နှာ ဝဘ်ဆိုက်"
+    },
+    {
+      "key": "[\"options\",0,\"price\"]",
+      "label": "Options · Item 1 · Price",
+      "en": "US$200",
+      "my": "US$200"
+    },
+    {
+      "key": "[\"options\",0,\"summary\"]",
+      "label": "Options · Item 1 · Summary",
+      "en": "A focused introduction to your business on one page.",
+      "my": "သင့်လုပ်ငန်းအကြောင်းကို စာမျက်နှာတစ်မျက်နှာဖြင့် မိတ်ဆက်ရန်။"
+    },
+    {
+      "key": "[\"options\",0,\"bullets\",0]",
+      "label": "Options · Item 1 · Bullets · Item 1",
+      "en": "Up to 6 sections",
+      "my": "အပိုင်း ၆ ခုအထိ"
+    },
+    {
+      "key": "[\"options\",0,\"bullets\",3]",
+      "label": "Options · Item 1 · Bullets · Item 4",
+      "en": "3 design revisions + 3 implementation reviews",
+      "my": "ဒီဇိုင်းပြင်ဆင်မှု ၃ ကြိမ်နှင့် တည်ဆောက်ပြီး စစ်ဆေးမှု ၃ ကြိမ်"
+    },
+    {
+      "key": "[\"options\",0,\"bullets\",4]",
+      "label": "Options · Item 1 · Bullets · Item 5",
+      "en": "30 days post-launch support",
+      "my": "စတင်အသုံးပြုပြီး ရက် ၃၀ ပံ့ပိုးမှု"
+    },
+    {
+      "key": "[\"options\",1,\"name\"]",
+      "label": "Options · Item 2 · Name",
+      "en": "Basic Business Website",
+      "my": "အခြေခံလုပ်ငန်း ဝဘ်ဆိုက်"
+    },
+    {
+      "key": "[\"options\",1,\"price\"]",
+      "label": "Options · Item 2 · Price",
+      "en": "US$300",
+      "my": "US$300"
+    },
+    {
+      "key": "[\"options\",1,\"summary\"]",
+      "label": "Options · Item 2 · Summary",
+      "en": "More space to present your company, services and experience.",
+      "my": "ကုမ္ပဏီ၊ ဝန်ဆောင်မှုနှင့် အတွေ့အကြုံများကို အသေးစိတ် ဖော်ပြရန်။"
+    },
+    {
+      "key": "[\"options\",1,\"bullets\",0]",
+      "label": "Options · Item 2 · Bullets · Item 1",
+      "en": "Up to 8 informational pages",
+      "my": "အချက်အလက် စာမျက်နှာ ၈ မျက်နှာအထိ"
+    },
+    {
+      "key": "[\"options\",1,\"bullets\",3]",
+      "label": "Options · Item 2 · Bullets · Item 4",
+      "en": "3 design revisions + 3 implementation reviews",
+      "my": "ဒီဇိုင်းပြင်ဆင်မှု ၃ ကြိမ်နှင့် တည်ဆောက်ပြီး စစ်ဆေးမှု ၃ ကြိမ်"
+    },
+    {
+      "key": "[\"options\",1,\"bullets\",4]",
+      "label": "Options · Item 2 · Bullets · Item 5",
+      "en": "30 days post-launch support",
+      "my": "စတင်အသုံးပြုပြီး ရက် ၃၀ ပံ့ပိုးမှု"
+    },
+    {
+      "key": "[\"options\",2,\"name\"]",
+      "label": "Options · Item 3 · Name",
+      "en": "Company Profile PDF",
+      "my": "ကုမ္ပဏီမိတ်ဆက် PDF"
+    },
+    {
+      "key": "[\"options\",2,\"price\"]",
+      "label": "Options · Item 3 · Price",
+      "en": "US$75",
+      "my": "US$75"
+    },
+    {
+      "key": "[\"options\",2,\"summary\"]",
+      "label": "Options · Item 3 · Summary",
+      "en": "A PDF for trade fairs, customer presentations and vendor registration.",
+      "my": "ကုန်စည်ပြပွဲ၊ ဖောက်သည်မိတ်ဆက်မှုနှင့် ပေးသွင်းသူမှတ်ပုံတင်ရန် PDF။"
+    },
+    {
+      "key": "[\"options\",3,\"name\"]",
+      "label": "Options · Item 4 · Name",
+      "en": "Product Catalog PDF",
+      "my": "ကုန်ပစ္စည်း ကတ်တလောက် PDF"
+    },
+    {
+      "key": "[\"options\",3,\"price\"]",
+      "label": "Options · Item 4 · Price",
+      "en": "US$75",
+      "my": "US$75"
+    },
+    {
+      "key": "[\"options\",3,\"summary\"]",
+      "label": "Options · Item 4 · Summary",
+      "en": "A product document for buyers, customers and trade events.",
+      "my": "ဝယ်ယူသူ၊ ဖောက်သည်နှင့် ကုန်စည်ပြပွဲများအတွက် ကုန်ပစ္စည်းမိတ်ဆက်ဖိုင်။"
+    },
+    {
+      "key": "[\"terms\",0,1]",
+      "label": "Terms · Item 1 · Item 2",
+      "en": "3 consolidated design revision rounds before development and 3 implementation review rounds after development. New functionality or a new design direction is scoped separately.",
+      "my": "တည်ဆောက်မီ ဒီဇိုင်းပြင်ဆင်မှု ၃ ကြိမ်နှင့် တည်ဆောက်ပြီး စစ်ဆေးမှု ၃ ကြိမ်။ လုပ်ဆောင်ချက်အသစ် သို့မဟုတ် ဒီဇိုင်းအသစ်အတွက် သီးခြားသတ်မှတ်ပါမည်။"
+    },
+    {
+      "key": "[\"terms\",1,1]",
+      "label": "Terms · Item 2 · Item 2",
+      "en": "Annual maintenance is 30% of the project price, starting on the subscription date. Includes one data-update request per month, with unused requests expiring at the end of each calendar month and no rollover; design and layout changes are excluded. Additional technical coverage is to be confirmed.",
+      "my": "နှစ်စဉ်ထိန်းသိမ်းခမှာ ပရောဂျက်တန်ဖိုး၏ ၃၀% ဖြစ်ပြီး စာရင်းသွင်းသည့်နေ့မှ စတင်သည်။ တစ်လလျှင် ဒေတာပြင်ဆင်ခွင့် ၁ ကြိမ် ပါဝင်သည်။ မသုံးဖြစ်သော ပြင်ဆင်ခွင့်သည် လကုန်တွင် သက်တမ်းကုန်ပြီး နောက်လသို့ လွှဲပြောင်း၍ မရပါ။ ဒီဇိုင်းနှင့် layout ပြင်ဆင်ခြင်း မပါဝင်ပါ။ နည်းပညာပံ့ပိုးမှု အသေးစိတ် အတည်ပြုရန် ကျန်ရှိသည်။"
+    },
+    {
+      "key": "[\"terms\",2,1]",
+      "label": "Terms · Item 3 · Item 2",
+      "en": "Hosting is included for simple websites hosted on Cloudflare. Additional resource costs are charged separately. First-year registration of a standard domain priced below US$20 is included; higher-priced domains are charged separately. The first website implementation is delivered within 14 days after design confirmation.",
+      "my": "Cloudflare တွင် တင်နိုင်သော ရိုးရှင်းသည့်ဝဘ်ဆိုက်များအတွက် hosting ပါဝင်သည်။ ထပ်တိုး resource ကုန်ကျစရိတ်ကို သီးခြားကောက်ခံသည်။ US$20 အောက် ပုံမှန်ဒိုမိန်း၏ ပထမနှစ်မှတ်ပုံတင်ခ ပါဝင်ပြီး ဈေးမြင့်ဒိုမိန်းကို သီးခြားကောက်ခံသည်။ ဒီဇိုင်းအတည်ပြုပြီး ၁၄ ရက်အတွင်း ပထမအကြိမ် တည်ဆောက်မှုကို ပေးအပ်မည်။"
+    },
+    {
+      "key": "[\"addons\",0,0]",
+      "label": "Addons · Item 1 · Item 1",
+      "en": "E-Commerce system",
+      "my": "အွန်လိုင်းအရောင်းစနစ်"
+    },
+    {
+      "key": "[\"addons\",0,1]",
+      "label": "Addons · Item 1 · Item 2",
+      "en": "US$250–375",
+      "my": "US$250–375"
+    },
+    {
+      "key": "[\"addons\",1,0]",
+      "label": "Addons · Item 2 · Item 1",
+      "en": "Live Booking System",
+      "my": "အချိန်နှင့်တစ်ပြေးညီ ဘွတ်ကင်စနစ်"
+    },
+    {
+      "key": "[\"addons\",1,1]",
+      "label": "Addons · Item 2 · Item 2",
+      "en": "US$250–375",
+      "my": "US$250–375"
+    },
+    {
+      "key": "[\"addons\",2,0]",
+      "label": "Addons · Item 3 · Item 1",
+      "en": "Membership & Loyalty",
+      "my": "အသင်းဝင်နှင့် ဆုလာဘ်စနစ်"
+    },
+    {
+      "key": "[\"addons\",2,1]",
+      "label": "Addons · Item 3 · Item 2",
+      "en": "US$300–450",
+      "my": "US$300–450"
+    },
+    {
+      "key": "[\"addons\",4,0]",
+      "label": "Addons · Item 5 · Item 1",
+      "en": "Additional website language",
+      "my": "ထပ်တိုး ဝဘ်ဆိုက်ဘာသာစကား"
+    },
+    {
+      "key": "[\"addons\",4,1]",
+      "label": "Addons · Item 5 · Item 2",
+      "en": "30% of project price / language",
+      "my": "ပရောဂျက်တန်ဖိုး၏ ၃၀% / ဘာသာစကား"
+    },
+    {
+      "key": "[\"addons\",5,0]",
+      "label": "Addons · Item 6 · Item 1",
+      "en": "Custom Scroll Animation",
+      "my": "စိတ်ကြိုက် Scroll Animation"
+    },
+    {
+      "key": "[\"addons\",5,1]",
+      "label": "Addons · Item 6 · Item 2",
+      "en": "US$75 / section",
+      "my": "US$75 / အပိုင်းတစ်ခု"
+    },
+    {
+      "key": "[\"addons\",6,0]",
+      "label": "Addons · Item 7 · Item 1",
+      "en": "Content-editing CMS (not layout)",
+      "my": "အကြောင်းအရာပြင်ဆင်ရန် CMS (layout မပါ)"
+    },
+    {
+      "key": "[\"addons\",6,1]",
+      "label": "Addons · Item 7 · Item 2",
+      "en": "US$125",
+      "my": "US$125"
+    }
+  ],
+  "numbers": [],
+  "flags": []
+}

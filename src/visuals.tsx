@@ -3,7 +3,7 @@ import { getMedia } from "./cms/siteContent";
 import { type CSSProperties, useEffect, useRef, useState } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { Link } from "react-router-dom";
+import { getWork } from "./cms/content";
 import { copy, images, type Locale } from "./content";
 import { translate } from "./i18n";
 import { ButtonLink } from "./ui";
@@ -203,38 +203,50 @@ const perspectiveProjects = [
 export function PerspectiveProjectDeck({ locale }: { locale: Locale }) {
   const [activeCard, setActiveCard] = useState<number | null>(null);
   const c = copy[locale].home;
+  const projects = getWork(locale);
 
   return (
     <div className="perspective-stage">
       <div className="perspective-deck" aria-label={c.projectStackLabel}>
-        {perspectiveProjects.map(([name, title, image, y], index) => (
+        {perspectiveProjects.map(([name, title, image, y], index) => {
+          const url = index < 4 ? projects[index]?.url : undefined;
+          const CardControl = url ? "a" : "button";
+          return (
           <article
             className={activeCard === index ? "perspective-card is-active" : "perspective-card"}
             key={name}
+            onPointerEnter={(event) => { if (event.pointerType === "mouse") setActiveCard(index); }}
+            onPointerLeave={(event) => { if (event.pointerType === "mouse") setActiveCard(null); }}
             style={{
               "--card-index": index,
               "--card-y": `${y}px`,
             } as CSSProperties}
           >
-            <Link
-              to="/our-work"
+            <CardControl
+              href={url}
+              type={url ? undefined : "button"}
+              target={url ? "_blank" : undefined}
+              rel={url ? "noreferrer" : undefined}
+              onFocus={(event) => {
+                if (event.currentTarget.matches(":focus-visible") && !window.matchMedia?.("(hover: none) and (pointer: coarse)").matches) setActiveCard(index);
+              }}
               aria-expanded={activeCard === index}
               aria-label={`${c.viewProject} ${c.projects[index][0]}: ${c.projects[index][1]}`}
               onClick={(event) => {
                 const usesTouchInteraction = typeof window.matchMedia === "function"
                   && window.matchMedia("(hover: none) and (pointer: coarse)").matches;
 
-                if (usesTouchInteraction && activeCard !== index) {
+                if (!url || (usesTouchInteraction && activeCard !== index)) {
                   event.preventDefault();
                   setActiveCard(index);
                 }
               }}
             >
               <img {...optimizedImage(image)} sizes="(max-width: 600px) 265px, 365px" loading="lazy" decoding="async" alt="" />
-            </Link>
+            </CardControl>
             {index < 4 ? <span><strong>{c.projects[index][0]}</strong><small>{c.projects[index][1]}</small></span> : null}
           </article>
-        ))}
+        ); })}
       </div>
       <p className="perspective-hint"><span>{c.hoverHint}</span><span>{c.tapHint}</span></p>
     </div>

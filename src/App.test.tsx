@@ -180,14 +180,14 @@ describe("Yi Digital", () => {
     });
 
     const { unmount } = render(<App />);
-    const cardLink = screen.getByRole("link", { name: /view customizable/i });
+    const cardLink = screen.getByRole("link", { name: /view sein htan pin/i });
 
     await userEvent.click(cardLink);
     expect(cardLink.closest("article")).toHaveClass("is-active");
     expect(window.location.pathname).toBe("/");
 
     await userEvent.click(cardLink);
-    expect(window.location.pathname).toBe("/our-work");
+    expect(cardLink).toHaveAttribute("href", "https://seinhtanpin.com/");
 
     unmount();
     Object.defineProperty(window, "matchMedia", { configurable: true, value: originalMatchMedia });
@@ -220,29 +220,30 @@ describe("Yi Digital", () => {
     expect(screen.getAllByText("Website content planning")).toHaveLength(3);
   });
 
-  it("renders the package comparison", () => {
+  it("renders the agreed USD packages and support terms", () => {
     window.history.pushState({}, "", "/services");
     render(<App />);
-    expect(screen.getByRole("heading", { name: /what’s behind a successful business/i })).toBeInTheDocument();
-    expect(screen.getByRole("table", { name: /package comparison/i })).toBeInTheDocument();
-    expect(screen.getAllByText("Hybrid").length).toBeGreaterThan(0);
-    expect(screen.getAllByText("1,000,000 MMK").length).toBeGreaterThan(0);
-    expect(screen.getByText("Website content planning")).toBeInTheDocument();
-    expect(screen.getByText("200,000 MMK")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name:/what’s behind a successful business/i })).toBeInTheDocument();
+    expect(screen.getByText("US$200")).toBeInTheDocument();
+    expect(screen.getByText("US$300")).toBeInTheDocument();
+    expect(screen.getByText("Additional section: US$10")).toBeInTheDocument();
+    expect(screen.getByText("Additional page: US$25")).toBeInTheDocument();
+    expect(screen.getAllByText(/Includes one data-update request per month/).length).toBeGreaterThan(0);
+    expect(screen.queryByText(/MMK/)).not.toBeInTheDocument();
   });
 
   it("carries a selected package into the contact form", async () => {
     window.history.pushState({}, "", "/services");
     render(<App />);
 
-    await userEvent.click(screen.getAllByRole("link", { name: /select this package/i })[2]);
+    await userEvent.click(screen.getAllByRole("link", { name: /discuss this package/i })[0]);
 
     expect(window.location.pathname).toBe("/contact");
-    expect(window.location.search).toBe("?package=Advanced");
+    expect(new URLSearchParams(window.location.search).get("package")).toBe("Single-Page Website");
     expect(screen.getByRole("textbox", { name: /^email$/i })).toHaveAttribute("type", "email");
     expect(screen.getByRole("textbox", { name: /phone number/i })).toHaveAttribute("type", "tel");
     expect(screen.queryByRole("combobox", { name: /preferred contact method/i })).not.toBeInTheDocument();
-    expect(screen.getByRole("combobox", { name: /package interest/i })).toHaveValue("Advanced");
+    expect(screen.getByRole("combobox", { name: /package interest/i })).toHaveValue("Single-Page Website");
   });
 
   it("renders the structured Burmese package content", async () => {
@@ -251,9 +252,10 @@ describe("Yi Digital", () => {
 
     await userEvent.click(screen.getByRole("button", { name: /switch to Myanmar language/i }));
 
-    expect(screen.getByText("ကျွမ်းကျင်သော ဝဘ်ဆိုက်လိုအပ်ပြီး အကြောင်းအရာ မကြာခဏ မပြောင်းသည့်လုပ်ငန်းများအတွက်။", { selector: ".package-card p" })).toBeInTheDocument();
-    expect(screen.getByRole("row", { name: /စတင်ဈေးနှုန်း 600,000 MMK 1,000,000 MMK 1,500,000 MMK 3,000,000 MMK မှစ၍/i })).toBeInTheDocument();
-    expect(screen.getByText("ဖောက်သည်ပေးရမည့် အကြောင်းအရာ")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name:"အောင်မြင်သောလုပ်ငန်းတစ်ခု၏နောက် ကွယ်တွင်ဘာတွေရှိသလဲ?" })).toBeInTheDocument();
+    expect(screen.getByText("ထပ်တိုးအပိုင်း: US$10")).toBeInTheDocument();
+    expect(screen.getByText("ထပ်တိုးစာမျက်နှာ: US$25")).toBeInTheDocument();
+
   });
 
   it("uses each page's translation for important section headings", async () => {

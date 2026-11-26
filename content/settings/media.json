@@ -159,6 +159,96 @@
       "key": "motionTransformationPoster",
       "url": "/uploads/ef1b720e39d7e187dd9ecda300b6ee0b9c3f1e30-1280x720.jpg",
       "label": "motion Transformation Poster"
+    },
+    {
+      "key": "serviceShop",
+      "url": "/images/services/shop-v2.jpg",
+      "label": "Service Shop"
+    },
+    {
+      "key": "serviceBooking",
+      "url": "/images/services/booking-v2.jpg",
+      "label": "Service Booking"
+    },
+    {
+      "key": "serviceLoyalty",
+      "url": "/images/services/loyalty-v2.jpg",
+      "label": "Service Loyalty"
+    },
+    {
+      "key": "serviceProfile",
+      "url": "/images/services/profile-v2.jpg",
+      "label": "Service Profile"
+    },
+    {
+      "key": "serviceCatalog",
+      "url": "/images/services/catalog-v2.jpg",
+      "label": "Service Catalog"
+    },
+    {
+      "key": "serviceLanguage",
+      "url": "/images/services/language-v2.jpg",
+      "label": "Service Language"
+    },
+    {
+      "key": "serviceMotion",
+      "url": "/images/services/motion-v2.jpg",
+      "label": "Service Motion"
+    },
+    {
+      "key": "serviceCms",
+      "url": "/images/services/cms-v2.jpg",
+      "label": "Service Cms"
+    },
+    {
+      "key": "serviceCare",
+      "url": "/images/services/care-v2.jpg",
+      "label": "Service Care"
+    },
+    {
+      "key": "serviceSocial",
+      "url": "/images/services/social-v2.jpg",
+      "label": "Service Social"
+    },
+    {
+      "key": "serviceInvite",
+      "url": "/images/services/invite-v2.jpg",
+      "label": "Service Invite"
+    },
+    {
+      "key": "teaJourneyVideo",
+      "url": "/videos/start-end/tea-journey.mp4",
+      "label": "Tea Journey Video"
+    },
+    {
+      "key": "teaJourneyPoster",
+      "url": "/videos/start-end/tea-journey-poster.jpg",
+      "label": "Tea Journey Poster"
+    },
+    {
+      "key": "motionLayeredVideo",
+      "url": "/videos/start-end/burger-build-transparent.webm",
+      "label": "Motion Layered Video"
+    },
+    {
+      "key": "motionLayeredFallback",
+      "url": "/videos/start-end/burger-build.mp4",
+      "label": "Motion Layered Fallback"
+    },
+    {
+      "key": "motionSurpriseVideo",
+      "url": "/videos/start-end/blind-box-reveal-transparent.webm",
+      "label": "Motion Surprise Video"
+    },
+    {
+      "key": "motionSurpriseFallback",
+      "url": "/videos/start-end/blind-box-reveal-fallback.mp4",
+      "label": "Motion Surprise Fallback"
+    },
+    {
+      "key": "motionTransformationVideo",
+      "url": "/videos/start-end/kitchen-build.mp4",
+      "label": "Motion Transformation Video"
     }
   ]
 }

@@ -1,10 +1,11 @@
+import { editorialText } from './cms/editorialText.ts';
 import { copy, type Locale } from "./content.ts";
 
 export type CopySection = "global" | "services" | "previousWork" | "journal" | "contact";
 
 export function translate(locale: Locale, section: CopySection, value: string): string {
   const text = copy[locale][section].text as Record<string, string>;
-  return text[value] ?? value;
+  return section === "services" ? editorialText("services-faq", locale, text[value] ?? value, text[value] ?? value) : text[value] ?? value;
 }
 
 export function localize<T>(locale: Locale, section: CopySection, value: T): T {
