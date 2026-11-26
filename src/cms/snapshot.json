@@ -4271,6 +4271,13 @@
           "kind": "string",
           "en": "Try all interactive demos",
           "my": "စမ်းသပ်မှုအားလုံး ကြည့်ရန်"
+        },
+        {
+          "key": "[\"Preparing the interactive video…\"]",
+          "label": "Preparing the interactive video…",
+          "kind": "string",
+          "en": "Preparing the interactive video…",
+          "my": "အပြန်အလှန်တုံ့ပြန်သော ဗီဒီယိုကို ပြင်ဆင်နေသည်…"
         }
       ]
     },
@@ -4882,7 +4889,7 @@
     },
     {
       "key": "teaJourneyVideo",
-      "url": "/videos/start-end/tea-journey.mp4"
+      "url": "/videos/start-end/tea-journey-web-v2.mp4"
     },
     {
       "key": "teaJourneyPoster",

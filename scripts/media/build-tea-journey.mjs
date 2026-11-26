@@ -16,6 +16,6 @@ try {
   const list = join(temp, 'clips.txt');
   writeFileSync(list, clips.map(name => `file '${join(sourceFolder, name + '.mp4').replaceAll("'", "'\\''")}'`).join('\n'));
   run('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list,
-    '-an', '-c:v', 'libx264', '-preset', 'medium', '-crf', '26', '-pix_fmt', 'yuv420p', '-g', '8', '-keyint_min', '8', '-sc_threshold', '0', '-movflags', '+faststart', join(folder, 'tea-journey.mp4')]);
+    '-vf', 'scale=768:-2', '-an', '-c:v', 'libx264', '-preset', 'fast', '-crf', '32', '-pix_fmt', 'yuv420p', '-g', '1', '-bf', '0', '-movflags', '+faststart', join(folder, 'tea-journey-web-v2.mp4')]);
   run('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-i', join(sourceFolder, 'tea-growth.mp4'), '-frames:v', '1', '-q:v', '2', join(folder, 'tea-journey-poster.jpg')]);
 } finally { rmSync(temp, { recursive:true, force:true }); }

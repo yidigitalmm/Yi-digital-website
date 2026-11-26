@@ -123,7 +123,8 @@
       "Animation progress": "Animation progress",
       "Reduced motion: use the slider to explore.": "Reduced motion: use the slider to explore.",
       "Scroll inside the frame to explore the tea journey. Scroll outside to move the page, or keep scrolling at either end. On touch screens, use the slider.": "Scroll inside the frame to explore the tea journey. Scroll outside to move the page, or keep scrolling at either end. On touch screens, use the slider.",
-      "Try all interactive demos": "Try all interactive demos"
+      "Try all interactive demos": "Try all interactive demos",
+      "Preparing the interactive video…": "Preparing the interactive video…"
     },
     "my": {
       "INTERACTIVE WEB EXPERIENCES": "အပြန်အလှန်တုံ့ပြန်သော ဝဘ်အတွေ့အကြုံ",
@@ -142,7 +143,8 @@
       "Animation progress": "Animation တိုးတက်မှု",
       "Reduced motion: use the slider to explore.": "လှုပ်ရှားမှု လျှော့ထားသည်။ ဆလိုက်ဒါဖြင့် စမ်းသပ်ပါ။",
       "Scroll inside the frame to explore the tea journey. Scroll outside to move the page, or keep scrolling at either end. On touch screens, use the slider.": "ဘောင်အတွင်း scroll ဖြင့် လက်ဖက်ခရီးစဉ်ကို ကြည့်ပါ။ ဘောင်အပြင်တွင် စာမျက်နှာကို ရွှေ့နိုင်သည်။ Touch screen တွင် ဆလိုက်ဒါကို အသုံးပြုပါ။",
-      "Try all interactive demos": "စမ်းသပ်မှုအားလုံး ကြည့်ရန်"
+      "Try all interactive demos": "စမ်းသပ်မှုအားလုံး ကြည့်ရန်",
+      "Preparing the interactive video…": "အပြန်အလှန်တုံ့ပြန်သော ဗီဒီယိုကို ပြင်ဆင်နေသည်…"
     }
   },
   "home-demo": {

@@ -1,0 +1,23 @@
+import { act, renderHook, waitFor } from '@testing-library/react';
+import { afterEach, expect, it, vi } from 'vitest';
+import { useBufferedVideo } from './useBufferedVideo';
+afterEach(()=>vi.unstubAllGlobals());
+it('downloads once near the viewport, exposes a local seekable URL and releases it',async()=>{
+ let enter:IntersectionObserverCallback=()=>{};
+ const disconnect=vi.fn();
+ vi.stubGlobal('IntersectionObserver',class {constructor(cb:IntersectionObserverCallback){enter=cb;} observe(){} disconnect=disconnect;});
+ const fetcher=vi.fn().mockResolvedValue({ok:true,blob:async()=>new Blob(['video'],{type:'video/mp4'})});
+ vi.stubGlobal('fetch',fetcher);
+ const create=vi.fn().mockReturnValue('blob:tea');const revoke=vi.fn();
+ vi.stubGlobal('URL',{createObjectURL:create,revokeObjectURL:revoke});
+ const frame={current:document.createElement('div')};
+ const {result,unmount}=renderHook(()=>useBufferedVideo('/tea.mp4',frame));
+ expect(fetcher).not.toHaveBeenCalled();
+ act(()=>enter([{isIntersecting:true}] as IntersectionObserverEntry[],{} as IntersectionObserver));
+ await waitFor(()=>expect(result.current.src).toBe('blob:tea'));
+ act(()=>enter([{isIntersecting:true}] as IntersectionObserverEntry[],{} as IntersectionObserver));
+ expect(fetcher).toHaveBeenCalledTimes(1);
+ expect(result.current.loading).toBe(false);
+ unmount();expect(revoke).toHaveBeenCalledWith('blob:tea');
+ expect(fetcher.mock.calls[0][1].signal.aborted).toBe(true);
+});

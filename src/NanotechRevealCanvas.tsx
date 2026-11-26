@@ -278,8 +278,10 @@ export function NanotechRevealCanvas({ reducedMotion }: NanotechRevealCanvasProp
           previewObserver.observe(stage);
         }
 
+        let inView = false;
         const render = (time: number) => {
-          if (!renderer || !material) return;
+          frame = 0;
+          if (!renderer || !material || !inView || document.hidden) return;
           if (tracking && activeTrail >= 0) trailTouches[activeTrail] = time;
           for (let trailIndex = 0; trailIndex < TRAIL_POINT_COUNT; trailIndex += 1) {
             if (reducedMotion) {
@@ -304,9 +306,17 @@ export function NanotechRevealCanvas({ reducedMotion }: NanotechRevealCanvasProp
         stage.addEventListener("focus", focus);
         stage.addEventListener("blur", close);
         stage.classList.add("has-webgl-reveal");
-        frame = requestAnimationFrame(render);
+        const resume = () => {
+          if (inView && !document.hidden && !frame) frame = requestAnimationFrame(render);
+          else if ((!inView || document.hidden) && frame) { cancelAnimationFrame(frame); frame = 0; }
+        };
+        const renderVisibility = new IntersectionObserver(([entry]) => { inView = entry.isIntersecting; resume(); });
+        renderVisibility.observe(stage);
+        document.addEventListener("visibilitychange", resume);
 
         return () => {
+          renderVisibility.disconnect();
+          document.removeEventListener("visibilitychange", resume);
           resizeObserver.disconnect();
           previewObserver?.disconnect();
           previewTimers.forEach((timer) => window.clearTimeout(timer));

@@ -102,6 +102,12 @@
       "label": "Try all interactive demos",
       "en": "Try all interactive demos",
       "my": "စမ်းသပ်မှုအားလုံး ကြည့်ရန်"
+    },
+    {
+      "key": "[\"Preparing the interactive video…\"]",
+      "label": "Video loading message",
+      "en": "Preparing the interactive video…",
+      "my": "အပြန်အလှန်တုံ့ပြန်သော ဗီဒီယိုကို ပြင်ဆင်နေသည်…"
     }
   ],
   "numbers": [],

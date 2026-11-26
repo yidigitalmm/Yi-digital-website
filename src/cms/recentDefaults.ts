@@ -5,7 +5,7 @@ export const serviceMediaDefaults = Object.fromEntries(
     .map(kind => [`service${kind[0].toUpperCase()}${kind.slice(1)}`, `/images/services/${kind}-v2.jpg`]),
 );
 export const videoDefaults = {
-  teaJourneyVideo: '/videos/start-end/tea-journey.mp4',
+  teaJourneyVideo: '/videos/start-end/tea-journey-web-v2.mp4',
   teaJourneyPoster: '/videos/start-end/tea-journey-poster.jpg',
   motionLayeredVideo: '/videos/start-end/burger-build-transparent.webm',
   motionLayeredFallback: '/videos/start-end/burger-build.mp4',
