@@ -1,7 +1,7 @@
 import { useEffect, useState, type RefObject } from 'react';
 
 /** Fetch once: local blob seeking avoids servers that ignore HTTP Range requests. */
-export function useBufferedVideo(url: string, frame: RefObject<HTMLElement | null>) {
+export function useBufferedVideo(url: string, frame: RefObject<HTMLElement | null>, background = false) {
   const [state, setState] = useState({ src: '', loading: true, failed: false });
   useEffect(() => {
     const controller = new AbortController();
@@ -11,7 +11,7 @@ export function useBufferedVideo(url: string, frame: RefObject<HTMLElement | nul
       if (started) return;
       started = true;
       try {
-        const response = await fetch(url, { signal: controller.signal });
+        const response = await fetch(url, { signal: controller.signal, priority: 'low' });
         if (!response.ok) throw new Error('Video download failed');
         const blob = await response.blob();
         if (controller.signal.aborted) return;
@@ -26,7 +26,10 @@ export function useBufferedVideo(url: string, frame: RefObject<HTMLElement | nul
       if (entry.isIntersecting) { observer.disconnect(); void load(); }
     }, { rootMargin: '400px' });
     if (frame.current) observer.observe(frame.current);
-    return () => { observer.disconnect(); controller.abort(); if (objectUrl) URL.revokeObjectURL(objectUrl); };
-  }, [url, frame]);
+    // Prepare the final demo while visitors explore the earlier sections.
+    // Give the initial page assets a head start; entering the frame still loads immediately.
+    const timer = background ? window.setTimeout(() => { void load(); }, 1500) : undefined;
+    return () => { window.clearTimeout(timer); observer.disconnect(); controller.abort(); if (objectUrl) URL.revokeObjectURL(objectUrl); };
+  }, [url, frame, background]);
   return state;
 }

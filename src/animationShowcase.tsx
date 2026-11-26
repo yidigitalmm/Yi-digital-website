@@ -171,7 +171,6 @@ export function AnimationShowcasePage({ locale }: { locale: Locale }) {
 
   return (
     <div className="motion-showcase-page">
-      <InteractiveDemos locale={locale} />
       <div className="motion-sections">
         <section className="identity-reveal-section">
           <div
@@ -204,6 +203,7 @@ export function AnimationShowcasePage({ locale }: { locale: Locale }) {
         <StartEndShowcase locale={locale} />
         <InstantCameraShowcase locale={locale} />
       </div>
+      <InteractiveDemos locale={locale} />
     </div>
   );
 }

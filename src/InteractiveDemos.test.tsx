@@ -7,7 +7,7 @@ import { InteractiveDemos } from './InteractiveDemos';
 const frameCallbacks = new Map<number, FrameRequestCallback>();
 let frameId = 0;
 function flushFrames() { act(() => { const callbacks = [...frameCallbacks.values()]; frameCallbacks.clear(); callbacks.forEach(cb => cb(16)); }); }
-vi.mock('./useBufferedVideo', () => ({ useBufferedVideo: () => ({ src:'/videos/start-end/tea-journey-web-v2.mp4', loading:false, failed:false }) }));
+vi.mock('./useBufferedVideo', () => ({ useBufferedVideo: () => ({ src:'/videos/start-end/tea-journey-web-v3.mp4', loading:false, failed:false }) }));
 
 const reduced = vi.hoisted(() => ({ value: false }));
 vi.mock('motion/react', () => ({ useReducedMotion: () => reduced.value }));
@@ -23,7 +23,7 @@ describe('interactive transformation', () => {
     Object.defineProperty(video, 'duration', { configurable:true, value:10 });
     fireEvent.loadedMetadata(video);
     expect(video.currentTime).toBe(0);
-    expect(video).toHaveAttribute('src', '/videos/start-end/tea-journey-web-v2.mp4');
+    expect(video).toHaveAttribute('src', '/videos/start-end/tea-journey-web-v3.mp4');
     fireEvent.change(screen.getByRole('slider'), { target:{ value:'80' } });
     expect(video.currentTime).toBe(8);
     await userEvent.click(screen.getByRole('button', { name:'Reset' }));
